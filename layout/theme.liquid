@@ -194,7 +194,7 @@
                  {% if settings.hero_header_mobile %}transparent-header--mobile{% else %}transparent-header--no-mobile{% endif %}
                  {% if settings.dbtfy_menu_bar %}menu_bar--present{% endif %}
                  {% if customer %}customer-logged-in{% endif %}
-                 template-{{ request.page_type | handle }}">
+                 template-{{ request.page_type | handle }} test">
 
     {{ "fancybox.min.js" | asset_url | script_tag }}
 
