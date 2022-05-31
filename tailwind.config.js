@@ -2,7 +2,7 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
-  content: [],
+  content: ['./sections/*.liquid', './snippets/*.liquid', './layout/*.liquid'],
   theme: {
     extend: {},
   },
