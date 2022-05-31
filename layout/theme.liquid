@@ -119,7 +119,7 @@
 
     <!-- CSS  -->
     {{ "theme.scss.css" | asset_url | stylesheet_tag }}
-    {% comment %} {{ "custom.css" | asset_url | stylesheet_tag }} {% endcomment %}
+    {{ "custom.css" | asset_url | stylesheet_tag }}
 
     {%- if settings.dbtfy_delivery_date -%}
       {{ "flatpickr.min.css" | asset_url | stylesheet_tag }}
