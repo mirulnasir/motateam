@@ -1,0 +1,64 @@
+{% assign editorType = product.metafields.BackOffice.CustomersCanvasEditorType | append: "" %}
+<style>
+  #preloader-holder {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    {% if editorType == "SimpleEditor" %}
+    	display: flex;
+    {% else %}
+    	display: none;
+    {% endif %}
+    align-items: center;
+    justify-content: center;
+    background: #F8F8F8;
+    z-index: 999999;
+  }
+
+  svg.preloader {
+    width: 80px;
+    height: auto;
+  }
+
+  /* set styles for 'external' editor controls if you use popup-mode */
+  /*
+  #auwizard-finish-btn {
+    display: none !important;
+  }
+  .navigation-button {
+    border-radius: 100px !important;
+    width: 90px !important;
+    height: 48px !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: black !important;
+  }
+  .navigation-button.primary {
+    border: 1px solid #F8E013 !important;
+    background: #F8E013 !important;
+  }
+  .navigation-button.secondary {
+    border: 1px solid #B8B8B8 !important;
+  }
+  */
+</style>
+<div id="preloader-holder">
+  <svg class="preloader" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="25 25 50 50">
+    <circle cx="50" cy="50" r="20" fill="none" stroke-width="5" stroke="#68BBE3" stroke-linecap="round" stroke-dashoffset="0" stroke-dasharray="100, 200">
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 50 50" to="360 50 50" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dashoffset" values="0;-30;-124" dur="1.25s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" values="0,200;110,200;110,200" dur="1.25s" repeatCount="indefinite"/>
+    </circle>
+  </svg>
+</div>
+<div id="cc-editor-page" class="editor-div">
+  <div id="editor-parent-for-product" class="editor-body"></div>
+</div>

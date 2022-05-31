@@ -1,0 +1,81 @@
+{{ 'storefront.main.js' | asset_url | script_tag }}
+
+<script>
+  // When calling this function, you need to be sure that the selectors exist in this theme
+  function prepareInterface() {
+    const inputs = document.querySelectorAll('input[name="updates[]"');
+    const removeLinks = document.querySelectorAll('[data-cart-remove]');
+    for (let i = 0; i < removeLinks.length; i++) {
+      removeLinks[i].href = 'javascript: void(0)';
+      removeLinks[i].addEventListener('click', async (e) => {
+        e.stopPropagation ? e.stopPropagation() : (e.cancelBubble=true);
+        const itemQuantity = 0;
+        const itemKey = e.target.closest('tr').getAttribute('data-cart-item-key');
+        try {
+          await updateShopifyCart(e, itemKey, itemQuantity);
+        }
+        catch (error) {
+          console.error(error);
+        }
+      });
+    }
+    for (let i = 0; i < inputs.length; i++) {
+      inputs[i].addEventListener('change', async (e) => {
+        e.stopPropagation ? e.stopPropagation() : (e.cancelBubble=true);
+        const itemQuantity = Number.parseInt(e.target.value);
+        const itemKey = e.target.id.split('_').slice(-1)[0];
+        try {
+          await updateShopifyCart(e, itemKey, itemQuantity);
+        }
+        catch(error) {
+          console.error(error);
+        }
+      }, true);
+    }
+  }
+  
+  // When calling this function, you need to be sure that the selectors exist in this theme
+  async function updateShopifyCart(e, itemKey, itemQuantity) {
+    try {
+      // update the cart and get updated data
+      const updatedData = await Aurigma.CcHelper.updateCart(itemKey, itemQuantity);
+      if (itemQuantity == 0) {
+        e.target.closest('tr').remove();
+        document.querySelector('[data-cart-subtotal]').innerHTML = new Intl.NumberFormat('en', { style: 'currency', currency: Aurigma.CcHelper.cart.currency }).format((Aurigma.CcHelper.cart.items_subtotal_price / 100).toFixed(2));
+        document.querySelector('#CartCount').querySelector('[data-cart-count]').innerHTML = Aurigma.CcHelper.cart.item_count;
+      } else {
+        //update price box and cart count box
+        e.target.closest('tr').querySelector('.cart__final-price').querySelector('[data-cart-item-regular-price]').innerHTML = updatedData.updatedItemPrice;
+        document.querySelector('#CartCount').querySelector('[data-cart-count]').innerHTML = updatedData.cartCount;
+        document.querySelector('[data-cart-subtotal]').innerHTML = updatedData.subtotal;
+      }
+    }
+    catch(error) {
+      console.error(error);
+    }
+  }
+
+  if (Aurigma.CcHelper == undefined) {
+    const ecommerceSystem = {
+      {%  if customer %}
+        userId: ShopifyInit.getUserIdForCc('{{shop.domain}}', '{{ customer.id }}'),
+      {%  else %}
+        userId: ShopifyInit.getUserIdForCc('{{shop.domain}}'),
+      {% endif %}
+      pluginSettings: { currency: ShopifyInit.getCurrency() },
+      tenantId: '1255',
+      storefrontId: '1192',
+      existingOrder: ShopifyInit.getExistingOrder()
+    };
+  
+    new CcHelper().loadProductForCc().then(ccProduct => {
+        let tenantId = ecommerceSystem.tenantId.toString();
+        let bufferUrl = "https://cch-apigateway.azurewebsites.net/api/buffer/v1" + `/tenants/${tenantId}/projects`;
+        Aurigma.CcHelper = new CcHelper(tenantId, bufferUrl);
+        prepareInterface();
+        Aurigma.CcHelper.renderCart();
+    });
+  } else {
+    Aurigma.CcHelper.renderCart();
+  }
+</script>

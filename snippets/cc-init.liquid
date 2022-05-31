@@ -1,0 +1,181 @@
+{% assign productId = product.id | downcase %}
+{% assign productNotCopied = false %}
+{% if product.metafields.BackOffice.ProductId == blank or product.metafields.BackOffice.ProductId == productId %}
+  {% assign productNotCopied = true %}
+{% endif %}
+{% assign editorType = product.metafields.BackOffice.CustomersCanvasEditorType | append: "" %}
+{% if product.metafields.BackOffice.CustomersCanvasLinked and productNotCopied %}
+  {{ 'cc-init.css' | asset_url | stylesheet_tag }}
+  {{ 'storefrontInit.js' | asset_url | script_tag }}
+  {{ 'storefront.main.js' | asset_url | script_tag }}
+  <script type="text/javascript">
+      var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){function n(e){t[e]=function(){var n=arguments;t.queue.push(function(){t[e].apply(t,n)})}}var t={config:e};t.initialize=!0;var i=document,a=window;setTimeout(function(){var n=i.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",i.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{t.cookie=i.cookie}catch(e){}t.queue=[],t.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var s="Track"+r[0];if(n("start"+s),n("stop"+s),n("addTelemetryInitializer"),n("setAuthenticatedUserContext"),n("clearAuthenticatedUserContext"),n("flush"),t.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4},!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var o=a[r];a[r]=function(e,n,i,a,s){var c=o&&o(e,n,i,a,s);return!0!==c&&t["_"+r]({message:e,url:n,lineNumber:i,columnNumber:a,error:s}),c},e.autoExceptionInstrumented=!0}return t}(
+      {
+      instrumentationKey:"3890a9c8-f4f1-4ed1-a176-936b19108a3c"
+      }
+      );window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+  </script>
+  {% if editorType == "SimpleEditor" %}
+    <script>
+      document.addEventListener("DOMContentLoaded", async () => {
+      const editorContainer = document.getElementById('editor-parent-for-product');
+        const ecommerceSystem = {
+          {% if customer %}
+            userId: ShopifyInit.getUserIdForCc('{{shop.domain}}', '{{ customer.id }}'),
+          {% else %}
+            userId: ShopifyInit.getUserIdForCc('{{shop.domain}}'),
+          {% endif %}
+          pluginSettings: { shopifyBaseUrl: 'https://' + '{{ shop.domain }}', currency: ShopifyInit.getCurrency() },
+          tenantId: '1255', 
+          storefrontId: '1192',
+          existingOrder: ShopifyInit.getExistingOrder(),
+          ecommerceSystemDomain: '{{shop.permanent_domain}}'
+        };
+        
+        const product = {{ product | json }};
+        storefront = new Aurigma.BackOffice({
+          options: { useProjectBuffer: true },
+          tenantId: ecommerceSystem.tenantId,
+          backOfficeUrl: 'https://customerscanvashub.com/',
+          pluginSettings: ecommerceSystem.pluginSettings
+        });
+        document.getElementById('editor-parent-for-product').addEventListener('load', () => {
+        document.getElementById('preloader-holder').style.display = 'none';
+        });
+        const editorLoaded = (integrationInfo, ecommerceSystem) => {
+          ShopifyInit.ecDriver = window.Aurigma.driver;
+          ShopifyInit.navigateToPage("editor");
+          editorContainer.scrollIntoView();
+          window.Aurigma.driver.cart.onSubmitting.subscribe(async function() {
+            let url = `${integrationInfo.projectsBufferUrl}/tenants/${ecommerceSystem.tenantId}/projects/create`;
+            let pingUrl = `${integrationInfo.projectsBufferUrl}/ping`;
+            let pingResult = await ShopifyInit.pingBuffer(pingUrl);
+            if (pingResult) {
+              await ShopifyInit.saveProject(url);
+            } else {
+              alert("Service is temporarily unavailable, please try again later");
+            }
+          });
+          document.getElementById('preloader-holder').style.display = 'none';
+        };
+        document.querySelector('form[action="/cart/add"]').onsubmit = (evt) => {
+          evt.preventDefault();
+          evt.stopPropagation();
+          return false;
+        }
+        const data = await storefront.templates.findByProduct(product.id);
+        /*
+        TODO: USE DEFAULT PLACEHOLDER; PATCH ON BACKEND
+        */
+        data.uiFrameworkUrl = 'https://staticjs-aurigma.azureedge.net/simple-editor/stable';
+        document.addEventListener('aurigma-editor-loaded', () => {
+          editorLoaded(data, ecommerceSystem);
+        });
+        document.getElementById('editor-parent-for-product').addEventListener('load', () => {
+          editorLoaded(data, ecommerceSystem);
+        });
+      
+        window[Symbol.for("viewerConfig")] = {
+          rulerEnabled: true,
+          frontEndTextRenderingEnabled: true,
+          canvasBackground: { color: "#ffffff" },
+          backendUrl: `${data.designAtomsApiUrl}/api/atoms/v1/tenants/${ecommerceSystem.tenantId}`,
+        };
+        const ecDriver = await storefront.loadEditor(editorContainer, data, { id: ecommerceSystem.userId }, product, ecommerceSystem.existingOrder);
+        ShopifyInit.ecDriver = driver;
+        ShopifyInit.ecDriver.cart.onSubmitting.subscribe( async function() {
+          let url = `${data.projectsBufferUrl}/tenants/${ecommerceSystem.tenantId}/projects/create`;
+          let pingUrl = `${data.projectsBufferUrl}/ping`;
+          let pingResult = await ShopifyInit.pingBuffer(pingUrl);
+          if (pingResult) {
+            await ShopifyInit.saveProject(url);
+          } else {
+            alert("Service is temporarily unavailable, please try again later");
+          }
+        });
+        window.Aurigma = Object.assign(window.Aurigma || {}, { driver: ecDriver });
+      });
+    </script>
+  {% else %}
+    <script>
+      document.addEventListener('DOMContentLoaded', async function() {
+        overrideThemeStrings();
+        const designButton = document.querySelector('[target="cc-editor-button"]');
+        const editorContainer = document.getElementById('editor-parent-for-product');
+        const preloader = document.getElementById('preloader-holder');
+        const queryParams = ShopifyInit.getQueryParameters();
+        
+        const ecommerceSystem = {
+          {% if customer %}
+            userId: ShopifyInit.getUserIdForCc('{{shop.domain}}', '{{ customer.id }}'),
+          {% else %}
+            userId: ShopifyInit.getUserIdForCc('{{shop.domain}}'),
+          {% endif %}
+          pluginSettings: { shopifyBaseUrl: 'https://' + '{{ shop.domain }}', currency: ShopifyInit.getCurrency() },
+          tenantId: '1255', 
+          storefrontId: '1192',
+          existingOrder: ShopifyInit.getExistingOrder(),
+          ecommerceSystemDomain: '{{shop.permanent_domain}}'
+        };
+
+        const product = {{ product | json }};
+
+        const storefront = new Aurigma.BackOffice({
+          tenantId: ecommerceSystem.tenantId,
+          backOfficeUrl: 'https://customerscanvashub.com/',
+          pluginSettings: ecommerceSystem.pluginSettings,
+          ecommerceSystemId: ecommerceSystem.storefrontId
+        });
+
+        editorContainer.addEventListener('load', () => {
+          preloader.style.display = 'none';
+        });
+
+        const integrationInfo = await storefront.templates.findByProduct(product.id);
+        const driver = await storefront.loadEditor(editorContainer, integrationInfo, { id: ecommerceSystem.userId }, product, ecommerceSystem.existingOrder);
+
+        ShopifyInit.ecDriver = driver;
+        storefront.onFinish.subscribe(async function() {
+          const url = `${integrationInfo.projectsBufferUrl}/tenants/${ecommerceSystem.tenantId}/projects/create`;
+          const pingUrl = `${integrationInfo.projectsBufferUrl}/ping`;
+          const pingResult = await ShopifyInit.pingBuffer(pingUrl);
+
+          if (pingResult) {
+            await ShopifyInit.saveProject(url);
+          } else {
+            alert('Service is temporarily unavailable, please try again later');
+          }
+        });
+        
+        designButton.addEventListener('click', function() {
+          if (ShopifyInit.editorLoaded === true) {
+            // update product model state
+            ShopifyInit.isApplyOptions = true;
+            ShopifyInit.applyOptions();
+          }
+
+          // to editor
+          ShopifyInit.navigateToPage('editor');
+          editorContainer.scrollIntoView();
+        });
+
+        // update product model state
+        if (ShopifyInit.isApplyOptions === false) {
+          ShopifyInit.applyOptions();
+        }
+
+        // notify loaded
+        ShopifyInit.editorLoaded = true;
+
+        // return to edit
+        if (queryParams && queryParams['page'] === 'design') {
+          designButton.click();
+        }
+      });
+
+      function overrideThemeStrings() {
+        theme.strings.addToCart = theme.productStrings.addToCart = 'Design products';
+      }
+    </script>
+  {% endif %}
+{% endif %}
