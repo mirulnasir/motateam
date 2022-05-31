@@ -5,6 +5,9 @@
   "repository": "https://github.com/mirulnasir/canguro-apparel.git",
   "author": "mirulnasir <mirul@bestari.io>",
   "license": "MIT",
+  "scripts": {
+    "watch": "npx tailwindcss --postcss -i ./src/style/main.css -o ./assets/custom.css --watch"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
