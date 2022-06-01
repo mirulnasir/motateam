@@ -48,7 +48,7 @@
     "color_drawer_sales_price": "#cb1836",
     "color_drawer_overlay": "rgba(0,0,0,0)",
     "color_drawer_overlay_opacity": 50,
-    "color_footer_bg": "#222021",
+    "color_footer_bg": "#000000",
     "color_footer_default": "#222021",
     "color_footer_border": "#222021",
     "color_footer_text": "#fff",
