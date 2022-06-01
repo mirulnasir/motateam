@@ -92,6 +92,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Barlow Condensed
 }
 
+@media (min-width: 1024px) {
+  .site-footer .box {
+    padding-bottom: 0px
+  }
+}
+
 .site-footer .box h6 {
   font-family: Barlow Condensed
 }
@@ -265,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .before-bottom .before-bottom__acknowledge {
     margin-bottom: 0px
   }
@@ -283,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25rem
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .before-bottom .before-bottom__acknowledge .acknowledge__caption {
     margin-bottom: 0px
   }

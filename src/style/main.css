@@ -36,6 +36,7 @@ h6 {
 }
 .site-footer {
   & .box {
+    @apply lg:pb-0;
     & h6 {
       @apply font-heading;
     }
@@ -99,12 +100,12 @@ h6 {
     }
   }
   & .before-bottom__acknowledge {
-    @apply flex flex-wrap -mx-6 mb-6 lg:mb-0;
+    @apply flex flex-wrap -mx-6 mb-6 xl:mb-0;
     & > div {
       @apply px-6;
     }
     & .acknowledge__caption {
-      @apply max-w-[600px]  text-sm mb-3 md:mb-0;
+      @apply max-w-[600px]  text-sm mb-3 lg:mb-0;
     }
     & .acknowledge__image {
       & img {
