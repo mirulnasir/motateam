@@ -38,7 +38,7 @@ h6 {
   & .box {
     @apply lg:pb-0;
     & h6 {
-      @apply font-heading;
+      @apply font-heading mb-4 lg:mb-5;
     }
   }
   & .site-footer__linklist {
@@ -80,7 +80,7 @@ h6 {
     @apply text-2xl;
   }
   & .btn {
-    @apply border-gray-400 rounded-none bg-transparent max-w-[250px] lg:ml-auto block;
+    @apply border-gray-400 rounded-none text-sm font-body uppercase bg-transparent py-3 max-w-[180px] lg:ml-auto block;
   }
 }
 .footer__bottom {
@@ -100,21 +100,24 @@ h6 {
     }
   }
   & .before-bottom__acknowledge {
-    @apply flex flex-wrap -mx-6 mb-6 xl:mb-0;
+    @apply flex flex-wrap -mx-3  mb-6 xl:mb-0 lg:flex-1;
     & > div {
-      @apply px-6;
+      @apply px-3;
     }
     & .acknowledge__caption {
-      @apply max-w-[600px]  text-sm mb-3 lg:mb-0;
+      @apply max-w-[600px]  text-sm mb-3 lg:mb-0 flex-1;
     }
     & .acknowledge__image {
       & img {
-        @apply rounded-none;
+        @apply rounded-none h-[45] w-auto;
       }
     }
   }
   & .before-bottom__bottom {
-    @apply flex flex-wrap justify-between;
+    @apply flex flex-wrap justify-between -mx-6 lg:-mx-10;
+    & > div {
+      @apply px-6 lg:px-10;
+    }
   }
   & .payment-icons__wrapper {
     @apply lg:text-right;

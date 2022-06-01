@@ -99,7 +99,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-footer .box h6 {
+  margin-bottom: 1rem;
   font-family: Barlow Condensed
+}
+
+@media (min-width: 1024px) {
+  .site-footer .box h6 {
+    margin-bottom: 1.25rem
+  }
 }
 
 .site-footer .site-footer__linklist a {
@@ -190,11 +197,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-newsletter .btn {
   display: block;
-  max-width: 250px;
+  max-width: 180px;
   border-radius: 0px;
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
-  background-color: transparent
+  background-color: transparent;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-family: Barlow;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: uppercase
 }
 
 @media (min-width: 1024px) {
@@ -264,11 +277,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .before-bottom .before-bottom__acknowledge {
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
   margin-bottom: 1.5rem;
   display: flex;
   flex-wrap: wrap
+}
+
+@media (min-width: 1024px) {
+  .before-bottom .before-bottom__acknowledge {
+    flex: 1 1 0%
+  }
 }
 
 @media (min-width: 1280px) {
@@ -278,13 +297,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .before-bottom .before-bottom__acknowledge > div {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem
+  padding-left: 0.75rem;
+  padding-right: 0.75rem
 }
 
 .before-bottom .before-bottom__acknowledge .acknowledge__caption {
   margin-bottom: 0.75rem;
   max-width: 600px;
+  flex: 1 1 0%;
   font-size: 0.875rem;
   line-height: 1.25rem
 }
@@ -296,16 +316,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .before-bottom .before-bottom__acknowledge .acknowledge__image img {
+  height: 45;
+  width: auto;
   border-radius: 0px
 }
 
 .before-bottom .before-bottom__bottom {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between
 }
 
 @media (min-width: 1024px) {
+  .before-bottom .before-bottom__bottom {
+    margin-left: -2.5rem;
+    margin-right: -2.5rem
+  }
+}
+
+.before-bottom .before-bottom__bottom > div {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem
+}
+
+@media (min-width: 1024px) {
+  .before-bottom .before-bottom__bottom > div {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem
+  }
+
   .before-bottom .payment-icons__wrapper {
     text-align: right
   }
