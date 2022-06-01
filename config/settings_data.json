@@ -1,1 +1,1302 @@
-{"current":{"sticky_header":true,"sticky_announcement_bar":true,"height_header":100,"icon":"material-icons-round","grid_product_truncate":true,"enable_product_accent_background":false,"collection_grid_products_count":false,"collection_grid_animation":false,"show_collection_grid_button":true,"collection_grid_button_style":"btn--primary","collection_grid_button_size":"btn--small","show_author":false,"show_date":false,"show_comments":false,"newsletter_name":true,"show_hero":false,"border_radius":8,"show_top_button":false,"page_wrapper":"1280","payment_icon_size":30,"enable_payment_button":true,"cart_notes_enable":false,"color_announcement_bg":"#222021","color_announcement_text":"#FFFFFF","color_nav_bg":"#fff","color_nav_border":"#08457e","color_nav_text":"#222021","color_body_bg":"#ffffff","color_default":"#f7f7f7","color_border":"#08457e","color_headings":"#222021","color_body_text":"#222021","color_primary":"#08457e","color_button_text":"#fff","color_secondary":"#08457e","color_input":"#ffffff","color_sales_price":"#cb1836","color_drawer_bg":"#222021","color_drawer_default":"#222021","color_drawer_border":"#222021","color_drawer_text":"#ffffff","color_drawer_primary":"#08457e","color_drawer_button_text":"#FFFFFF","color_drawer_secondary":"#08457e","color_drawer_input":"#403c3c","color_drawer_sales_price":"#cb1836","color_drawer_overlay":"rgba(0,0,0,0)","color_drawer_overlay_opacity":50,"color_footer_bg":"#222021","color_footer_default":"#222021","color_footer_border":"#222021","color_footer_text":"#fff","color_footer_primary":"#08457e","color_footer_button_text":"#fff","color_footer_secondary":"#08457e","color_footer_input":"#353535","color_footer_sales_price":"#cb1836","color_overlay":"#000000","color_transparent_nav_text":"#fff","opacity_overlay":0,"custom_style":".bottom-footer {\n    padding: 30px 0;\n    border-top: 1px solid #151313;\n    background-color: #262626;\n    color: white;\n    border-color: #262626;\n}\ninput {\n    border-color: #CB1836;\n    color: #444;\n}\ntextarea { \n      border-color: #CB1836;\n}\nselect {\n      border-color: #08457e;\n}\n.slick-arrow {\n    background-color: #08457e;\n    border-color: #CB1836;\n    color: #ffffff;\n}\n.qty-container .qty-adjust {\n    border-color: #CB1836;\n}","favicon":"shopify:\/\/shop_images\/Canguro-Logo-Portrait-With-Trademark-White.jpg","share_facebook":true,"share_twitter":true,"share_pinterest":true,"share_whatsapp":true,"share_linkedin":true,"share_reddit":true,"share_email":true,"share_messenger":false,"social_facebook_link":"https:\/\/www.facebook.com\/canguro.com.au\/?ref=page_internal","social_instagram_link":"https:\/\/www.instagram.com\/canguro.com.au\/","header_font_size":28,"header_font_size_big":50,"base_font_size":15,"dbtfy_cart_savings":false,"dbtfy_cart_upsell":true,"dbtfy_upsell_bundles":true,"dbtfy_upsell_popup":false,"dbtfy_cart_favicon":true,"dbtfy_inactive_tab_message":false,"dbtfy_sales_countdown":true,"dbtfy_sticky_addtocart":false,"dbtfy_instagram_feed":true,"dbtfy_order_feedback":false,"dbtfy_social_discount":false,"dbtfy_collection_filters":false,"dbtfy_color_swatches":false,"dbtfy_infinite_scroll":false,"dbtfy_pricing_table":false,"dbtfy_quick_view":false,"dbtfy_size_chart":true,"dbtfy_smart_search":false,"dbtfy_cookie_box":false,"dbtfy_shop_protect":false,"dbtfy_color_swatches_count":10,"dbtfy_inventory_quantity_threshold":1,"dbtfy_menu_bar_link_list":"mobile-main-menu","dbtfy_menu_bar_desktop":false,"dbtfy_newsletter_popup_timeout":5,"dbtfy_newsletter_popup_scroll_percentage":5,"dbtfy_newsletter_popup_discount_name":"OFF5%","dbtfy_newsletter_popup_discount_amount":"5","dbtfy_social_discount_reward_code":"5OFF","dbtfy_social_discount_reward_amount":"5","dbtfy_wish_list_page":"wishlist","checkout_logo_image":"shopify:\/\/shop_images\/1.png","checkout_logo_position":"center","show_breadcrumbs":true,"dbtfy_live_view":false,"dbtfy_cart_countdown_time_mins":15,"dbtfy_inventory_quantity_show_random":true,"dbtfy_inventory_quantity_min":41,"dbtfy_inventory_quantity_max":99,"dbtfy_sales_pop_timeago":45,"dbtfy_sales_pop_display":5,"dbtfy_sales_pop_interval":13,"hero_header":false,"color_drawer_error_text":"#cb1836","dbtfy_page_builder":true,"synced_variant_image":false,"dbtfy_cart_goal_amount":"100","default_currency":"AUD","dbtfy_floating_bar_text":"Get 5% off!","dbtfy_newsletter_popup_text":"<p>Get 5% off your first purchase by subscribing to our newsletter.<\/p>","dbtfy_sales_pop_city":"Australia","sections":{"dbtfy-upsell-popup":{"type":"dbtfy-upsell-popup","settings":{"dbtfy_upsell_popup_width":"","dbtfy_upsell_popup_description":"See product details","dbtfy_upsell_popup_cart":"No thanks","dbtfy_upsell_popup_checkout":"Go to checkout →","text_alignment":"text-center","dbtfy_upsell_popup_range":75}},"dbtfy-quantity-breaks":{"type":"dbtfy-quantity-breaks","settings":{"dbtfy_quantity_breaks_single_text":"Buy _COUNT_: _PRICE_ _SAVED_AMOUNT_","dbtfy_quantity_breaks_price_type":"total_price","dbtfy_quantity_breaks_more_discount_text_before":"Add","dbtfy_quantity_breaks_more_discount_text_after":"more item to unlock","dbtfy_quantity_breaks_more_discount_text_after_percentage":"off","dbtfy_quantity_breaks_highest_discount_text":"Highest discount applied!"}},"dbtfy-cart-upsell":{"type":"dbtfy-cart-upsell","settings":{"dbtfy_cart_upsell_button_style":"btn--primary"}},"dbtfy-color-swatches":{"type":"dbtfy-color-swatches","settings":{}},"dbtfy-bullet-points":{"type":"dbtfy-bullet-points","settings":{"dbtfy_bullet_points_position":"under-product-price","dbtfy_bullet_points_alignment":"left","dbtfy_bullet_points_display_type":"inline"}},"dbtfy-sales-countdown":{"type":"dbtfy-sales-countdown","blocks":{"3b72192a-4b69-40d4-833c-416e80552fbd":{"type":"countdown","settings":{"title":"","dbtfy_sales_countdown_date_1":"","dbtfy_sales_countdown_time_hours_1":1,"dbtfy_sales_countdown_time_mins_1":44,"when_timer_id_over_action_1":"hide","timer_message_1":"HURRY UP!","dbtfy_sales_countdown_product_grid_1":true,"visibility_1":"all","dbtfy_sales_countdown_collection_1":"all-products","dbtfy_sales_countdown_type_1":"","dbtfy_sales_countdown_tag_1":"","dbtfy_sales_countdown_product_1":"","dbtfy_sales_countdown_date_2":"","dbtfy_sales_countdown_time_hours_2":0,"dbtfy_sales_countdown_time_mins_2":0,"when_timer_id_over_action_2":"hide","timer_message_2":"","dbtfy_sales_countdown_product_grid_2":true,"visibility_2":"all","dbtfy_sales_countdown_collection_2":"","dbtfy_sales_countdown_type_2":"","dbtfy_sales_countdown_tag_2":"","dbtfy_sales_countdown_product_2":"","dbtfy_sales_countdown_date_3":"","dbtfy_sales_countdown_time_hours_3":0,"dbtfy_sales_countdown_time_mins_3":0,"when_timer_id_over_action_3":"hide","timer_message_3":"","dbtfy_sales_countdown_product_grid_3":true,"visibility_3":"all","dbtfy_sales_countdown_collection_3":"","dbtfy_sales_countdown_type_3":"","dbtfy_sales_countdown_tag_3":"","dbtfy_sales_countdown_product_3":"","dbtfy_sales_countdown_date_4":"","dbtfy_sales_countdown_time_hours_4":0,"dbtfy_sales_countdown_time_mins_4":0,"when_timer_id_over_action_4":"hide","timer_message_4":"","dbtfy_sales_countdown_product_grid_4":true,"visibility_4":"all","dbtfy_sales_countdown_collection_4":"","dbtfy_sales_countdown_type_4":"","dbtfy_sales_countdown_tag_4":"","dbtfy_sales_countdown_product_4":"","dbtfy_sales_countdown_date_5":"","dbtfy_sales_countdown_time_hours_5":0,"dbtfy_sales_countdown_time_mins_5":0,"when_timer_id_over_action_5":"hide","timer_message_5":"","dbtfy_sales_countdown_product_grid_5":true,"visibility_5":"all","dbtfy_sales_countdown_collection_5":"","dbtfy_sales_countdown_type_5":"","dbtfy_sales_countdown_tag_5":"","dbtfy_sales_countdown_product_5":"","dbtfy_sales_countdown_date_6":"","dbtfy_sales_countdown_time_hours_6":0,"dbtfy_sales_countdown_time_mins_6":0,"when_timer_id_over_action_6":"hide","timer_message_6":"","dbtfy_sales_countdown_product_grid_6":true,"visibility_6":"all","dbtfy_sales_countdown_collection_6":"","dbtfy_sales_countdown_type_6":"","dbtfy_sales_countdown_tag_6":"","dbtfy_sales_countdown_product_6":"","dbtfy_sales_countdown_date_7":"","dbtfy_sales_countdown_time_hours_7":0,"dbtfy_sales_countdown_time_mins_7":0,"when_timer_id_over_action_7":"hide","timer_message_7":"","dbtfy_sales_countdown_product_grid_7":true,"visibility_7":"all","dbtfy_sales_countdown_collection_7":"","dbtfy_sales_countdown_type_7":"","dbtfy_sales_countdown_tag_7":"","dbtfy_sales_countdown_product_7":"","dbtfy_sales_countdown_date_8":"","dbtfy_sales_countdown_time_hours_8":0,"dbtfy_sales_countdown_time_mins_8":0,"when_timer_id_over_action_8":"hide","timer_message_8":"","dbtfy_sales_countdown_product_grid_8":true,"visibility_8":"all","dbtfy_sales_countdown_collection_8":"","dbtfy_sales_countdown_type_8":"","dbtfy_sales_countdown_tag_8":"","dbtfy_sales_countdown_product_8":"","dbtfy_sales_countdown_date_9":"","dbtfy_sales_countdown_time_hours_9":0,"dbtfy_sales_countdown_time_mins_9":0,"when_timer_id_over_action_9":"hide","timer_message_9":"","dbtfy_sales_countdown_product_grid_9":true,"visibility_9":"all","dbtfy_sales_countdown_collection_9":"","dbtfy_sales_countdown_type_9":"","dbtfy_sales_countdown_tag_9":"","dbtfy_sales_countdown_product_9":"","dbtfy_sales_countdown_date_10":"","dbtfy_sales_countdown_time_hours_10":0,"dbtfy_sales_countdown_time_mins_10":0,"when_timer_id_over_action_10":"hide","timer_message_10":"","dbtfy_sales_countdown_product_grid_10":true,"visibility_10":"all","dbtfy_sales_countdown_collection_10":"","dbtfy_sales_countdown_type_10":"","dbtfy_sales_countdown_tag_10":"","dbtfy_sales_countdown_product_10":""}}},"block_order":["3b72192a-4b69-40d4-833c-416e80552fbd"],"settings":{"dbtfy_sales_countdown_icons":"local_fire_department","dbtfy_sales_countdown_prefix":"Sale ends in","dbtfy_sales_countdown_suffix":"HURRY UP !","dbtfy_sales_countdown_d":"d","dbtfy_sales_countdown_h":"h","dbtfy_sales_countdown_m":"m","dbtfy_sales_countdown_s":"s"}},"dbtfy-delivery-time":{"type":"dbtfy-delivery-time","settings":{"dbtfy_delivery_time_position":"under-addtocart-button"}},"drawer-menu":{"type":"drawer-menu","settings":{"drawer_link_toggle":true,"email":true,"phone":true,"show_social_medias":true,"hide_menu_icon":true,"title":"Menu","drawer_top_link_list":"","drawer_bottom_link_list":""}},"announcement":{"type":"announcement","blocks":{"922dae48-0882-4ec5-90b9-6b976a80164b":{"type":"message","settings":{"title":"","announcement_text":"<p><strong>⚡️Free Shipping<\/strong>⚡️To All Members <\/p>"}},"announcement-0":{"type":"message","settings":{"title":"","announcement_text":"<p>⚡️<strong> Easy<\/strong> Returns, <strong>No Risk<\/strong> All Rewards⚡️<\/p>"}},"8dcda583-86f1-4a25-9393-580ee3206928":{"type":"message","settings":{"title":"","announcement_text":"<p>⚡️<strong>High Quality<\/strong> Guaranteed ⚡️<\/p>"}}},"block_order":["922dae48-0882-4ec5-90b9-6b976a80164b","announcement-0","8dcda583-86f1-4a25-9393-580ee3206928"],"settings":{"show_announcement":true,"small_announcement_text":false,"show_social":true,"email":true,"phone":true,"left_message":"<p><strong>Follow us!<\/strong><\/p>","right_message":"<p><strong>Contact Us<\/strong><\/p>","announcement_autoplayspeed":5}},"header":{"type":"header","settings":{"main_menu_link_list":"main-menu","navigation_type":"center","logo_link":true,"default_logo":"shopify:\/\/shop_images\/Canguro-Logo-Alt-Final_2.png","inverted_logo":"shopify:\/\/shop_images\/logofooter.png","mobile_logo":"shopify:\/\/shop_images\/logo.png","default_logo_svg":"","inverted_logo_svg":"","mobile_logo_svg":"","logo_width":200,"logo_mobile_width":150}},"dbtfy-instagram-feed":{"type":"dbtfy-instagram-feed","settings":{"dbtfy_instagram_feed_icon":true,"dbtfy_instagram_feed_access_token":"IGQVJVNFJWMlM4RTktazlrMnBPX2dLbnlmS0IxMkxTMEw0SGFyTjBZAOUUtNEdXMXBzenZAxaDBkdmJ2U08xSlJOV1N2aWtwSjN2emlQUy1nS3Yxc1pHc2l0T1FHX1Rod3o5TmJuaGJVZAUh5QVN0anZAjSgZDZD","dbtfy_instagram_feed_full_width":false,"title":"Follow our Instagram","subtitle":"","dbtfy_instagram_feed_section_style":"section-border","dbtfy_instagram_feed_rows":"1","dbtfy_instagram_feed_desktop_grid":"6","dbtfy_instagram_feed_mobile_grid":"3"}},"guarantee":{"type":"guarantee","blocks":{"guarantee-0":{"type":"text","settings":{"title":"Shipping Australia Wide","guarantee_icon":"electric_rickshaw","heading_text":"Shipping Australia Wide","text":"<p>Free delivery Australia Orders above $100<\/p>","text_alignment":"text-center","text_alignment_mobile":"text-center","button_style":"btn-outline-primary","button_label":"","button_link":""}},"guarantee-1":{"type":"text","settings":{"title":"Satisfied Or Refunded","guarantee_icon":"forward_30","heading_text":"Satisfied Or Refunded","text":"<p>Exchange or money back guarantee for all orders<\/p>","text_alignment":"text-center","text_alignment_mobile":"text-center","button_style":"btn-outline-primary","button_label":"","button_link":""}},"guarantee-2":{"type":"text","settings":{"title":"Top-Notch Support","guarantee_icon":"mail_outline","heading_text":"Top-Notch Support","text":"<p>Dedicated support, contact us 24 hours a day, 7 days a week<\/p>","text_alignment":"text-center","text_alignment_mobile":"text-center","button_style":"btn-outline-primary","button_label":"","button_link":""}},"e366f45e-d760-490c-8e75-e4c6c69bc2bd":{"type":"text","settings":{"title":"Secure Payments","guarantee_icon":"credit_card","heading_text":"Secure Payments","text":"<p>100% Secure payment with 256-bit SSL Encryption<\/p>","text_alignment":"text-center","text_alignment_mobile":"text-center","button_style":"btn-outline-primary","button_label":"","button_link":""}}},"block_order":["guarantee-0","guarantee-1","guarantee-2","e366f45e-d760-490c-8e75-e4c6c69bc2bd"],"settings":{"show_guarantee":true,"guarantee_size":"xl","section_style":"section-border"}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"text","settings":{"title":"","column_width":1,"image":"shopify:\/\/shop_images\/logofooter.png","svg":"","img_url":"","logo_width":168,"heading_text":"About Us","subtitle":"","text":"<p>Canguro Apparel  you can be assured of getting the Best Quality printed Apparel, Wall Art, Drinkware & More. We always aim to make sure our customers love our products<\/p>","email":false,"phone":false,"show_social_media":false}},"footer-1":{"type":"link_list","settings":{"title":"Quick Links","column_width":1,"heading_text":"Quick Links","subtitle":"","footer_link_list":"main-menu"}},"footer-2":{"type":"newsletter","settings":{"title":"NEWSLETTER","column_width":2,"heading_text":"NEWSLETTER","subtitle":"Be the first to find out about new styles and get 5% off your first purchase. SIGNUP NOW!","customer_tag":"newsletter"}}},"block_order":["footer-0","footer-1","footer-2"],"settings":{"show_social_media":true,"social_media_position_desktop":"center","social_title":"Follow-us on social media!","show_payment_icons":true,"show_shopify_footer":false,"show_debutify_footer":false,"custom_credential":""}},"16291690757a8c2997":{"type":"featured-products","settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"Featured Collection","subtitle":"","section_style":"section-blank","home_featured_products":"featured-collection","rows":"3","desktop_grid":"4","mobile_grid":"2","show_view_all":true,"button_label":"View all","button_link":"","button_style":"btn-outline-primary","slider_related_products":false,"arrows":true,"dots":false,"autoplay":true,"autoplayspeed":5}},"1629277607e4d2abc1":{"type":"gallery","disabled":true,"blocks":{"1629277607e4d2abc1-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Canguro-Icons-Australian.jpg","alignment":"center center","link":"shopify:\/\/pages\/logo-branding","cta_label":""}},"c02de74d-ed3e-4380-8b67-524f9434668d":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Canguro-Icons-Bikers.jpg","alignment":"center center","link":"","cta_label":""}},"1629277607e4d2abc1-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Automotive.jpg","alignment":"center center","link":"shopify:\/\/pages\/graphic-design","cta_label":""}},"1629277607e4d2abc1-2":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Canguro-Icons-Funny.jpg","alignment":"center center","link":"shopify:\/\/pages\/digital-illustration","cta_label":""}},"1629277607e4d2abc1-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Canguro-Icons-Pop-Culture.jpg","alignment":"center center","link":"shopify:\/\/pages\/motion-graphic","cta_label":""}},"315aae97-83e6-4351-8293-7d3fe8869e08":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Skulls-and-Bones.jpg","alignment":"center center","link":"","cta_label":""}}},"block_order":["1629277607e4d2abc1-1","c02de74d-ed3e-4380-8b67-524f9434668d","1629277607e4d2abc1-0","1629277607e4d2abc1-2","1629277607e4d2abc1-3","315aae97-83e6-4351-8293-7d3fe8869e08"],"settings":{"show_on_desktop":true,"show_on_mobile":true,"full_width":false,"title":"","subtitle":"","section_style":"section-blank","section_height":"medium"}},"map":{"type":"map","settings":{"show_on_desktop":false,"show_on_mobile":false,"hide_section":false,"heading":"Our store","address":"<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>","map_address":"490 Rue De La Gauchetière O, Montréal","button_text":"Get directions","map_icon":"location_on","api_key":"","image_position":"center center"}},"162935936630b49528":{"type":"featured-collections","blocks":{"162935936630b49528-0":{"type":"collection","settings":{"collection":"apparel"}},"162935936630b49528-1":{"type":"collection","settings":{"collection":"drinkware"}}},"block_order":["162935936630b49528-0","162935936630b49528-1"],"settings":{"show_on_desktop":true,"show_on_mobile":true,"full_width":false,"title":"","subtitle":"","section_style":"section-blank","section_height":"xsmall","show_view_all":false,"button_label":"View all","button_link":"shopify:\/\/collections","button_style":"","slider_featured_collections":false,"arrows":false,"dots":false}},"1629360655f685493c":{"type":"featured-collections","blocks":{"1629360655f685493c-1":{"type":"collection","settings":{"collection":"home-living"}},"1629360655f685493c-2":{"type":"collection","settings":{"collection":"accessories"}}},"block_order":["1629360655f685493c-1","1629360655f685493c-2"],"settings":{"show_on_desktop":true,"show_on_mobile":true,"full_width":false,"title":"","subtitle":"","section_style":"section-blank","section_height":"xsmall","show_view_all":false,"button_label":"View all","button_link":"shopify:\/\/collections","button_style":"","slider_featured_collections":false,"arrows":false,"dots":false}},"collection-template":{"type":"collection-template","settings":{"collection_tags_enable":true,"collection_tags_count":true,"collection_multiple_tags_filtering_enable":true,"collection_sort_enable":true,"tag_selector":"button","rows":"4","desktop_grid":"4","mobile_grid":"2"}},"dbtfy-collection-filters":{"type":"dbtfy-collection-filters","settings":{"clear_label":"Clear","clear_all_label":"Clear All","hide_unavailable_options":false,"visibility_tags_count":"all"}},"dbtfy-upsell-bundles":{"type":"dbtfy-upsell-bundles","settings":{"dbtfy_upsell_bundles_title":"Frequently bought together","dbtfy_upsell_bundles_subtitle":"","dbtfy_upsell_bundles_total":"Total price:","dbtfy_upsell_bundles_cart":"Add selected items","dbtfy_upsell_bundles_icons":"library_add_check","dbtfy_upsell_bundles_current":"This item:","section_style":"section-border","dbtfy_upsell_bundles_reviews":false,"dbtfy_upsell_bundles_limit":"2","dbtfy_upsell_bundles_position":"product"}},"dbtfy-pricing-table":{"type":"dbtfy-pricing-table","settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"Pricing table","subtitle":"","section_style":"section-blank","dbtfy_button_position":"middle"}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"title":"Recommended for you","subtitle":"","section_style":"section-border","rows":"2","desktop_grid":"4","mobile_grid":"2","slider_related_products":true,"arrows":true,"dots":true,"autoplay":false,"autoplayspeed":5}},"dbtfy-faq-section":{"type":"dbtfy-faq-section","settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"COMMON QUESTIONS","subtitle":"","section_style":"section-border","dbtfy_faq_searchbox":false,"dbtfy_faq_search_placeholder":"Search questions...","dbtfy_faq_bannerbox":false,"dbtfy_faq_banner_icon":"live_help","dbtfy_faq_banner_text":"Didn't find your answer?","dbtfy_faq_banner_subtitle":"Our customer service will be happy to help you.","dbtfy_faq_btn":"Get in Touch","dbtfy_faq_link":""}},"related-products":{"type":"related-products","settings":{"show_related_products":false,"related_collection":true,"same_vendor":false,"same_type":false,"never_empty":true,"title":"You may also like","subtitle":"","section_style":"section-border","rows":"1","desktop_grid":"4","mobile_grid":"2","slider_related_products":true,"arrows":true,"dots":true,"autoplay":false,"autoplayspeed":5}},"quotes":{"type":"quotes","settings":{"show_on_desktop":false,"show_on_mobile":false,"title":"Testimonials","subtitle":"","section_style":"section-blank","quote_width":"60","arrows":true,"dots":true,"autoplay":true,"autoplayspeed":5}},"dbtfy-size-chart":{"type":"dbtfy-size-chart","settings":{"dbtfy_size_chart_icon":"straighten","dbtfy_size_chart_title":"Size chart","dbtfy_size_chart_width":"large"}},"1629399290de0221c2":{"type":"quotes","disabled":true,"blocks":{"1629399290de0221c2-0":{"type":"quote","settings":{"icon":"format_quote","quote":"<p>★★★★★<\/p>","author":"Author's name"}},"1629399290de0221c2-1":{"type":"quote","settings":{"icon":"format_quote","quote":"<p>★★★★★<\/p>","author":"Author's name"}},"1629399290de0221c2-2":{"type":"quote","settings":{"icon":"format_quote","quote":"<p>★★★★★<\/p>","author":"Author's name"}},"dcef0b9b-8373-40b8-842a-0adc17e51228":{"type":"quote","settings":{"icon":"format_quote","quote":"<p>★★★★★<\/p>","author":"Author's name"}},"b6a12563-e296-42b2-bc75-2963631b18f3":{"type":"quote","settings":{"icon":"format_quote","quote":"<p>★★★★★<\/p>","author":"Author's name"}},"021b4f7f-f7e6-499a-bdaf-5c9723ca663d":{"type":"quote","settings":{"icon":"format_quote","quote":"<p>★★★★★<\/p>","author":"Author's name"}},"596f5170-3cef-4bba-b1b2-7c0ea4ffe920":{"type":"quote","settings":{"icon":"format_quote","quote":"<p>★★★★★<\/p>","author":"Author's name"}},"1a47738f-29a3-48b3-8283-dce473aaaa20":{"type":"quote","settings":{"icon":"format_quote","quote":"<p>★★★★★<\/p>","author":"Author's name"}},"e91b2d32-b4b3-4535-8ce1-414d6b5888de":{"type":"quote","settings":{"icon":"format_quote","quote":"<p>★★★★★<\/p>","author":"Author's name"}}},"block_order":["1629399290de0221c2-0","1629399290de0221c2-1","1629399290de0221c2-2","dcef0b9b-8373-40b8-842a-0adc17e51228","b6a12563-e296-42b2-bc75-2963631b18f3","021b4f7f-f7e6-499a-bdaf-5c9723ca663d","596f5170-3cef-4bba-b1b2-7c0ea4ffe920","1a47738f-29a3-48b3-8283-dce473aaaa20","e91b2d32-b4b3-4535-8ce1-414d6b5888de"],"settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"Why They Love Us !","subtitle":"","section_style":"section-blank","quote_width":"60","arrows":true,"dots":true,"autoplay":true,"autoplayspeed":5}},"1629399490b0e17cd0":{"type":"featured-columns","disabled":true,"blocks":{"1629399490b0e17cd0-0":{"type":"text_block","settings":{"title":"Brand Build Website: Forecast The Future of Your Brand","image":"shopify:\/\/shop_images\/Untitled_design_4.png","icon":"","text":"<p>In this era of digital technology, websites play a dynamic role to profitably scale and turn over your business....<\/p>","button_style":"btn--primary","button_label":"Read More","button_link":"shopify:\/\/blogs\/news\/brand-build-website-forecast-the-future-of-your-brand"}},"1629399490b0e17cd0-1":{"type":"text_block","settings":{"title":"Design Your Own Million Dollar Brand","image":"shopify:\/\/shop_images\/mug.png","icon":"","text":"<p>To build a brand from scratch take a lot of hard work and courage, but it's not impossible. Most of the time, business owners have no idea how  ....<\/p>","button_style":"btn--primary","button_label":"Read More","button_link":"shopify:\/\/blogs\/news\/design-your-own-million-dollar-brand"}},"1629399490b0e17cd0-2":{"type":"text_block","settings":{"title":"6 Best Adobe tools to design and build brand","image":"shopify:\/\/shop_images\/mockup-of-a-woman-holding-a-12-oz-enamel-mug-in-the-winter-time-m2140r-el2.png","icon":"","text":"<p>Have you ever wondered how some brands got so massive and widespread? What made them so unique and perfect? It's not easy for startups ....<\/p>","button_style":"btn--primary","button_label":"Read More","button_link":"shopify:\/\/blogs\/news\/tips-for-perfecting-a-logo-design"}}},"block_order":["1629399490b0e17cd0-0","1629399490b0e17cd0-1","1629399490b0e17cd0-2"],"settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"Blog","subtitle":"","section_style":"section-blank","text_align":"text-center"}},"blog-template":{"type":"blog-template","settings":{"show_rss":false,"rows":"6","grid":"3"}},"article-template":{"type":"article-template","settings":{"show_author":true,"show_date":true,"show_comments":true,"show_social_top":true,"show_social_bottom":true,"show_tags":true}},"16296208005741f69e":{"type":"featured-blog","disabled":true,"settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"Blog","subtitle":"","section_style":"section-blank","blog":"blog","rows":"1","grid":"3","show_view_all":true,"button_style":"btn--primary"}},"16417123741684874d":{"type":"custom-html","blocks":{"16417123741684874d-0":{"type":"html","settings":{"code":"<div>\n\n<a href=\"\/collections\/australian\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Icons-Australian.jpg?v=1641693692\" alt=\"\">\n<\/a>\n<\/div>","column_width":2,"column_width_mobile":4,"text_alignment":"text-center"}},"42213dc7-9814-427a-a943-79a7447cbbca":{"type":"html","settings":{"code":"<div>\n\n<a href=\"\/collections\/bikers\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Icons-Bikers.jpg?v=1641694829\" alt=\"\">\n<\/a>\n<\/div>","column_width":2,"column_width_mobile":4,"text_alignment":"text-center"}},"0a818f40-1299-44b4-a8be-d810f5e3ad26":{"type":"html","settings":{"code":"<div>\n\n<a href=\"\/collections\/automotive\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Automotive.jpg?v=1641693745\" alt=\"\">\n<\/a>\n<\/div>","column_width":2,"column_width_mobile":4,"text_alignment":"text-center"}},"29e985c4-c90e-466c-9690-04c33148113d":{"type":"html","settings":{"code":"<div>\n\n<a href=\"\/collections\/funny\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Icons-Funny.jpg?v=1641693692\" alt=\"\">\n<\/a>\n<\/div>","column_width":2,"column_width_mobile":4,"text_alignment":"text-center"}},"136c9202-432c-439b-8b7f-6d7dcb5a3b91":{"type":"html","settings":{"code":"<div>\n\n<a href=\"\/collections\/pop-culture\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Icons-Pop-Culture.jpg?v=1641693692\" alt=\"\">\n<\/a>\n<\/div>","column_width":2,"column_width_mobile":4,"text_alignment":"text-center"}},"275bd1cb-2515-4b54-a7a6-39f789a7ca80":{"type":"html","settings":{"code":"<div>\n<a href=\"\/collections\/skulls-bones\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Skulls-and-Bones.jpg?v=1641693692\" alt=\"\">\n<\/a>\n<\/div>","column_width":2,"column_width_mobile":4,"text_alignment":"text-center"}}},"block_order":["16417123741684874d-0","42213dc7-9814-427a-a943-79a7447cbbca","0a818f40-1299-44b4-a8be-d810f5e3ad26","29e985c4-c90e-466c-9690-04c33148113d","136c9202-432c-439b-8b7f-6d7dcb5a3b91","275bd1cb-2515-4b54-a7a6-39f789a7ca80"],"settings":{"show_on_desktop":true,"show_on_mobile":true,"padding_section":true,"section_style":"section-blank","wrapper_size":""}},"1641881674b9c3f6f3":{"type":"hero","blocks":{"b6ecad62-d9ab-4081-93f4-92a065a305c5":{"type":"slide","settings":{"title":"Slideshow","overlay":false,"image":"shopify:\/\/shop_images\/Canguro-Apparel_Banner.gif","image_mobile":"shopify:\/\/shop_images\/Canguro-Banner-2160pxX3840px-Animated_a141cbc6-1565-40d9-bb77-f48d3936f047.gif","image_position":"center center","image_position_mobile":"center center","slide_link":"","video":"","text":"<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>","text_position":"align-center","text_position_mobile":"align-center","text_alignment":"text-center","text_alignment_mobile":"text-center","enable_custom_fonts":false,"slideshow_family":"poppins_n4","button_label":"Shop now","button_link":"shopify:\/\/collections\/all","button_style":"btn--primary","button_label_2":"Learn more","button_link_2":"shopify:\/\/collections\/all","button_style_2":""}}},"block_order":["b6ecad62-d9ab-4081-93f4-92a065a305c5"],"settings":{"show_on_desktop":true,"show_on_mobile":true,"section_height":"xlarge","section_height_mobile":"xlarge","arrows":true,"dots":true,"autoplay":false,"autoplayspeed":8}},"1643019036d69fcac5":{"type":"custom-html","disabled":true,"blocks":{"1643019036d69fcac5-0":{"type":"html","settings":{"code":"<style>\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Qwigley&display=swap');\n.hero_text{\n  font-family: 'Qwigley', cursive;\n}\n<\/style> \n<div class=\"w-full bg-cover bg-center\" style=\"height:75vh; background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Apparel_T-shirts.gif?v=1641878235);\">\n    <div class=\"flex items-center justify-start h-full container mx-auto bg-gray-900 bg-opacity-0\">\n        <div class=\"text-center\">\n          <h1 class=\"text-white text-8xl w-8\/12 tracking-wide hero_text font-light\">Beautifully Designed T‑shirts<\/h1>\n        <\/div>\n    <\/div>\n<\/div>","column_width":12,"column_width_mobile":12,"text_alignment":"text-center"}}},"block_order":["1643019036d69fcac5-0"],"settings":{"show_on_desktop":true,"show_on_mobile":false,"padding_section":false,"section_style":"section-blank","wrapper_size":"-full"}},"dbtfy-cart-goal":{"type":"dbtfy-cart-goal","settings":{"dbtfy_cart_goal_before_text":"You're","dbtfy_cart_goal_amount":"70","dbtfy_cart_goal_after_text":"away from FREE shipping!","dbtfy_cart_goal_reached_text":"You are eligible for FREE shipping!","dbtfy_cart_goal_icons":"local_shipping"}},"dbtfy-customizable-products":{"type":"dbtfy-customizable-products","blocks":{"294c72b7-d410-4e11-b6d2-f72ee80413ff":{"type":"text","settings":{"title":"","label":"","placeholder":"","field_required":true,"show_at_checkout":true,"visibility":"all","collection":"","types":"","tags":"","product":""}},"09b14174-45f5-4702-8011-b8c3ee58533e":{"type":"checkbox","settings":{"title":"","label":"","field_required":true,"show_at_checkout":true,"visibility":"all","collection":"","types":"","tags":"","product":""}},"2401dfc5-996b-4b54-b9f5-44c1a2c15156":{"type":"group","settings":{"title":"","label":"","options":"","group_type":"dropdown","show_at_checkout":true,"visibility":"all","collection":"all-products","types":"","tags":"","product":""}}},"block_order":["294c72b7-d410-4e11-b6d2-f72ee80413ff","09b14174-45f5-4702-8011-b8c3ee58533e","2401dfc5-996b-4b54-b9f5-44c1a2c15156"],"settings":{}},"dbtfy-product-tabs":{"type":"dbtfy-product-tabs","settings":{"dbtfy_product_tabs_display_type":"vertical","dbtfy_product_tab_heading_color":"headings","dbtfy_product_tab_text_color":"text","dbtfy_product_tab_background_color":"accent_background"}},"dbtfy-product-swatches":{"type":"dbtfy-product-swatches","settings":{"dbtfy_product_swatches_show_in_grid":true}}},"content_for_index":["1643019036d69fcac5","1641881674b9c3f6f3","16417123741684874d","1629277607e4d2abc1","16291690757a8c2997","162935936630b49528","1629360655f685493c","16296208005741f69e","1629399490b0e17cd0","1629399290de0221c2"]}}
+{
+  "current": {
+    "sticky_header": true,
+    "sticky_announcement_bar": true,
+    "height_header": 100,
+    "icon": "material-icons-round",
+    "grid_product_truncate": true,
+    "enable_product_accent_background": false,
+    "collection_grid_products_count": false,
+    "collection_grid_animation": false,
+    "show_collection_grid_button": true,
+    "collection_grid_button_style": "btn--primary",
+    "collection_grid_button_size": "btn--small",
+    "show_author": false,
+    "show_date": false,
+    "show_comments": false,
+    "newsletter_name": true,
+    "show_hero": false,
+    "border_radius": 8,
+    "show_top_button": false,
+    "page_wrapper": "1280",
+    "payment_icon_size": 30,
+    "enable_payment_button": true,
+    "cart_notes_enable": false,
+    "color_announcement_bg": "#222021",
+    "color_announcement_text": "#FFFFFF",
+    "color_nav_bg": "#fff",
+    "color_nav_border": "#08457e",
+    "color_nav_text": "#222021",
+    "color_body_bg": "#ffffff",
+    "color_default": "#f7f7f7",
+    "color_border": "#08457e",
+    "color_headings": "#222021",
+    "color_body_text": "#222021",
+    "color_primary": "#08457e",
+    "color_button_text": "#fff",
+    "color_secondary": "#08457e",
+    "color_input": "#ffffff",
+    "color_sales_price": "#cb1836",
+    "color_drawer_bg": "#222021",
+    "color_drawer_default": "#222021",
+    "color_drawer_border": "#222021",
+    "color_drawer_text": "#ffffff",
+    "color_drawer_primary": "#08457e",
+    "color_drawer_button_text": "#FFFFFF",
+    "color_drawer_secondary": "#08457e",
+    "color_drawer_input": "#403c3c",
+    "color_drawer_sales_price": "#cb1836",
+    "color_drawer_overlay": "rgba(0,0,0,0)",
+    "color_drawer_overlay_opacity": 50,
+    "color_footer_bg": "#222021",
+    "color_footer_default": "#222021",
+    "color_footer_border": "#222021",
+    "color_footer_text": "#fff",
+    "color_footer_primary": "#08457e",
+    "color_footer_button_text": "#fff",
+    "color_footer_secondary": "#08457e",
+    "color_footer_input": "#353535",
+    "color_footer_sales_price": "#cb1836",
+    "color_overlay": "#000000",
+    "color_transparent_nav_text": "#fff",
+    "opacity_overlay": 0,
+    "custom_style": ".bottom-footer {\n    padding: 30px 0;\n    border-top: 1px solid #151313;\n    background-color: #262626;\n    color: white;\n    border-color: #262626;\n}\ninput {\n    border-color: #CB1836;\n    color: #444;\n}\ntextarea { \n      border-color: #CB1836;\n}\nselect {\n      border-color: #08457e;\n}\n.slick-arrow {\n    background-color: #08457e;\n    border-color: #CB1836;\n    color: #ffffff;\n}\n.qty-container .qty-adjust {\n    border-color: #CB1836;\n}",
+    "favicon": "shopify:\/\/shop_images\/Canguro-Logo-Portrait-With-Trademark-White.jpg",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "share_whatsapp": true,
+    "share_linkedin": true,
+    "share_reddit": true,
+    "share_email": true,
+    "share_messenger": false,
+    "social_facebook_link": "https:\/\/www.facebook.com\/canguro.com.au\/?ref=page_internal",
+    "social_instagram_link": "https:\/\/www.instagram.com\/canguro.com.au\/",
+    "header_font_size": 28,
+    "header_font_size_big": 50,
+    "base_font_size": 15,
+    "dbtfy_cart_savings": false,
+    "dbtfy_cart_upsell": true,
+    "dbtfy_upsell_bundles": true,
+    "dbtfy_upsell_popup": false,
+    "dbtfy_cart_favicon": true,
+    "dbtfy_inactive_tab_message": false,
+    "dbtfy_sales_countdown": true,
+    "dbtfy_sticky_addtocart": false,
+    "dbtfy_instagram_feed": true,
+    "dbtfy_order_feedback": false,
+    "dbtfy_social_discount": false,
+    "dbtfy_collection_filters": false,
+    "dbtfy_color_swatches": false,
+    "dbtfy_infinite_scroll": false,
+    "dbtfy_pricing_table": false,
+    "dbtfy_quick_view": false,
+    "dbtfy_size_chart": true,
+    "dbtfy_smart_search": false,
+    "dbtfy_cookie_box": false,
+    "dbtfy_shop_protect": false,
+    "dbtfy_color_swatches_count": 10,
+    "dbtfy_inventory_quantity_threshold": 1,
+    "dbtfy_menu_bar_link_list": "mobile-main-menu",
+    "dbtfy_menu_bar_desktop": false,
+    "dbtfy_newsletter_popup_timeout": 5,
+    "dbtfy_newsletter_popup_scroll_percentage": 5,
+    "dbtfy_newsletter_popup_discount_name": "OFF5%",
+    "dbtfy_newsletter_popup_discount_amount": "5",
+    "dbtfy_social_discount_reward_code": "5OFF",
+    "dbtfy_social_discount_reward_amount": "5",
+    "dbtfy_wish_list_page": "wishlist",
+    "checkout_logo_image": "shopify:\/\/shop_images\/1.png",
+    "checkout_logo_position": "center",
+    "show_breadcrumbs": true,
+    "dbtfy_live_view": false,
+    "dbtfy_cart_countdown_time_mins": 15,
+    "dbtfy_inventory_quantity_show_random": true,
+    "dbtfy_inventory_quantity_min": 41,
+    "dbtfy_inventory_quantity_max": 99,
+    "dbtfy_sales_pop_timeago": 45,
+    "dbtfy_sales_pop_display": 5,
+    "dbtfy_sales_pop_interval": 13,
+    "hero_header": false,
+    "color_drawer_error_text": "#cb1836",
+    "dbtfy_page_builder": true,
+    "synced_variant_image": false,
+    "dbtfy_cart_goal_amount": "100",
+    "default_currency": "AUD",
+    "dbtfy_floating_bar_text": "Get 5% off!",
+    "dbtfy_newsletter_popup_text": "<p>Get 5% off your first purchase by subscribing to our newsletter.<\/p>",
+    "dbtfy_sales_pop_city": "Australia",
+    "sections": {
+      "dbtfy-upsell-popup": {
+        "type": "dbtfy-upsell-popup",
+        "settings": {
+          "dbtfy_upsell_popup_width": "",
+          "dbtfy_upsell_popup_description": "See product details",
+          "dbtfy_upsell_popup_cart": "No thanks",
+          "dbtfy_upsell_popup_checkout": "Go to checkout →",
+          "text_alignment": "text-center",
+          "dbtfy_upsell_popup_range": 75
+        }
+      },
+      "dbtfy-quantity-breaks": {
+        "type": "dbtfy-quantity-breaks",
+        "settings": {
+          "dbtfy_quantity_breaks_single_text": "Buy _COUNT_: _PRICE_ _SAVED_AMOUNT_",
+          "dbtfy_quantity_breaks_price_type": "total_price",
+          "dbtfy_quantity_breaks_more_discount_text_before": "Add",
+          "dbtfy_quantity_breaks_more_discount_text_after": "more item to unlock",
+          "dbtfy_quantity_breaks_more_discount_text_after_percentage": "off",
+          "dbtfy_quantity_breaks_highest_discount_text": "Highest discount applied!"
+        }
+      },
+      "dbtfy-cart-upsell": {
+        "type": "dbtfy-cart-upsell",
+        "settings": {
+          "dbtfy_cart_upsell_button_style": "btn--primary"
+        }
+      },
+      "dbtfy-color-swatches": {
+        "type": "dbtfy-color-swatches",
+        "settings": {
+        }
+      },
+      "dbtfy-bullet-points": {
+        "type": "dbtfy-bullet-points",
+        "settings": {
+          "dbtfy_bullet_points_position": "under-product-price",
+          "dbtfy_bullet_points_alignment": "left",
+          "dbtfy_bullet_points_display_type": "inline"
+        }
+      },
+      "dbtfy-sales-countdown": {
+        "type": "dbtfy-sales-countdown",
+        "blocks": {
+          "3b72192a-4b69-40d4-833c-416e80552fbd": {
+            "type": "countdown",
+            "settings": {
+              "title": "",
+              "dbtfy_sales_countdown_date_1": "",
+              "dbtfy_sales_countdown_time_hours_1": 1,
+              "dbtfy_sales_countdown_time_mins_1": 44,
+              "when_timer_id_over_action_1": "hide",
+              "timer_message_1": "HURRY UP!",
+              "dbtfy_sales_countdown_product_grid_1": true,
+              "visibility_1": "all",
+              "dbtfy_sales_countdown_collection_1": "all-products",
+              "dbtfy_sales_countdown_type_1": "",
+              "dbtfy_sales_countdown_tag_1": "",
+              "dbtfy_sales_countdown_product_1": "",
+              "dbtfy_sales_countdown_date_2": "",
+              "dbtfy_sales_countdown_time_hours_2": 0,
+              "dbtfy_sales_countdown_time_mins_2": 0,
+              "when_timer_id_over_action_2": "hide",
+              "timer_message_2": "",
+              "dbtfy_sales_countdown_product_grid_2": true,
+              "visibility_2": "all",
+              "dbtfy_sales_countdown_collection_2": "",
+              "dbtfy_sales_countdown_type_2": "",
+              "dbtfy_sales_countdown_tag_2": "",
+              "dbtfy_sales_countdown_product_2": "",
+              "dbtfy_sales_countdown_date_3": "",
+              "dbtfy_sales_countdown_time_hours_3": 0,
+              "dbtfy_sales_countdown_time_mins_3": 0,
+              "when_timer_id_over_action_3": "hide",
+              "timer_message_3": "",
+              "dbtfy_sales_countdown_product_grid_3": true,
+              "visibility_3": "all",
+              "dbtfy_sales_countdown_collection_3": "",
+              "dbtfy_sales_countdown_type_3": "",
+              "dbtfy_sales_countdown_tag_3": "",
+              "dbtfy_sales_countdown_product_3": "",
+              "dbtfy_sales_countdown_date_4": "",
+              "dbtfy_sales_countdown_time_hours_4": 0,
+              "dbtfy_sales_countdown_time_mins_4": 0,
+              "when_timer_id_over_action_4": "hide",
+              "timer_message_4": "",
+              "dbtfy_sales_countdown_product_grid_4": true,
+              "visibility_4": "all",
+              "dbtfy_sales_countdown_collection_4": "",
+              "dbtfy_sales_countdown_type_4": "",
+              "dbtfy_sales_countdown_tag_4": "",
+              "dbtfy_sales_countdown_product_4": "",
+              "dbtfy_sales_countdown_date_5": "",
+              "dbtfy_sales_countdown_time_hours_5": 0,
+              "dbtfy_sales_countdown_time_mins_5": 0,
+              "when_timer_id_over_action_5": "hide",
+              "timer_message_5": "",
+              "dbtfy_sales_countdown_product_grid_5": true,
+              "visibility_5": "all",
+              "dbtfy_sales_countdown_collection_5": "",
+              "dbtfy_sales_countdown_type_5": "",
+              "dbtfy_sales_countdown_tag_5": "",
+              "dbtfy_sales_countdown_product_5": "",
+              "dbtfy_sales_countdown_date_6": "",
+              "dbtfy_sales_countdown_time_hours_6": 0,
+              "dbtfy_sales_countdown_time_mins_6": 0,
+              "when_timer_id_over_action_6": "hide",
+              "timer_message_6": "",
+              "dbtfy_sales_countdown_product_grid_6": true,
+              "visibility_6": "all",
+              "dbtfy_sales_countdown_collection_6": "",
+              "dbtfy_sales_countdown_type_6": "",
+              "dbtfy_sales_countdown_tag_6": "",
+              "dbtfy_sales_countdown_product_6": "",
+              "dbtfy_sales_countdown_date_7": "",
+              "dbtfy_sales_countdown_time_hours_7": 0,
+              "dbtfy_sales_countdown_time_mins_7": 0,
+              "when_timer_id_over_action_7": "hide",
+              "timer_message_7": "",
+              "dbtfy_sales_countdown_product_grid_7": true,
+              "visibility_7": "all",
+              "dbtfy_sales_countdown_collection_7": "",
+              "dbtfy_sales_countdown_type_7": "",
+              "dbtfy_sales_countdown_tag_7": "",
+              "dbtfy_sales_countdown_product_7": "",
+              "dbtfy_sales_countdown_date_8": "",
+              "dbtfy_sales_countdown_time_hours_8": 0,
+              "dbtfy_sales_countdown_time_mins_8": 0,
+              "when_timer_id_over_action_8": "hide",
+              "timer_message_8": "",
+              "dbtfy_sales_countdown_product_grid_8": true,
+              "visibility_8": "all",
+              "dbtfy_sales_countdown_collection_8": "",
+              "dbtfy_sales_countdown_type_8": "",
+              "dbtfy_sales_countdown_tag_8": "",
+              "dbtfy_sales_countdown_product_8": "",
+              "dbtfy_sales_countdown_date_9": "",
+              "dbtfy_sales_countdown_time_hours_9": 0,
+              "dbtfy_sales_countdown_time_mins_9": 0,
+              "when_timer_id_over_action_9": "hide",
+              "timer_message_9": "",
+              "dbtfy_sales_countdown_product_grid_9": true,
+              "visibility_9": "all",
+              "dbtfy_sales_countdown_collection_9": "",
+              "dbtfy_sales_countdown_type_9": "",
+              "dbtfy_sales_countdown_tag_9": "",
+              "dbtfy_sales_countdown_product_9": "",
+              "dbtfy_sales_countdown_date_10": "",
+              "dbtfy_sales_countdown_time_hours_10": 0,
+              "dbtfy_sales_countdown_time_mins_10": 0,
+              "when_timer_id_over_action_10": "hide",
+              "timer_message_10": "",
+              "dbtfy_sales_countdown_product_grid_10": true,
+              "visibility_10": "all",
+              "dbtfy_sales_countdown_collection_10": "",
+              "dbtfy_sales_countdown_type_10": "",
+              "dbtfy_sales_countdown_tag_10": "",
+              "dbtfy_sales_countdown_product_10": ""
+            }
+          }
+        },
+        "block_order": [
+          "3b72192a-4b69-40d4-833c-416e80552fbd"
+        ],
+        "settings": {
+          "dbtfy_sales_countdown_icons": "local_fire_department",
+          "dbtfy_sales_countdown_prefix": "Sale ends in",
+          "dbtfy_sales_countdown_suffix": "HURRY UP !",
+          "dbtfy_sales_countdown_d": "d",
+          "dbtfy_sales_countdown_h": "h",
+          "dbtfy_sales_countdown_m": "m",
+          "dbtfy_sales_countdown_s": "s"
+        }
+      },
+      "dbtfy-delivery-time": {
+        "type": "dbtfy-delivery-time",
+        "settings": {
+          "dbtfy_delivery_time_position": "under-addtocart-button"
+        }
+      },
+      "drawer-menu": {
+        "type": "drawer-menu",
+        "settings": {
+          "drawer_link_toggle": true,
+          "email": true,
+          "phone": true,
+          "show_social_medias": true,
+          "hide_menu_icon": true,
+          "title": "Menu",
+          "drawer_top_link_list": "",
+          "drawer_bottom_link_list": ""
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "blocks": {
+          "922dae48-0882-4ec5-90b9-6b976a80164b": {
+            "type": "message",
+            "settings": {
+              "title": "",
+              "announcement_text": "<p><strong>⚡️Free Shipping<\/strong>⚡️To All Members <\/p>"
+            }
+          },
+          "announcement-0": {
+            "type": "message",
+            "settings": {
+              "title": "",
+              "announcement_text": "<p>⚡️<strong> Easy<\/strong> Returns, <strong>No Risk<\/strong> All Rewards⚡️<\/p>"
+            }
+          },
+          "8dcda583-86f1-4a25-9393-580ee3206928": {
+            "type": "message",
+            "settings": {
+              "title": "",
+              "announcement_text": "<p>⚡️<strong>High Quality<\/strong> Guaranteed ⚡️<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "922dae48-0882-4ec5-90b9-6b976a80164b",
+          "announcement-0",
+          "8dcda583-86f1-4a25-9393-580ee3206928"
+        ],
+        "settings": {
+          "show_announcement": true,
+          "small_announcement_text": false,
+          "show_social": true,
+          "email": true,
+          "phone": true,
+          "left_message": "<p><strong>Follow us!<\/strong><\/p>",
+          "right_message": "<p><strong>Contact Us<\/strong><\/p>",
+          "announcement_autoplayspeed": 5
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "navigation_type": "center",
+          "logo_link": true,
+          "default_logo": "shopify:\/\/shop_images\/Canguro-Logo-Alt-Final_2.png",
+          "inverted_logo": "shopify:\/\/shop_images\/logofooter.png",
+          "mobile_logo": "shopify:\/\/shop_images\/logo.png",
+          "default_logo_svg": "",
+          "inverted_logo_svg": "",
+          "mobile_logo_svg": "",
+          "logo_width": 200,
+          "logo_mobile_width": 150
+        }
+      },
+      "dbtfy-instagram-feed": {
+        "type": "dbtfy-instagram-feed",
+        "settings": {
+          "dbtfy_instagram_feed_icon": true,
+          "dbtfy_instagram_feed_access_token": "IGQVJVNFJWMlM4RTktazlrMnBPX2dLbnlmS0IxMkxTMEw0SGFyTjBZAOUUtNEdXMXBzenZAxaDBkdmJ2U08xSlJOV1N2aWtwSjN2emlQUy1nS3Yxc1pHc2l0T1FHX1Rod3o5TmJuaGJVZAUh5QVN0anZAjSgZDZD",
+          "dbtfy_instagram_feed_full_width": false,
+          "title": "Follow our Instagram",
+          "subtitle": "",
+          "dbtfy_instagram_feed_section_style": "section-border",
+          "dbtfy_instagram_feed_rows": "1",
+          "dbtfy_instagram_feed_desktop_grid": "6",
+          "dbtfy_instagram_feed_mobile_grid": "3"
+        }
+      },
+      "guarantee": {
+        "type": "guarantee",
+        "blocks": {
+          "guarantee-0": {
+            "type": "text",
+            "settings": {
+              "title": "Shipping Australia Wide",
+              "guarantee_icon": "electric_rickshaw",
+              "heading_text": "Shipping Australia Wide",
+              "text": "<p>Free delivery Australia Orders above $100<\/p>",
+              "text_alignment": "text-center",
+              "text_alignment_mobile": "text-center",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "guarantee-1": {
+            "type": "text",
+            "settings": {
+              "title": "Satisfied Or Refunded",
+              "guarantee_icon": "forward_30",
+              "heading_text": "Satisfied Or Refunded",
+              "text": "<p>Exchange or money back guarantee for all orders<\/p>",
+              "text_alignment": "text-center",
+              "text_alignment_mobile": "text-center",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "guarantee-2": {
+            "type": "text",
+            "settings": {
+              "title": "Top-Notch Support",
+              "guarantee_icon": "mail_outline",
+              "heading_text": "Top-Notch Support",
+              "text": "<p>Dedicated support, contact us 24 hours a day, 7 days a week<\/p>",
+              "text_alignment": "text-center",
+              "text_alignment_mobile": "text-center",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "e366f45e-d760-490c-8e75-e4c6c69bc2bd": {
+            "type": "text",
+            "settings": {
+              "title": "Secure Payments",
+              "guarantee_icon": "credit_card",
+              "heading_text": "Secure Payments",
+              "text": "<p>100% Secure payment with 256-bit SSL Encryption<\/p>",
+              "text_alignment": "text-center",
+              "text_alignment_mobile": "text-center",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "guarantee-0",
+          "guarantee-1",
+          "guarantee-2",
+          "e366f45e-d760-490c-8e75-e4c6c69bc2bd"
+        ],
+        "settings": {
+          "show_guarantee": true,
+          "guarantee_size": "xl",
+          "section_style": "section-border"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "7c083157-2d85-4a84-870a-7e3ff77385eb": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "column_width": 1,
+              "heading_text": "Company",
+              "subtitle": "",
+              "footer_link_list": "footer"
+            }
+          },
+          "534502e4-9d78-4411-a3fc-e0284198e28a": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "column_width": 1,
+              "heading_text": "Support",
+              "subtitle": "",
+              "footer_link_list": "footer"
+            }
+          },
+          "footer-0": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "",
+              "column_width": 1,
+              "image": "shopify:\/\/shop_images\/logofooter.png",
+              "svg": "",
+              "img_url": "",
+              "logo_width": 168,
+              "heading_text": "About Us",
+              "subtitle": "",
+              "text": "<p>Canguro Apparel  you can be assured of getting the Best Quality printed Apparel, Wall Art, Drinkware & More. We always aim to make sure our customers love our products<\/p>",
+              "email": false,
+              "phone": false,
+              "show_social_media": false
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "title": "Quick Links",
+              "column_width": 1,
+              "heading_text": "Quick Links",
+              "subtitle": "",
+              "footer_link_list": "main-menu"
+            }
+          },
+          "4db11a9d-3fdd-40ad-9419-d41fa0214c5a": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "column_width": 1,
+              "heading_text": "Wholesale",
+              "subtitle": "",
+              "footer_link_list": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "NEWSLETTER",
+              "column_width": 2,
+              "heading_text": "NEWSLETTER",
+              "subtitle": "Be the first to find out about new styles and get 5% off your first purchase. SIGNUP NOW!",
+              "customer_tag": "newsletter"
+            }
+          }
+        },
+        "block_order": [
+          "7c083157-2d85-4a84-870a-7e3ff77385eb",
+          "534502e4-9d78-4411-a3fc-e0284198e28a",
+          "footer-0",
+          "footer-1",
+          "4db11a9d-3fdd-40ad-9419-d41fa0214c5a",
+          "footer-2"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "social_media_position_desktop": "center",
+          "social_title": "Follow-us on social media!",
+          "show_payment_icons": true,
+          "show_shopify_footer": false,
+          "show_debutify_footer": false,
+          "custom_credential": ""
+        }
+      },
+      "16291690757a8c2997": {
+        "type": "featured-products",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "Featured Collection",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "home_featured_products": "featured-collection",
+          "rows": "3",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "show_view_all": true,
+          "button_label": "View all",
+          "button_link": "",
+          "button_style": "btn-outline-primary",
+          "slider_related_products": false,
+          "arrows": true,
+          "dots": false,
+          "autoplay": true,
+          "autoplayspeed": 5
+        }
+      },
+      "1629277607e4d2abc1": {
+        "type": "gallery",
+        "disabled": true,
+        "blocks": {
+          "1629277607e4d2abc1-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Canguro-Icons-Australian.jpg",
+              "alignment": "center center",
+              "link": "shopify:\/\/pages\/logo-branding",
+              "cta_label": ""
+            }
+          },
+          "c02de74d-ed3e-4380-8b67-524f9434668d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Canguro-Icons-Bikers.jpg",
+              "alignment": "center center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1629277607e4d2abc1-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Automotive.jpg",
+              "alignment": "center center",
+              "link": "shopify:\/\/pages\/graphic-design",
+              "cta_label": ""
+            }
+          },
+          "1629277607e4d2abc1-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Canguro-Icons-Funny.jpg",
+              "alignment": "center center",
+              "link": "shopify:\/\/pages\/digital-illustration",
+              "cta_label": ""
+            }
+          },
+          "1629277607e4d2abc1-3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Canguro-Icons-Pop-Culture.jpg",
+              "alignment": "center center",
+              "link": "shopify:\/\/pages\/motion-graphic",
+              "cta_label": ""
+            }
+          },
+          "315aae97-83e6-4351-8293-7d3fe8869e08": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Skulls-and-Bones.jpg",
+              "alignment": "center center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1629277607e4d2abc1-1",
+          "c02de74d-ed3e-4380-8b67-524f9434668d",
+          "1629277607e4d2abc1-0",
+          "1629277607e4d2abc1-2",
+          "1629277607e4d2abc1-3",
+          "315aae97-83e6-4351-8293-7d3fe8869e08"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "full_width": false,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "section_height": "medium"
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "show_on_desktop": false,
+          "show_on_mobile": false,
+          "hide_section": false,
+          "heading": "Our store",
+          "address": "<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
+          "map_address": "490 Rue De La Gauchetière O, Montréal",
+          "button_text": "Get directions",
+          "map_icon": "location_on",
+          "api_key": "",
+          "image_position": "center center"
+        }
+      },
+      "162935936630b49528": {
+        "type": "featured-collections",
+        "blocks": {
+          "162935936630b49528-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "apparel"
+            }
+          },
+          "162935936630b49528-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "drinkware"
+            }
+          }
+        },
+        "block_order": [
+          "162935936630b49528-0",
+          "162935936630b49528-1"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "full_width": false,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "section_height": "xsmall",
+          "show_view_all": false,
+          "button_label": "View all",
+          "button_link": "shopify:\/\/collections",
+          "button_style": "",
+          "slider_featured_collections": false,
+          "arrows": false,
+          "dots": false
+        }
+      },
+      "1629360655f685493c": {
+        "type": "featured-collections",
+        "blocks": {
+          "1629360655f685493c-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "home-living"
+            }
+          },
+          "1629360655f685493c-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "accessories"
+            }
+          }
+        },
+        "block_order": [
+          "1629360655f685493c-1",
+          "1629360655f685493c-2"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "full_width": false,
+          "title": "",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "section_height": "xsmall",
+          "show_view_all": false,
+          "button_label": "View all",
+          "button_link": "shopify:\/\/collections",
+          "button_style": "",
+          "slider_featured_collections": false,
+          "arrows": false,
+          "dots": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_tags_enable": true,
+          "collection_tags_count": true,
+          "collection_multiple_tags_filtering_enable": true,
+          "collection_sort_enable": true,
+          "tag_selector": "button",
+          "rows": "4",
+          "desktop_grid": "4",
+          "mobile_grid": "2"
+        }
+      },
+      "dbtfy-collection-filters": {
+        "type": "dbtfy-collection-filters",
+        "settings": {
+          "clear_label": "Clear",
+          "clear_all_label": "Clear All",
+          "hide_unavailable_options": false,
+          "visibility_tags_count": "all"
+        }
+      },
+      "dbtfy-upsell-bundles": {
+        "type": "dbtfy-upsell-bundles",
+        "settings": {
+          "dbtfy_upsell_bundles_title": "Frequently bought together",
+          "dbtfy_upsell_bundles_subtitle": "",
+          "dbtfy_upsell_bundles_total": "Total price:",
+          "dbtfy_upsell_bundles_cart": "Add selected items",
+          "dbtfy_upsell_bundles_icons": "library_add_check",
+          "dbtfy_upsell_bundles_current": "This item:",
+          "section_style": "section-border",
+          "dbtfy_upsell_bundles_reviews": false,
+          "dbtfy_upsell_bundles_limit": "2",
+          "dbtfy_upsell_bundles_position": "product"
+        }
+      },
+      "dbtfy-pricing-table": {
+        "type": "dbtfy-pricing-table",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "Pricing table",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "dbtfy_button_position": "middle"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "title": "Recommended for you",
+          "subtitle": "",
+          "section_style": "section-border",
+          "rows": "2",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "slider_related_products": true,
+          "arrows": true,
+          "dots": true,
+          "autoplay": false,
+          "autoplayspeed": 5
+        }
+      },
+      "dbtfy-faq-section": {
+        "type": "dbtfy-faq-section",
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "COMMON QUESTIONS",
+          "subtitle": "",
+          "section_style": "section-border",
+          "dbtfy_faq_searchbox": false,
+          "dbtfy_faq_search_placeholder": "Search questions...",
+          "dbtfy_faq_bannerbox": false,
+          "dbtfy_faq_banner_icon": "live_help",
+          "dbtfy_faq_banner_text": "Didn't find your answer?",
+          "dbtfy_faq_banner_subtitle": "Our customer service will be happy to help you.",
+          "dbtfy_faq_btn": "Get in Touch",
+          "dbtfy_faq_link": ""
+        }
+      },
+      "related-products": {
+        "type": "related-products",
+        "settings": {
+          "show_related_products": false,
+          "related_collection": true,
+          "same_vendor": false,
+          "same_type": false,
+          "never_empty": true,
+          "title": "You may also like",
+          "subtitle": "",
+          "section_style": "section-border",
+          "rows": "1",
+          "desktop_grid": "4",
+          "mobile_grid": "2",
+          "slider_related_products": true,
+          "arrows": true,
+          "dots": true,
+          "autoplay": false,
+          "autoplayspeed": 5
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "settings": {
+          "show_on_desktop": false,
+          "show_on_mobile": false,
+          "title": "Testimonials",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "quote_width": "60",
+          "arrows": true,
+          "dots": true,
+          "autoplay": true,
+          "autoplayspeed": 5
+        }
+      },
+      "dbtfy-size-chart": {
+        "type": "dbtfy-size-chart",
+        "settings": {
+          "dbtfy_size_chart_icon": "straighten",
+          "dbtfy_size_chart_title": "Size chart",
+          "dbtfy_size_chart_width": "large"
+        }
+      },
+      "1629399290de0221c2": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "1629399290de0221c2-0": {
+            "type": "quote",
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>★★★★★<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "1629399290de0221c2-1": {
+            "type": "quote",
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>★★★★★<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "1629399290de0221c2-2": {
+            "type": "quote",
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>★★★★★<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "dcef0b9b-8373-40b8-842a-0adc17e51228": {
+            "type": "quote",
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>★★★★★<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "b6a12563-e296-42b2-bc75-2963631b18f3": {
+            "type": "quote",
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>★★★★★<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "021b4f7f-f7e6-499a-bdaf-5c9723ca663d": {
+            "type": "quote",
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>★★★★★<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "596f5170-3cef-4bba-b1b2-7c0ea4ffe920": {
+            "type": "quote",
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>★★★★★<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "1a47738f-29a3-48b3-8283-dce473aaaa20": {
+            "type": "quote",
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>★★★★★<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "e91b2d32-b4b3-4535-8ce1-414d6b5888de": {
+            "type": "quote",
+            "settings": {
+              "icon": "format_quote",
+              "quote": "<p>★★★★★<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "1629399290de0221c2-0",
+          "1629399290de0221c2-1",
+          "1629399290de0221c2-2",
+          "dcef0b9b-8373-40b8-842a-0adc17e51228",
+          "b6a12563-e296-42b2-bc75-2963631b18f3",
+          "021b4f7f-f7e6-499a-bdaf-5c9723ca663d",
+          "596f5170-3cef-4bba-b1b2-7c0ea4ffe920",
+          "1a47738f-29a3-48b3-8283-dce473aaaa20",
+          "e91b2d32-b4b3-4535-8ce1-414d6b5888de"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "Why They Love Us !",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "quote_width": "60",
+          "arrows": true,
+          "dots": true,
+          "autoplay": true,
+          "autoplayspeed": 5
+        }
+      },
+      "1629399490b0e17cd0": {
+        "type": "featured-columns",
+        "disabled": true,
+        "blocks": {
+          "1629399490b0e17cd0-0": {
+            "type": "text_block",
+            "settings": {
+              "title": "Brand Build Website: Forecast The Future of Your Brand",
+              "image": "shopify:\/\/shop_images\/Untitled_design_4.png",
+              "icon": "",
+              "text": "<p>In this era of digital technology, websites play a dynamic role to profitably scale and turn over your business....<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "Read More",
+              "button_link": "shopify:\/\/blogs\/news\/brand-build-website-forecast-the-future-of-your-brand"
+            }
+          },
+          "1629399490b0e17cd0-1": {
+            "type": "text_block",
+            "settings": {
+              "title": "Design Your Own Million Dollar Brand",
+              "image": "shopify:\/\/shop_images\/mug.png",
+              "icon": "",
+              "text": "<p>To build a brand from scratch take a lot of hard work and courage, but it's not impossible. Most of the time, business owners have no idea how  ....<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "Read More",
+              "button_link": "shopify:\/\/blogs\/news\/design-your-own-million-dollar-brand"
+            }
+          },
+          "1629399490b0e17cd0-2": {
+            "type": "text_block",
+            "settings": {
+              "title": "6 Best Adobe tools to design and build brand",
+              "image": "shopify:\/\/shop_images\/mockup-of-a-woman-holding-a-12-oz-enamel-mug-in-the-winter-time-m2140r-el2.png",
+              "icon": "",
+              "text": "<p>Have you ever wondered how some brands got so massive and widespread? What made them so unique and perfect? It's not easy for startups ....<\/p>",
+              "button_style": "btn--primary",
+              "button_label": "Read More",
+              "button_link": "shopify:\/\/blogs\/news\/tips-for-perfecting-a-logo-design"
+            }
+          }
+        },
+        "block_order": [
+          "1629399490b0e17cd0-0",
+          "1629399490b0e17cd0-1",
+          "1629399490b0e17cd0-2"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "Blog",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "text_align": "text-center"
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "show_rss": false,
+          "rows": "6",
+          "grid": "3"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_author": true,
+          "show_date": true,
+          "show_comments": true,
+          "show_social_top": true,
+          "show_social_bottom": true,
+          "show_tags": true
+        }
+      },
+      "16296208005741f69e": {
+        "type": "featured-blog",
+        "disabled": true,
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "title": "Blog",
+          "subtitle": "",
+          "section_style": "section-blank",
+          "blog": "blog",
+          "rows": "1",
+          "grid": "3",
+          "show_view_all": true,
+          "button_style": "btn--primary"
+        }
+      },
+      "16417123741684874d": {
+        "type": "custom-html",
+        "blocks": {
+          "16417123741684874d-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div>\n\n<a href=\"\/collections\/australian\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Icons-Australian.jpg?v=1641693692\" alt=\"\">\n<\/a>\n<\/div>",
+              "column_width": 2,
+              "column_width_mobile": 4,
+              "text_alignment": "text-center"
+            }
+          },
+          "42213dc7-9814-427a-a943-79a7447cbbca": {
+            "type": "html",
+            "settings": {
+              "code": "<div>\n\n<a href=\"\/collections\/bikers\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Icons-Bikers.jpg?v=1641694829\" alt=\"\">\n<\/a>\n<\/div>",
+              "column_width": 2,
+              "column_width_mobile": 4,
+              "text_alignment": "text-center"
+            }
+          },
+          "0a818f40-1299-44b4-a8be-d810f5e3ad26": {
+            "type": "html",
+            "settings": {
+              "code": "<div>\n\n<a href=\"\/collections\/automotive\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Automotive.jpg?v=1641693745\" alt=\"\">\n<\/a>\n<\/div>",
+              "column_width": 2,
+              "column_width_mobile": 4,
+              "text_alignment": "text-center"
+            }
+          },
+          "29e985c4-c90e-466c-9690-04c33148113d": {
+            "type": "html",
+            "settings": {
+              "code": "<div>\n\n<a href=\"\/collections\/funny\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Icons-Funny.jpg?v=1641693692\" alt=\"\">\n<\/a>\n<\/div>",
+              "column_width": 2,
+              "column_width_mobile": 4,
+              "text_alignment": "text-center"
+            }
+          },
+          "136c9202-432c-439b-8b7f-6d7dcb5a3b91": {
+            "type": "html",
+            "settings": {
+              "code": "<div>\n\n<a href=\"\/collections\/pop-culture\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Icons-Pop-Culture.jpg?v=1641693692\" alt=\"\">\n<\/a>\n<\/div>",
+              "column_width": 2,
+              "column_width_mobile": 4,
+              "text_alignment": "text-center"
+            }
+          },
+          "275bd1cb-2515-4b54-a7a6-39f789a7ca80": {
+            "type": "html",
+            "settings": {
+              "code": "<div>\n<a href=\"\/collections\/skulls-bones\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Skulls-and-Bones.jpg?v=1641693692\" alt=\"\">\n<\/a>\n<\/div>",
+              "column_width": 2,
+              "column_width_mobile": 4,
+              "text_alignment": "text-center"
+            }
+          }
+        },
+        "block_order": [
+          "16417123741684874d-0",
+          "42213dc7-9814-427a-a943-79a7447cbbca",
+          "0a818f40-1299-44b4-a8be-d810f5e3ad26",
+          "29e985c4-c90e-466c-9690-04c33148113d",
+          "136c9202-432c-439b-8b7f-6d7dcb5a3b91",
+          "275bd1cb-2515-4b54-a7a6-39f789a7ca80"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "padding_section": true,
+          "section_style": "section-blank",
+          "wrapper_size": ""
+        }
+      },
+      "1641881674b9c3f6f3": {
+        "type": "hero",
+        "blocks": {
+          "b6ecad62-d9ab-4081-93f4-92a065a305c5": {
+            "type": "slide",
+            "settings": {
+              "title": "Slideshow",
+              "overlay": false,
+              "image": "shopify:\/\/shop_images\/Canguro-Apparel_Banner.gif",
+              "image_mobile": "shopify:\/\/shop_images\/Canguro-Banner-2160pxX3840px-Animated_a141cbc6-1565-40d9-bb77-f48d3936f047.gif",
+              "image_position": "center center",
+              "image_position_mobile": "center center",
+              "slide_link": "",
+              "video": "",
+              "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
+              "text_position": "align-center",
+              "text_position_mobile": "align-center",
+              "text_alignment": "text-center",
+              "text_alignment_mobile": "text-center",
+              "enable_custom_fonts": false,
+              "slideshow_family": "poppins_n4",
+              "button_label": "Shop now",
+              "button_link": "shopify:\/\/collections\/all",
+              "button_style": "btn--primary",
+              "button_label_2": "Learn more",
+              "button_link_2": "shopify:\/\/collections\/all",
+              "button_style_2": ""
+            }
+          }
+        },
+        "block_order": [
+          "b6ecad62-d9ab-4081-93f4-92a065a305c5"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": true,
+          "section_height": "xlarge",
+          "section_height_mobile": "xlarge",
+          "arrows": true,
+          "dots": true,
+          "autoplay": false,
+          "autoplayspeed": 8
+        }
+      },
+      "1643019036d69fcac5": {
+        "type": "custom-html",
+        "disabled": true,
+        "blocks": {
+          "1643019036d69fcac5-0": {
+            "type": "html",
+            "settings": {
+              "code": "<style>\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Qwigley&display=swap');\n.hero_text{\n  font-family: 'Qwigley', cursive;\n}\n<\/style> \n<div class=\"w-full bg-cover bg-center\" style=\"height:75vh; background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/2801\/0560\/files\/Canguro-Apparel_T-shirts.gif?v=1641878235);\">\n    <div class=\"flex items-center justify-start h-full container mx-auto bg-gray-900 bg-opacity-0\">\n        <div class=\"text-center\">\n          <h1 class=\"text-white text-8xl w-8\/12 tracking-wide hero_text font-light\">Beautifully Designed T‑shirts<\/h1>\n        <\/div>\n    <\/div>\n<\/div>",
+              "column_width": 12,
+              "column_width_mobile": 12,
+              "text_alignment": "text-center"
+            }
+          }
+        },
+        "block_order": [
+          "1643019036d69fcac5-0"
+        ],
+        "settings": {
+          "show_on_desktop": true,
+          "show_on_mobile": false,
+          "padding_section": false,
+          "section_style": "section-blank",
+          "wrapper_size": "-full"
+        }
+      },
+      "dbtfy-cart-goal": {
+        "type": "dbtfy-cart-goal",
+        "settings": {
+          "dbtfy_cart_goal_before_text": "You're",
+          "dbtfy_cart_goal_amount": "70",
+          "dbtfy_cart_goal_after_text": "away from FREE shipping!",
+          "dbtfy_cart_goal_reached_text": "You are eligible for FREE shipping!",
+          "dbtfy_cart_goal_icons": "local_shipping"
+        }
+      },
+      "dbtfy-customizable-products": {
+        "type": "dbtfy-customizable-products",
+        "blocks": {
+          "294c72b7-d410-4e11-b6d2-f72ee80413ff": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "label": "",
+              "placeholder": "",
+              "field_required": true,
+              "show_at_checkout": true,
+              "visibility": "all",
+              "collection": "",
+              "types": "",
+              "tags": "",
+              "product": ""
+            }
+          },
+          "09b14174-45f5-4702-8011-b8c3ee58533e": {
+            "type": "checkbox",
+            "settings": {
+              "title": "",
+              "label": "",
+              "field_required": true,
+              "show_at_checkout": true,
+              "visibility": "all",
+              "collection": "",
+              "types": "",
+              "tags": "",
+              "product": ""
+            }
+          },
+          "2401dfc5-996b-4b54-b9f5-44c1a2c15156": {
+            "type": "group",
+            "settings": {
+              "title": "",
+              "label": "",
+              "options": "",
+              "group_type": "dropdown",
+              "show_at_checkout": true,
+              "visibility": "all",
+              "collection": "all-products",
+              "types": "",
+              "tags": "",
+              "product": ""
+            }
+          }
+        },
+        "block_order": [
+          "294c72b7-d410-4e11-b6d2-f72ee80413ff",
+          "09b14174-45f5-4702-8011-b8c3ee58533e",
+          "2401dfc5-996b-4b54-b9f5-44c1a2c15156"
+        ],
+        "settings": {
+        }
+      },
+      "dbtfy-product-tabs": {
+        "type": "dbtfy-product-tabs",
+        "settings": {
+          "dbtfy_product_tabs_display_type": "vertical",
+          "dbtfy_product_tab_heading_color": "headings",
+          "dbtfy_product_tab_text_color": "text",
+          "dbtfy_product_tab_background_color": "accent_background"
+        }
+      },
+      "dbtfy-product-swatches": {
+        "type": "dbtfy-product-swatches",
+        "settings": {
+          "dbtfy_product_swatches_show_in_grid": true
+        }
+      }
+    },
+    "content_for_index": [
+      "1643019036d69fcac5",
+      "1641881674b9c3f6f3",
+      "16417123741684874d",
+      "1629277607e4d2abc1",
+      "16291690757a8c2997",
+      "162935936630b49528",
+      "1629360655f685493c",
+      "16296208005741f69e",
+      "1629399490b0e17cd0",
+      "1629399290de0221c2"
+    ]
+  }
+}
