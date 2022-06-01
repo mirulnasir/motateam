@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#section-template--14249963716654__16417123741684874d {
+  @apply bg-theme;
+}
+.footer-newsletter {
+  & input[type="text"],
+  & input[type="email"] {
+    @apply bg-transparent rounded-none border-t-0 border-l-0 border-0 border-b border-gray-400;
+  }
+  & .btn {
+    @apply border-gray-400 rounded-none bg-transparent max-w-[250px] lg:ml-auto block;
+  }
+}
+.footer__bottom {
+  @apply pt-4 pb-6 lg:py-8;
+  & span {
+    @apply text-sm;
+  }
+}
+.before-bottom {
+  & .before-bottom__logo-group {
+    @apply flex flex-wrap items-center -mx-3 lg:-mx-6 mb-3 lg:mb-6;
+    & > .logo-group__image {
+      @apply px-3 lg:px-6 mb-2 md:mb-0;
+      & img {
+        @apply w-auto object-contain rounded-none;
+      }
+    }
+  }
+  & .before-bottom__acknowledge {
+    @apply flex flex-wrap -mx-6 mb-6 lg:mb-0;
+    & > div {
+      @apply px-6;
+    }
+    & .acknowledge__caption {
+      @apply max-w-[600px]  text-sm mb-3 md:mb-0;
+    }
+    & .acknowledge__image {
+      & img {
+        @apply rounded-none;
+      }
+    }
+  }
+  & .before-bottom__bottom {
+    @apply flex flex-wrap justify-between;
+  }
+  & .payment-icons__wrapper {
+    @apply lg:text-right;
+    & .payment-icons {
+      & .payment-icon {
+        /* @apply filter grayscale invert-0; */
+      }
+    }
+    & .payment__caption {
+      @apply text-gray-400 text-sm mt-2;
+    }
+  }
+}

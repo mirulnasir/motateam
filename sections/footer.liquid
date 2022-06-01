@@ -310,8 +310,48 @@
       </div>
     </div>
   {%- endif -%}
-
-  <div class="bottom-footer">
+  <div class="before-bottom">
+    <div class="wrapper">
+        <div class="before-bottom__logo-group">
+          <div class="logo-group__image">
+            <img src="{{ 'logo-f-1.png' | asset_img_url: '250x' }}" loading="lazy" width="250" height="80"/>
+          </div>
+          <div class="logo-group__image">
+            <img src="{{ 'logo-f-2.png' | asset_img_url: '250x' }}" loading="lazy" width="250" height="60"/>
+          </div>
+          <div class="logo-group__image">
+            <img src="{{ 'logo-f-3.png' | asset_img_url: '250x' }}" loading="lazy" width="250" height="80"/>
+          </div>
+        </div>
+        <div class="before-bottom__bottom">
+          <div class="before-bottom__acknowledge">
+            <div class="acknowledge__caption">
+              Canguro acknowledges the Traditional Owners and Custodians of the land on which we work. We pay respects to Elders past, present and emerging, and recognise their connection to the land.
+              Sovereignty was never ceded.
+            </div>
+            <div class="acknowledge__image">
+              <img src="{{ 'logo-f-4.png' | asset_img_url: '80x' }}" loading="lazy" width="79" height="50"/>
+            </div>
+          </div>
+          {%- if section.settings.show_payment_icons -%}
+            <div class="payment-icons__wrapper">
+              {%- render 'payment-icons' -%}
+              <div class="payment__caption">
+                Secure payment methods
+              </div>
+            </div>
+          {%- endif -%}
+        </div>
+       
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="wrapper">
+      <span class="">Copyright &copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: routes.root_url }}
+      </span>
+    </div>
+  </div>
+  {% comment %} <div class="bottom-footer">
     <div class="wrapper">
       <div class="grid align-center small--text-center">
         <div class="bottom-footer__copyright grid__item{% if section.settings.show_payment_icons %} large--six-twelfths medium--six-twelfths{% else %} text-center{% endif %}">
@@ -347,7 +387,7 @@
         {%- endif -%}
       </div>
     </div>
-  </div>
+  </div> {% endcomment %}
 </footer>
 
 {% schema %}
