@@ -44,21 +44,6 @@
         "autoplayspeed": 8
       }
     },
-    "1653395070acb380e5": {
-      "type": "featured-content",
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "title": "Featured content",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "section_style": "section-blank",
-        "text_size": "large",
-        "text_alignment": "text-center",
-        "button_style": "btn--primary",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "162935936630b49528": {
       "type": "featured-collections",
       "blocks": {
@@ -85,7 +70,6 @@
         },
         "6a3ec9c1-8519-425f-a167-343f0f38bf6f": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "title": "",
             "collection": "t-shirts"
@@ -93,7 +77,6 @@
         },
         "59eeb579-66b0-494a-ae06-c73e30fc72c2": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "title": "",
             "collection": "hoodies"
@@ -485,7 +468,6 @@
   },
   "order": [
     "164329366375cc67e0",
-    "1653395070acb380e5",
     "162935936630b49528",
     "1653394997de2cd310",
     "1653394728482a6f70",
