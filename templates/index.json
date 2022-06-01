@@ -124,29 +124,6 @@
         "dots": true
       }
     },
-    "16291690757a8c2997": {
-      "type": "featured-products",
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "title": "Featured Collection",
-        "subtitle": "",
-        "section_style": "section-blank",
-        "home_featured_products": "featured-collection",
-        "rows": "3",
-        "desktop_grid": "3",
-        "mobile_grid": "2",
-        "show_view_all": true,
-        "button_label": "View all",
-        "button_link": "",
-        "button_style": "btn-outline-primary",
-        "slider_related_products": false,
-        "arrows": true,
-        "dots": false,
-        "autoplay": true,
-        "autoplayspeed": 5
-      }
-    },
     "1653394997de2cd310": {
       "type": "featured-content",
       "settings": {
@@ -510,7 +487,6 @@
     "164329366375cc67e0",
     "1653395070acb380e5",
     "162935936630b49528",
-    "16291690757a8c2997",
     "1653394997de2cd310",
     "1653394728482a6f70",
     "16417123741684874d",
