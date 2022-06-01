@@ -473,7 +473,7 @@
               "column_width": 1,
               "heading_text": "Company",
               "subtitle": "",
-              "footer_link_list": "footer"
+              "footer_link_list": "company"
             }
           },
           "534502e4-9d78-4411-a3fc-e0284198e28a": {
@@ -483,7 +483,7 @@
               "column_width": 1,
               "heading_text": "Support",
               "subtitle": "",
-              "footer_link_list": "footer"
+              "footer_link_list": "support"
             }
           },
           "footer-0": {
@@ -522,7 +522,7 @@
               "column_width": 1,
               "heading_text": "Wholesale",
               "subtitle": "",
-              "footer_link_list": "footer"
+              "footer_link_list": "wholesale"
             }
           },
           "footer-2": {
@@ -547,7 +547,7 @@
         "settings": {
           "show_social_media": true,
           "social_media_position_desktop": "center",
-          "social_title": "Follow-us on social media!",
+          "social_title": "Follow Us",
           "show_payment_icons": true,
           "show_shopify_footer": false,
           "show_debutify_footer": false,
