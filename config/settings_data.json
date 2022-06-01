@@ -471,7 +471,7 @@
             "settings": {
               "title": "",
               "column_width": 1,
-              "heading_text": "Company",
+              "heading_text": "COMPANY",
               "subtitle": "",
               "footer_link_list": "company"
             }
@@ -481,7 +481,7 @@
             "settings": {
               "title": "",
               "column_width": 1,
-              "heading_text": "Support",
+              "heading_text": "SUPPORT",
               "subtitle": "",
               "footer_link_list": "support"
             }
