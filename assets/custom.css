@@ -43,9 +43,43 @@
   --tw-backdrop-sepia:  
 }
 
-#section-template--14249963716654__16417123741684874d {
+#section-template--14249950019630__16417123741684874d, #section-template--14249963716654__16417123741684874d {
   --tw-bg-opacity: 1;
-  background-color: rgb(8 69 126 / var(--tw-bg-opacity))
+  background-color: rgb(8 69 126 / var(--tw-bg-opacity));
+  padding-top: 1rem;
+  padding-bottom: 1rem
+}
+
+@media (min-width: 1024px) {
+  #section-template--14249950019630__16417123741684874d, #section-template--14249963716654__16417123741684874d {
+    padding-top: 0px;
+    padding-bottom: 0px
+  }
+}
+
+#section-template--14249950019630__16417123741684874d .grid, #section-template--14249963716654__16417123741684874d .grid {
+  align-items: center;
+  justify-content: center
+}
+
+#section-template--14249950019630__16417123741684874d .grid .grid__item, #section-template--14249963716654__16417123741684874d .grid .grid__item {
+  margin-bottom: 0px
+}
+
+#section-template--14249950019630__16417123741684874d .grid .item .icon_box, #section-template--14249963716654__16417123741684874d .grid .item .icon_box {
+  padding: 1.25rem
+}
+
+#section-template--14249950019630__16417123741684874d .grid .item .icon_box h4, #section-template--14249963716654__16417123741684874d .grid .item .icon_box h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0px;
+  font-family: Barlow;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+#section-template--14249950019630__16417123741684874d img, #section-template--14249963716654__16417123741684874d img {
+  max-width: 120px
 }
 
 body {
@@ -115,12 +149,17 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center
 }
 
-.top-footer .top-footer__inner .footer-social-icons__wrapper .social-medias a {
+.top-footer .top-footer__inner .footer-social-icons__wrapper .social-medias li {
+  margin-right: 0px;
+  margin-bottom: 0px
+}
+
+.top-footer .top-footer__inner .footer-social-icons__wrapper .social-medias li a {
   display: block;
   padding: 0.5rem
 }
 
-.top-footer .top-footer__inner .footer-social-icons__wrapper .social-medias a svg {
+.top-footer .top-footer__inner .footer-social-icons__wrapper .social-medias li a svg {
   width: 2rem;
   fill: currentColor;
   --tw-text-opacity: 1;

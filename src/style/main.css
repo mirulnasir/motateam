@@ -1,9 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+#section-template--14249950019630__16417123741684874d,
 #section-template--14249963716654__16417123741684874d {
-  @apply bg-theme;
+  @apply bg-theme py-4 lg:py-0;
+  & .grid {
+    @apply justify-center items-center;
+    & .grid__item {
+      @apply mb-0;
+    }
+    & .item {
+      & .icon_box {
+        @apply p-5;
+
+        & h4 {
+          @apply font-body text-white mt-2 mb-0;
+        }
+      }
+    }
+  }
+  & img {
+    @apply max-w-[120px];
+  }
 }
 body {
   @apply font-body antialiased;
@@ -39,10 +57,13 @@ h6 {
       @apply mt-2 lg:mt-4;
       & .social-medias {
         @apply flex ml-0 mb-0 mr-0 justify-center;
-        & a {
-          @apply block  p-2;
-          & svg {
-            @apply w-8 fill-current text-gray-900;
+        & li {
+          @apply mr-0 mb-0;
+          & a {
+            @apply block  p-2;
+            & svg {
+              @apply w-8 fill-current text-gray-900;
+            }
           }
         }
       }
