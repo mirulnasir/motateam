@@ -26,14 +26,14 @@
     -%}
     <div class="top-footer">
       <div class="wrapper">
-        <div class="grid align-center small--text-center {{ grid__container_classes }}">
+        <div class="top-footer__inner">
           {%- if section.settings.social_title != blank -%}
-            <div class="grid__item {{ title_classes }}">
+            <div class="footer-social-title__wrapper">
               <h6 class="h4 footer-social-title">{{ section.settings.social_title }}</h6>
             </div>
           {%- endif -%}
 
-          <div class="grid__item {{ icon_classes }}">
+          <div class="footer-social-icons__wrapper">
             {%- render 'social-medias' -%}
           </div>
         </div>

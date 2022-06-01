@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       colors: {
         'theme': '#08457e'
+      },
+      fontFamily: {
+        'body': 'Barlow',
+        'heading': "Barlow Condensed"
       }
     },
   },

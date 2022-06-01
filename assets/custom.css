@@ -48,6 +48,85 @@
   background-color: rgb(8 69 126 / var(--tw-bg-opacity))
 }
 
+body {
+  font-family: Barlow;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Barlow Condensed
+}
+
+.site-footer .box h6 {
+  font-family: Barlow Condensed
+}
+
+.site-footer .site-footer__linklist a {
+  text-transform: capitalize
+}
+
+.top-footer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem
+}
+
+@media (min-width: 1024px) {
+  .top-footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem
+  }
+}
+
+.top-footer h6 {
+  font-family: Barlow Condensed;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  --tw-text-opacity: 1 !important;
+  color: rgb(17 24 39 / var(--tw-text-opacity)) !important
+}
+
+.top-footer .top-footer__inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content
+}
+
+.top-footer .top-footer__inner .footer-social-icons__wrapper {
+  margin-top: 0.5rem
+}
+
+@media (min-width: 1024px) {
+  .top-footer .top-footer__inner .footer-social-icons__wrapper {
+    margin-top: 1rem
+  }
+}
+
+.top-footer .top-footer__inner .footer-social-icons__wrapper .social-medias {
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center
+}
+
+.top-footer .top-footer__inner .footer-social-icons__wrapper .social-medias a {
+  display: block;
+  padding: 0.5rem
+}
+
+.top-footer .top-footer__inner .footer-social-icons__wrapper .social-medias a svg {
+  width: 2rem;
+  fill: currentColor;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity))
+}
+
 .footer-newsletter input[type="text"], .footer-newsletter input[type="email"] {
   border-radius: 0px;
   border-width: 0px;
@@ -57,6 +136,11 @@
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
   background-color: transparent
+}
+
+.footer-newsletter h6 {
+  font-size: 1.5rem;
+  line-height: 2rem
 }
 
 .footer-newsletter .btn {
