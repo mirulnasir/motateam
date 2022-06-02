@@ -22,7 +22,7 @@
     "payment_icon_size": 30,
     "enable_payment_button": true,
     "cart_notes_enable": false,
-    "color_announcement_bg": "#222021",
+    "color_announcement_bg": "#08457e",
     "color_announcement_text": "#FFFFFF",
     "color_nav_bg": "#fff",
     "color_nav_border": "#08457e",
