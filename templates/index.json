@@ -150,7 +150,7 @@
           "type": "text_block",
           "settings": {
             "title": "",
-            "collection": "",
+            "collection": "men",
             "customise_link_list": "footer"
           }
         },
@@ -158,7 +158,7 @@
           "type": "text_block",
           "settings": {
             "title": "",
-            "collection": "",
+            "collection": "women",
             "customise_link_list": "footer"
           }
         },
@@ -166,7 +166,7 @@
           "type": "text_block",
           "settings": {
             "title": "",
-            "collection": "",
+            "collection": "kids",
             "customise_link_list": "footer"
           }
         }
