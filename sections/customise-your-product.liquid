@@ -3,7 +3,7 @@
       <div class="wrapper">
   
         {%- unless section.settings.title == blank and section.settings.subtitle == blank -%}
-          <div class="grid">
+          <div class="grid cyp__intro">
             <div class="grid__item large--eight-twelfths push--large--two-twelfths">
               <div class="section-header">
                 {%- unless section.settings.title == blank -%}
@@ -18,7 +18,7 @@
         {%- endunless -%}
   
         {%- if section.blocks.size > 0 -%}
-          <div class="grid grid-spacer {{ section.settings.text_align }}">
+          <div class="grid cyp__cbc grid-spacer {{ section.settings.text_align }}">
   
             {%- capture column_width -%}
               {%- render 'block-width' -%}
@@ -26,7 +26,7 @@
   
             <!-- Blocks -->
             {%- for block in section.blocks -%}
-              <div class="grid__item block--customise-by-collection {{ column_width }}" 
+              <div class="grid__item block--customise-by-collection cbc--{{ block.settings.title }} {{ column_width }}" 
                 {{ block.shopify_attributes }}>
   
                
