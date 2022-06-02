@@ -137,6 +137,7 @@
     },
     "162935936630b49528": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "162935936630b49528-0": {
           "type": "collection",
@@ -219,7 +220,7 @@
         "show_on_desktop": true,
         "show_on_mobile": true,
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Canguro-Website-Banner-New-03_1.png",
+        "image": "shopify:\/\/shop_images\/Canguro-Website-Banner-New-02_fb90367c-f0e8-4cae-ac40-babf59d407a3.gif",
         "section_style": "section-blank",
         "image_link": ""
       }
