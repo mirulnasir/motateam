@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./layout.css";
 #section-template--14249950019630__16417123741684874d,
 #section-template--14249963716654__16417123741684874d {
   @apply bg-theme py-4 lg:py-0;
