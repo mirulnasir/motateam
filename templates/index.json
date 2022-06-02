@@ -28,10 +28,37 @@
             "button_link_2": "shopify:\/\/collections\/all",
             "button_style_2": ""
           }
+        },
+        "0006c34f-1c92-4274-b37e-02747d84466f": {
+          "type": "slide",
+          "settings": {
+            "title": "",
+            "overlay": true,
+            "image": "shopify:\/\/shop_images\/Canguro-Website-Banner-New-03_1.png",
+            "image_position": "center center",
+            "image_position_mobile": "center center",
+            "slide_link": "",
+            "video": "",
+            "heading_text": "Slideshow",
+            "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your story.<\/p>",
+            "text_position": "align-center",
+            "text_position_mobile": "align-center",
+            "text_alignment": "text-center",
+            "text_alignment_mobile": "text-center",
+            "enable_custom_fonts": false,
+            "slideshow_family": "poppins_n4",
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style": "btn--primary",
+            "button_label_2": "Learn more",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_2": ""
+          }
         }
       },
       "block_order": [
-        "e77833a2-ba52-46c2-bc59-33e3dd161948"
+        "e77833a2-ba52-46c2-bc59-33e3dd161948",
+        "0006c34f-1c92-4274-b37e-02747d84466f"
       ],
       "settings": {
         "show_on_desktop": true,
