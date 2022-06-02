@@ -26,52 +26,49 @@
   
             <!-- Blocks -->
             {%- for block in section.blocks -%}
-              <div class="grid__item {{ column_width }}" 
+              <div class="grid__item block--customise-by-collection {{ column_width }}" 
                 {{ block.shopify_attributes }}>
   
-                {%- if block.settings.image != blank -%}
-                  <div class="media-wrapper spacer-bottom" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
-                    {%- if block.settings.image_link != blank -%}
-                      <a href="{{ block.settings.image_link }}">
+               
+                <div class="cbc__inner">
+                    {%- if block.settings.image != blank -%}
+                        <div class="relative cbc__image" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
+                          {%- if block.settings.image_link != blank -%}
+                            <a href="{{ block.settings.image_link }}">
+                          {%- endif -%}
+        
+                            <img class="media lazyload"
+                            {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
+                            alt="{{ block.settings.image.alt }}">
+        
+                          {%- if block.settings.image_link != blank -%}
+                            </a>
+                          {%- endif -%}
+                        </div>
+                       
+                      {%- elsif block.settings.icon != blank -%}
+                        <span class="{{ settings.icon }} icon-xl text-secondary" aria-hidden="true">{{ block.settings.icon }}</span>
+                      {%- else -%}
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
+                      {%- endif -%}
+                    {%- if block.settings.customise_collection != blank -%}
+                        <h3 class="cbc__heading">
+                          {{ block.settings.customise_collection.title | escape }}
+                      </h3>
+                      {%- endif -%}
+                    {%- if block.settings.customise_link_list != blank -%}
+                        <ul class="no-bullets  cbc__collection-links">
+                          {%- for link in linklists[block.settings.customise_link_list].links -%}
+                            <li>
+                              <a href="{{ link.url }}">
+                                {{ link.title }}
+                              </a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
                     {%- endif -%}
-  
-                      <img class="media lazyload"
-                      {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
-                      alt="{{ block.settings.image.alt }}">
-  
-                    {%- if block.settings.image_link != blank -%}
-                      </a>
-                    {%- endif -%}
-                  </div>
-                 
-                {%- elsif block.settings.icon != blank -%}
-                  <span class="{{ settings.icon }} icon-xl text-secondary" aria-hidden="true">{{ block.settings.icon }}</span>
-                {%- else -%}
-                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
-                {%- endif -%}
-                {%- if block.settings.customise_link_list != blank -%}
-                    <ul class="no-bullets  ">
-                      {%- for link in linklists[block.settings.customise_link_list].links -%}
-                        <li>
-                          <a href="{{ link.url }}">
-                            {{ link.title }}
-                          </a>
-                        </li>
-                      {%- endfor -%}
-                    </ul>
-                {%- endif -%}
-                {%- if block.settings.collection != blank -%}
-                  <h3 class="">
-                    {{ collection.title | escape }}
-                </h3>
-                {%- endif -%}
-                <h3 class="h4">{{ block.settings.heading_text }}</h3>
-                <div class="rte">{{ block.settings.text }}</div>
-                {%- unless block.settings.button_label == blank -%}
-                  <p><a href="{{ block.settings.button_link }}" class="btn btn--small {{ block.settings.button_style }}">
-                    {{ block.settings.button_label | escape }}
-                  </a></p>
-                {%- endunless -%}
+                    
+                </div>
               </div>
             {%- endfor -%}
           </div>

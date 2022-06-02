@@ -4,3 +4,29 @@
     @apply text-3xl lg:text-4xl xl:text-[44px] text-center leading-tight max-w-5xl mx-auto;
   }
 }
+.section--customise-your-product {
+  & .block--customise-by-collection {
+    & .cbc__inner {
+      @apply relative text-left h-full min-h-[310px];
+    }
+    & .cbc__image {
+      @apply absolute bottom-0 overflow-hidden h-[300px] w-[188px] !pt-0 right-0;
+    }
+    & .cbc__collection-links {
+      & > li {
+        @apply mb-1 lg:mb-2;
+        & a {
+          @apply font-semibold;
+        }
+      }
+    }
+    & .cbc__heading {
+      @apply text-2xl lg:text-3xl xl:text-[40px] text-theme font-semibold mb-3 lg:mb-6;
+    }
+    &:first-child {
+      & .cbc__image {
+        @apply h-[310px];
+      }
+    }
+  }
+}
