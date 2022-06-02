@@ -21,7 +21,7 @@
             "text_alignment_mobile": "text-center",
             "enable_custom_fonts": false,
             "slideshow_family": "poppins_n4",
-            "button_label": "Order Now",
+            "button_label": "Start Creating",
             "button_link": "shopify:\/\/collections\/all",
             "button_style": "btn--primary",
             "button_label_2": "",
