@@ -151,7 +151,7 @@
           "settings": {
             "title": "",
             "collection": "men",
-            "customise_link_list": "footer",
+            "customise_link_list": "customise-mens-unisex",
             "image": "shopify:\/\/shop_images\/men.png"
           }
         },
@@ -160,7 +160,7 @@
           "settings": {
             "title": "",
             "collection": "women",
-            "customise_link_list": "footer",
+            "customise_link_list": "customise-womens",
             "image": "shopify:\/\/shop_images\/fem.png"
           }
         },
@@ -169,7 +169,7 @@
           "settings": {
             "title": "",
             "collection": "kids",
-            "customise_link_list": "footer",
+            "customise_link_list": "customise-kids",
             "image": "shopify:\/\/shop_images\/kids.png"
           }
         }
