@@ -188,6 +188,45 @@
         "text_align": "text-center"
       }
     },
+    "1654207651283fb86b": {
+      "type": "collection-columns",
+      "blocks": {
+        "1654207651ffaff750-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "customise_collection": "workwear"
+          }
+        },
+        "1654207651ffaff750-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "customise_collection": "hospitality"
+          }
+        },
+        "1654207651ffaff750-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "customise_collection": "sportswear"
+          }
+        }
+      },
+      "block_order": [
+        "1654207651ffaff750-0",
+        "1654207651ffaff750-1",
+        "1654207651ffaff750-2"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Other products",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "text_align": "text-center"
+      }
+    },
     "162935936630b49528": {
       "type": "featured-collections",
       "blocks": {
@@ -524,6 +563,7 @@
     "16417123741684874d",
     "16541967489cc89e50",
     "1654198978a95972d5",
+    "1654207651283fb86b",
     "162935936630b49528",
     "1653394997de2cd310",
     "1653394728482a6f70",
