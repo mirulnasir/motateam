@@ -137,7 +137,6 @@
     },
     "162935936630b49528": {
       "type": "featured-collections",
-      "disabled": true,
       "blocks": {
         "162935936630b49528-0": {
           "type": "collection",
@@ -249,22 +248,6 @@
         "padding_section": true,
         "section_style": "section-blank",
         "wrapper_size": ""
-      }
-    },
-    "16296208005741f69e": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "title": "Blog",
-        "subtitle": "",
-        "section_style": "section-blank",
-        "blog": "blog",
-        "rows": "1",
-        "grid": "3",
-        "show_view_all": true,
-        "button_style": "btn--primary"
       }
     },
     "1629399490b0e17cd0": {
@@ -455,6 +438,21 @@
         "autoplayspeed": 5
       }
     },
+    "16296208005741f69e": {
+      "type": "featured-blog",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Blog",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "blog": "blog",
+        "rows": "1",
+        "grid": "3",
+        "show_view_all": true,
+        "button_style": "btn--primary"
+      }
+    },
     "1652092599c6761edd": {
       "type": "newsletter",
       "disabled": true,
@@ -475,9 +473,9 @@
     "1653394997de2cd310",
     "1653394728482a6f70",
     "1653198284903dca7f",
-    "16296208005741f69e",
     "1629399490b0e17cd0",
     "1629399290de0221c2",
+    "16296208005741f69e",
     "1652092599c6761edd"
   ]
 }

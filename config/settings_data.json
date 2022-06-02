@@ -88,7 +88,7 @@
     "dbtfy_inactive_tab_message": false,
     "dbtfy_sales_countdown": true,
     "dbtfy_sticky_addtocart": false,
-    "dbtfy_instagram_feed": true,
+    "dbtfy_instagram_feed": false,
     "dbtfy_order_feedback": false,
     "dbtfy_social_discount": false,
     "dbtfy_collection_filters": false,
@@ -385,10 +385,10 @@
       "dbtfy-instagram-feed": {
         "type": "dbtfy-instagram-feed",
         "settings": {
-          "dbtfy_instagram_feed_icon": false,
+          "dbtfy_instagram_feed_icon": true,
           "dbtfy_instagram_feed_access_token": "IGQVJVNFJWMlM4RTktazlrMnBPX2dLbnlmS0IxMkxTMEw0SGFyTjBZAOUUtNEdXMXBzenZAxaDBkdmJ2U08xSlJOV1N2aWtwSjN2emlQUy1nS3Yxc1pHc2l0T1FHX1Rod3o5TmJuaGJVZAUh5QVN0anZAjSgZDZD",
           "dbtfy_instagram_feed_full_width": true,
-          "title": "Follow our Instagram",
+          "title": "",
           "subtitle": "",
           "dbtfy_instagram_feed_section_style": "section-border",
           "dbtfy_instagram_feed_rows": "1",
