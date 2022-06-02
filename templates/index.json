@@ -149,7 +149,7 @@
         "165419897865901107-0": {
           "type": "text_block",
           "settings": {
-            "title": "",
+            "title": "men",
             "customise_collection": "men",
             "customise_link_list": "customise-mens-unisex",
             "image": "shopify:\/\/shop_images\/men.png"
@@ -158,7 +158,7 @@
         "165419897865901107-1": {
           "type": "text_block",
           "settings": {
-            "title": "",
+            "title": "women",
             "customise_collection": "women",
             "customise_link_list": "customise-womens",
             "image": "shopify:\/\/shop_images\/fem.png"
@@ -167,7 +167,7 @@
         "165419897865901107-2": {
           "type": "text_block",
           "settings": {
-            "title": "",
+            "title": "kids",
             "customise_collection": "kids",
             "customise_link_list": "customise-kids",
             "image": "shopify:\/\/shop_images\/kids.png"
