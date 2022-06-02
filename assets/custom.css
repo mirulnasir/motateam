@@ -87,17 +87,17 @@
   padding-bottom: 0px
 }
 
-.section--customise-your-product .cyp__intro {
-  margin-bottom: 0.5rem
+.section--customise-your-product .cyp__intro .section-header {
+  margin-bottom: 0px
 }
 
 @media (min-width: 1024px) {
-  .section--customise-your-product .cyp__intro {
-    margin-bottom: 1rem
+  .section--customise-your-product .cyp__intro .section-header {
+    margin-bottom: 2.5rem
   }
 }
 
-.section--customise-your-product .cyp__intro h2 {
+.section--customise-your-product .cyp__intro .section-header h2 {
   margin-left: auto;
   margin-right: auto;
   max-width: 64rem;
@@ -109,14 +109,14 @@
 }
 
 @media (min-width: 1024px) {
-  .section--customise-your-product .cyp__intro h2 {
+  .section--customise-your-product .cyp__intro .section-header h2 {
     font-size: 2.25rem;
     line-height: 2.5rem
   }
 }
 
 @media (min-width: 1280px) {
-  .section--customise-your-product .cyp__intro h2 {
+  .section--customise-your-product .cyp__intro .section-header h2 {
     font-size: 44px
   }
 }
@@ -129,20 +129,43 @@
 
 .section--customise-your-product .block--customise-by-collection .cbc__inner {
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
   height: 100%;
-  min-height: 310px;
-  max-width: 400px;
+  min-height: 250px;
+  max-width: 375px;
+  overflow: hidden;
   text-align: left
+}
+
+@media (min-width: 1024px) {
+  .section--customise-your-product .block--customise-by-collection .cbc__inner {
+    margin-left: 0px;
+    margin-right: 0px;
+    min-height: 400px
+  }
 }
 
 .section--customise-your-product .block--customise-by-collection .cbc__image {
   position: absolute;
   bottom: 0px;
-  right: 0px;
-  height: 300px;
+  left: 140px;
+  height: 250px;
   width: 188px;
   overflow: hidden;
   padding-top: 0px !important
+}
+
+@media (min-width: 1024px) {
+  .section--customise-your-product .block--customise-by-collection .cbc__image {
+    height: 400px
+  }
+}
+
+@media (min-width: 1280px) {
+  .section--customise-your-product .block--customise-by-collection .cbc__image {
+    left: 170px
+  }
 }
 
 .section--customise-your-product .block--customise-by-collection .cbc__collection-links > li {
@@ -161,6 +184,7 @@
 
 .section--customise-your-product .block--customise-by-collection .cbc__heading {
   margin-bottom: 0.75rem;
+  padding-top: 1rem;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 600;
@@ -172,6 +196,7 @@
 @media (min-width: 1024px) {
   .section--customise-your-product .block--customise-by-collection .cbc__heading {
     margin-bottom: 1.5rem;
+    padding-top: 0.5rem;
     font-size: 1.875rem;
     line-height: 2.25rem
   }
@@ -183,16 +208,28 @@
   }
 }
 
-.section--customise-your-product .block--customise-by-collection.cbc--men .cbc__image {
-  height: 310px
+@media (min-width: 1024px) {
+  .section--customise-your-product .block--customise-by-collection.cbc--men .cbc__image {
+    height: 399px
+  }
+
+  .section--customise-your-product .block--customise-by-collection.cbc--women .cbc__image {
+    height: 378px
+  }
+
+  .section--customise-your-product .block--customise-by-collection.cbc--kids .cbc__image {
+    height: 338px
+  }
 }
 
-.section--customise-your-product .block--customise-by-collection.cbc--women .cbc__image {
-  height: 290px
+.section--customise-your-product .block--customise-by-collection.cbc--women .cbc__image, .section--customise-your-product .block--customise-by-collection.cbc--kids .cbc__image {
+  left: 120px
 }
 
-.section--customise-your-product .block--customise-by-collection.cbc--kids .cbc__image {
-  height: 275px
+@media (min-width: 1280px) {
+  .section--customise-your-product .block--customise-by-collection.cbc--women .cbc__image, .section--customise-your-product .block--customise-by-collection.cbc--kids .cbc__image {
+    left: 140px
+  }
 }
 
 #section-template--14249950019630__16417123741684874d, #section-template--14249963716654__16417123741684874d {
