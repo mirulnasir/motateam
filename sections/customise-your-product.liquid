@@ -43,12 +43,28 @@
                       </a>
                     {%- endif -%}
                   </div>
+                 
                 {%- elsif block.settings.icon != blank -%}
                   <span class="{{ settings.icon }} icon-xl text-secondary" aria-hidden="true">{{ block.settings.icon }}</span>
                 {%- else -%}
                   {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
                 {%- endif -%}
-  
+                {%- if block.settings.customise_link_list != blank -%}
+                    <ul class="no-bullets  ">
+                      {%- for link in linklists[block.settings.customise_link_list].links -%}
+                        <li>
+                          <a href="{{ link.url }}">
+                            {{ link.title }}
+                          </a>
+                        </li>
+                      {%- endfor -%}
+                    </ul>
+                {%- endif -%}
+                {%- if block.settings.collection != blank -%}
+                  <h3 class="">
+                    {{ collection.title | escape }}
+                </h3>
+                {%- endif -%}
                 <h3 class="h4">{{ block.settings.heading_text }}</h3>
                 <div class="rte">{{ block.settings.text }}</div>
                 {%- unless block.settings.button_label == blank -%}
@@ -153,7 +169,7 @@
               "info": "t:sections.featured_columns.blocks.text_block.settings.title.info"
             },
             {
-                "id": "collection",
+                "id": "customise_collection",
                 "type": "collection",
                 "label": "Collection"
               },
