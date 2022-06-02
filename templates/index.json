@@ -295,22 +295,6 @@
         "dots": true
       }
     },
-    "1653394997de2cd310": {
-      "type": "featured-content",
-      "disabled": true,
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "title": "Customised Your Products",
-        "text": "<p>OUR T-_SHIRT AND PPAREL ARE 100% AUSTRALIAN COTTON BLANK T-SHIRTS & APPAREL MANUFACTURED FOR SUPERIOR DTG & SCREENPRINTING<\/p>",
-        "section_style": "section-blank",
-        "text_size": "large",
-        "text_alignment": "text-center",
-        "button_style": "btn--primary",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "1653394728482a6f70": {
       "type": "featured-image",
       "settings": {
@@ -324,6 +308,7 @@
     },
     "1653198284903dca7f": {
       "type": "custom-html",
+      "disabled": true,
       "blocks": {
         "1653198284d3126e58-0": {
           "type": "html",
@@ -572,7 +557,6 @@
     "16541967489cc89e50",
     "1654207651283fb86b",
     "162935936630b49528",
-    "1653394997de2cd310",
     "1653394728482a6f70",
     "1653198284903dca7f",
     "1629399490b0e17cd0",
