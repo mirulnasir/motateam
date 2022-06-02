@@ -28,5 +28,7 @@
         @apply h-[310px];
       }
     }
+    &:nth-child(2) {
+    }
   }
 }

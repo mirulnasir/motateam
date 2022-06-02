@@ -136,6 +136,9 @@
   height: 310px
 }
 
+.section--customise-your-product .block--customise-by-collection:nth-child(2) {
+}
+
 #section-template--14249950019630__16417123741684874d, #section-template--14249963716654__16417123741684874d {
   --tw-bg-opacity: 1;
   background-color: rgb(8 69 126 / var(--tw-bg-opacity));
