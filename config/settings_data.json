@@ -380,9 +380,9 @@
       "dbtfy-instagram-feed": {
         "type": "dbtfy-instagram-feed",
         "settings": {
-          "dbtfy_instagram_feed_icon": true,
+          "dbtfy_instagram_feed_icon": false,
           "dbtfy_instagram_feed_access_token": "IGQVJVNFJWMlM4RTktazlrMnBPX2dLbnlmS0IxMkxTMEw0SGFyTjBZAOUUtNEdXMXBzenZAxaDBkdmJ2U08xSlJOV1N2aWtwSjN2emlQUy1nS3Yxc1pHc2l0T1FHX1Rod3o5TmJuaGJVZAUh5QVN0anZAjSgZDZD",
-          "dbtfy_instagram_feed_full_width": false,
+          "dbtfy_instagram_feed_full_width": true,
           "title": "Follow our Instagram",
           "subtitle": "",
           "dbtfy_instagram_feed_section_style": "section-border",
