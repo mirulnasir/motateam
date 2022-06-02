@@ -1,0 +1,187 @@
+<div id="section-{{ section.id }}" class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {% unless section.settings.show_on_mobile %} small--hide{% endunless %} {{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="featured-columns-section">
+    <div class="box">
+      <div class="wrapper">
+  
+        {%- unless section.settings.title == blank and section.settings.subtitle == blank -%}
+          <div class="grid cyp__intro">
+            <div class="grid__item large--eight-twelfths push--large--two-twelfths">
+              <div class="section-header">
+                {%- unless section.settings.title == blank -%}
+                  <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+                {%- endunless -%}
+                {%- unless section.settings.subtitle == blank -%}
+                  <p class="section-header__subtitle">{{ section.settings.subtitle | escape }}</p>
+                {%- endunless -%}
+              </div>
+             </div>
+          </div>
+        {%- endunless -%}
+  
+        {%- if section.blocks.size > 0 -%}
+          <div class="grid cyp__cbc grid-spacer {{ section.settings.text_align }}">
+  
+            {%- capture column_width -%}
+              {%- render 'block-width' -%}
+            {%- endcapture -%}
+  
+            <!-- Blocks -->
+            {%- for block in section.blocks -%}
+              <div class="grid__item block--customise-by-collection cbc--{{ block.settings.title }} {{ column_width }}" 
+                {{ block.shopify_attributes }}>
+  
+               
+                <div class="cbc__inner">
+                    {%- if block.settings.image != blank -%}
+                        <div class="relative cbc__image" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
+                          {%- if block.settings.image_link != blank -%}
+                            <a href="{{ block.settings.image_link }}">
+                          {%- endif -%}
+        
+                            <img class="media lazyload"
+                            {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
+                            alt="{{ block.settings.image.alt }}">
+        
+                          {%- if block.settings.image_link != blank -%}
+                            </a>
+                          {%- endif -%}
+                        </div>
+                       
+                      {%- elsif block.settings.icon != blank -%}
+                        <span class="{{ settings.icon }} icon-xl text-secondary" aria-hidden="true">{{ block.settings.icon }}</span>
+                      {%- else -%}
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
+                      {%- endif -%}
+                    {%- if block.settings.customise_collection != blank -%}
+                        <h3 class="cbc__heading">
+                          {{ block.settings.customise_collection.title | escape }}
+                      </h3>
+                      {%- endif -%}
+                   
+                    
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+        {%- else -%}
+          {%- render 'no-blocks' -%}
+        {%- endif -%}
+  
+      </div>
+    </div>
+  </div>
+  
+  {% schema %}
+    {
+      "name": "Collection Columns",
+      "class": "section--collection-columns",
+      "max_blocks": 4,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_on_desktop",
+          "label": "t:sections.featured_columns.settings.show_on_desktop.label",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_on_mobile",
+          "label": "t:sections.featured_columns.settings.show_on_mobile.label",
+          "default": true
+        },
+          {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.featured_columns.settings.title.label",
+          "default": "Featured columns"
+        },
+          {
+          "type": "text",
+          "id": "subtitle",
+          "label": "t:sections.featured_columns.settings.subtitle.label"
+        },
+        {
+          "type": "select",
+          "id": "section_style",
+          "label": "t:sections.featured_columns.settings.section_style.label",
+          "default": "section-blank",
+          "options": [
+            {
+              "value": "section-blank",
+              "label": "t:sections.featured_columns.settings.section_style.options__1.label"
+            },
+                {
+              "value": "section-default",
+              "label": "t:sections.featured_columns.settings.section_style.options__2.label"
+            },
+            {
+              "value": "section-border",
+              "label": "t:sections.featured_columns.settings.section_style.options__3.label"
+            }
+          ]
+        },
+          {
+          "type": "select",
+          "id": "text_align",
+          "label": "t:sections.featured_columns.settings.text_align.label",
+          "default": "text-center",
+          "options": [
+            {
+              "value": "",
+              "label": "t:sections.featured_columns.settings.text_align.options__1.label"
+            },
+            {
+              "value": "text-center",
+              "label": "t:sections.featured_columns.settings.text_align.options__2.label"
+            },
+            {
+              "value": "text-right",
+              "label": "t:sections.featured_columns.settings.text_align.options__3.label"
+            },
+            {
+              "value": "text-justify",
+              "label": "t:sections.featured_columns.settings.text_align.options__4.label"
+            }
+          ]
+        }
+        ],
+        "blocks" : [
+          {
+          "type": "text_block",
+          "name": "t:sections.featured_columns.blocks.text_block.name",
+          "settings": [
+            {
+              "type": "text",
+              "id": "title",
+              "label": "t:sections.featured_columns.blocks.text_block.settings.title.label",
+              "info": "t:sections.featured_columns.blocks.text_block.settings.title.info"
+            },
+            {
+                "id": "customise_collection",
+                "type": "collection",
+                "label": "Collection"
+              }
+          
+            
+          ]
+        }
+      ],
+        "presets": [
+        {
+          "name":  "Collection Columns",
+          "category": "t:sections.featured_columns.presets.category",
+              "blocks": [
+            {
+              "type": "text_block"
+            },
+            {
+              "type": "text_block"
+            },
+            {
+              "type": "text_block"
+            }
+          ]
+        }
+      ]
+    }
+  {% endschema %}
+  
