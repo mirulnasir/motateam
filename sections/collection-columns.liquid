@@ -56,9 +56,12 @@
                         <span class="{{ settings.icon }} icon-xl text-secondary" aria-hidden="true">{{ block.settings.icon }}</span>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
-                      {%- endif -%}
-                      <div class="cbi__bodycopy">
-                    </div>
+                    {%- endif -%}
+                    {%- if block.settings.text != blank -%}
+                        <div class="cbi__bodycopy">
+                            {{ block.settings.text }}
+                        </div>
+                    {%- endif -%}
                     {%- if block.settings.customise_collection != blank -%}
                         <div class="cbi__link">
                             <a href="{{ block.settings.customise_collection.url }}" class="">click here to order</a>

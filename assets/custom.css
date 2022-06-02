@@ -285,6 +285,7 @@
   overflow: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(209 211 212 / var(--tw-bg-opacity));
+  padding: 0.5rem;
   text-align: left
 }
 
@@ -292,7 +293,8 @@
   .section--collection-columns .block--customise-by-industry .cbi__inner {
     margin-left: 0px;
     margin-right: 0px;
-    min-height: 400px
+    min-height: 400px;
+    padding: 1.5rem
   }
 }
 
@@ -324,6 +326,28 @@
 
 .section--collection-columns .block--customise-by-industry .cbi__collection-links > li a {
   font-weight: 600
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__link a {
+  display: inline-block;
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 69 126 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  font-family: Barlow Condensed;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry .cbi__link a {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem
+  }
 }
 
 .section--collection-columns .block--customise-by-industry .cbi__intro {
