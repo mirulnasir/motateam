@@ -538,6 +538,7 @@
     },
     "16296208005741f69e": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
