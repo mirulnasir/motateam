@@ -3,7 +3,7 @@
       <div class="wrapper">
   
         {%- unless section.settings.title == blank and section.settings.subtitle == blank -%}
-          <div class="grid cyp__intro">
+          <div class="grid cc__intro">
             <div class="grid__item large--eight-twelfths push--large--two-twelfths">
               <div class="section-header">
                 {%- unless section.settings.title == blank -%}
@@ -18,7 +18,7 @@
         {%- endunless -%}
   
         {%- if section.blocks.size > 0 -%}
-          <div class="grid cyp__cbc grid-spacer {{ section.settings.text_align }}">
+          <div class="grid cc__cbi grid-spacer {{ section.settings.text_align }}">
   
             {%- capture column_width -%}
               {%- render 'block-width' -%}
@@ -26,37 +26,44 @@
   
             <!-- Blocks -->
             {%- for block in section.blocks -%}
-              <div class="grid__item block--customise-by-collection cbc--{{ block.settings.title }} {{ column_width }}" 
+              <div class="grid__item block--customise-by-industry cbi--{{ block.settings.title }} {{ column_width }}" 
                 {{ block.shopify_attributes }}>
-  
+                <div class="cbi__intro">
+                {%- if block.settings.customise_collection != blank -%}
+                    <h3 class="cbi__heading">
+                      {{ block.settings.customise_collection.title | escape }}
+                  </h3>
+                  {%- endif -%}
+                </div>
                
-                <div class="cbc__inner">
-                    {%- if block.settings.image != blank -%}
-                        <div class="relative cbc__image" style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
+                <div class="cbi__inner">
+                    {%- if block.settings.customise_collection != blank -%}
+                        <div class="relative cbi__image" style="padding-top:{{ 1 | divided_by: block.settings.customise_collection.image.aspect_ratio | times: 100}}%;">
                           {%- if block.settings.image_link != blank -%}
                             <a href="{{ block.settings.image_link }}">
                           {%- endif -%}
         
                             <img class="media lazyload"
-                            {%- render 'lazysizes', img: block.settings.image, img_type: 'responsive' -%}
+                            {%- render 'lazysizes', img: block.settings.customise_collection.image, img_type: 'responsive' -%}
                             alt="{{ block.settings.image.alt }}">
         
                           {%- if block.settings.image_link != blank -%}
                             </a>
                           {%- endif -%}
                         </div>
-                       
+                    
                       {%- elsif block.settings.icon != blank -%}
                         <span class="{{ settings.icon }} icon-xl text-secondary" aria-hidden="true">{{ block.settings.icon }}</span>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
                       {%- endif -%}
+                      <div class="cbi__bodycopy">
+                    </div>
                     {%- if block.settings.customise_collection != blank -%}
-                        <h3 class="cbc__heading">
-                          {{ block.settings.customise_collection.title | escape }}
-                      </h3>
-                      {%- endif -%}
-                   
+                        <div class="cbi__link">
+                            <a href="{{ block.settings.customise_collection.url }}" class="">click here to order</a>
+                        </div>
+                    {%- endif -%}
                     
                 </div>
               </div>
@@ -155,6 +162,12 @@
               "label": "t:sections.featured_columns.blocks.text_block.settings.title.label",
               "info": "t:sections.featured_columns.blocks.text_block.settings.title.info"
             },
+            {
+                "type": "richtext",
+                "id": "text",
+                "label": "description",
+                "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+              },
             {
                 "id": "customise_collection",
                 "type": "collection",

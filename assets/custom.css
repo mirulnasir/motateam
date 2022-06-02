@@ -232,6 +232,162 @@
   }
 }
 
+.section--collection-columns .box {
+  padding-bottom: 0px
+}
+
+.section--collection-columns .cc__intro .section-header {
+  margin-bottom: 0px
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .cc__intro .section-header {
+    margin-bottom: 2.5rem
+  }
+}
+
+.section--collection-columns .cc__intro .section-header h2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64rem;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+  line-height: 1.25
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .cc__intro .section-header h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem
+  }
+}
+
+@media (min-width: 1280px) {
+  .section--collection-columns .cc__intro .section-header h2 {
+    font-size: 44px
+  }
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry {
+    margin-bottom: 0px
+  }
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__inner {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  min-height: 250px;
+  overflow: hidden;
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 211 212 / var(--tw-bg-opacity));
+  text-align: left
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry .cbi__inner {
+    margin-left: 0px;
+    margin-right: 0px;
+    min-height: 400px
+  }
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__image {
+  position: absolute;
+  bottom: 0px;
+  right: 1rem;
+  height: 250px;
+  width: 188px;
+  overflow: hidden;
+  padding-top: 0px !important
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry .cbi__image {
+    height: 400px
+  }
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__collection-links > li {
+  margin-bottom: 0.25rem
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry .cbi__collection-links > li {
+    margin-bottom: 0.5rem
+  }
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__collection-links > li a {
+  font-weight: 600
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__intro {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 69 126 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  text-align: center
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry .cbi__intro {
+    padding: 1rem
+  }
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__intro .cbi__heading {
+  margin-top: 0px;
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry .cbi__intro .cbi__heading {
+    font-size: 1.5rem;
+    line-height: 2rem
+  }
+}
+
+@media (min-width: 1280px) {
+  .section--collection-columns .block--customise-by-industry .cbi__intro .cbi__heading {
+    font-size: 30px
+  }
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry.cbc--men .cbc__image {
+    height: 399px
+  }
+
+  .section--collection-columns .block--customise-by-industry.cbc--women .cbc__image {
+    height: 378px
+  }
+
+  .section--collection-columns .block--customise-by-industry.cbc--kids .cbc__image {
+    height: 338px
+  }
+}
+
+.section--collection-columns .block--customise-by-industry.cbc--women .cbc__image, .section--collection-columns .block--customise-by-industry.cbc--kids .cbc__image {
+  left: 120px
+}
+
+@media (min-width: 1280px) {
+  .section--collection-columns .block--customise-by-industry.cbc--women .cbc__image, .section--collection-columns .block--customise-by-industry.cbc--kids .cbc__image {
+    left: 140px
+  }
+}
+
 #section-template--14249950019630__16417123741684874d, #section-template--14249963716654__16417123741684874d {
   --tw-bg-opacity: 1;
   background-color: rgb(8 69 126 / var(--tw-bg-opacity));

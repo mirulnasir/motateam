@@ -59,3 +59,61 @@
     }
   }
 }
+
+.section--collection-columns {
+  & .box {
+    @apply pb-0;
+  }
+  & .cc__intro {
+    & .section-header {
+      @apply mb-0 lg:mb-10;
+      & h2 {
+        @apply text-3xl lg:text-4xl xl:text-[44px] uppercase text-center leading-tight max-w-5xl mx-auto;
+      }
+    }
+  }
+  & .block--customise-by-industry {
+    @apply lg:mb-0;
+    & .cbi__inner {
+      @apply bg-[#d1d3d4] relative text-left h-full min-h-[250px] lg:min-h-[400px]  mx-auto lg:mx-0 overflow-hidden;
+    }
+    & .cbi__image {
+      @apply absolute bottom-0 overflow-hidden h-[250px] lg:h-[400px] w-[188px] !pt-0 right-4;
+    }
+    & .cbi__collection-links {
+      & > li {
+        @apply mb-1 lg:mb-2;
+        & a {
+          @apply font-semibold;
+        }
+      }
+    }
+    & .cbi__intro {
+      @apply bg-theme p-2 lg:p-4 text-center;
+      & .cbi__heading {
+        @apply text-xl lg:text-2xl xl:text-[30px] leading-none uppercase text-white font-semibold mt-0 mb-1;
+      }
+    }
+    &.cbc--men {
+      & .cbc__image {
+        @apply lg:h-[399px];
+      }
+    }
+    &.cbc--women {
+      & .cbc__image {
+        @apply lg:h-[378px];
+      }
+    }
+    &.cbc--kids {
+      & .cbc__image {
+        @apply lg:h-[338px];
+      }
+    }
+    &.cbc--women,
+    &.cbc--kids {
+      & .cbc__image {
+        @apply left-[120px]  xl:left-[140px];
+      }
+    }
+  }
+}
