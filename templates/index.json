@@ -151,7 +151,8 @@
           "settings": {
             "title": "",
             "collection": "men",
-            "customise_link_list": "footer"
+            "customise_link_list": "footer",
+            "image": "shopify:\/\/shop_images\/men.png"
           }
         },
         "165419897865901107-1": {
@@ -159,7 +160,8 @@
           "settings": {
             "title": "",
             "collection": "women",
-            "customise_link_list": "footer"
+            "customise_link_list": "footer",
+            "image": "shopify:\/\/shop_images\/fem.png"
           }
         },
         "165419897865901107-2": {
@@ -167,7 +169,8 @@
           "settings": {
             "title": "",
             "collection": "kids",
-            "customise_link_list": "footer"
+            "customise_link_list": "footer",
+            "image": "shopify:\/\/shop_images\/kids.png"
           }
         }
       },
@@ -179,7 +182,7 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "title": "Featured columns",
+        "title": "Customise your product",
         "subtitle": "",
         "section_style": "section-blank",
         "text_align": "text-center"
