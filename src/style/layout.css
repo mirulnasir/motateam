@@ -1,5 +1,5 @@
 .section--simple-heading {
-  @apply py-8 lg:py-16;
+  @apply py-6 lg:py-10;
   & h2 {
     @apply text-2xl lg:text-3xl xl:text-4xl text-center leading-tight max-w-5xl mx-auto;
   }

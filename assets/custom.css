@@ -46,14 +46,14 @@
 }
 
 .section--simple-heading{
-  padding-top: 2rem;
-  padding-bottom: 2rem
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem
 }
 
 @media (min-width: 1024px){
   .section--simple-heading{
-    padding-top: 4rem;
-    padding-bottom: 4rem
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem
   }
 }
 
