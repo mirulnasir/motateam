@@ -463,7 +463,7 @@
           "e366f45e-d760-490c-8e75-e4c6c69bc2bd"
         ],
         "settings": {
-          "show_guarantee": true,
+          "show_guarantee": false,
           "guarantee_size": "xl",
           "section_style": "section-blank"
         }
