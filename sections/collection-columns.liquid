@@ -18,7 +18,7 @@
         {%- endunless -%}
   
         {%- if section.blocks.size > 0 -%}
-          <div class="grid cc__cbi grid-spacer {{ section.settings.text_align }}">
+          <div class="grid cc__cbi  {{ section.settings.text_align }}">
   
             {%- capture column_width -%}
               {%- render 'block-width' -%}
@@ -28,45 +28,31 @@
             {%- for block in section.blocks -%}
               <div class="grid__item block--customise-by-industry cbi--{{ block.settings.title }} {{ column_width }}" 
                 {{ block.shopify_attributes }}>
-                <div class="cbi__intro">
-                {%- if block.settings.customise_collection != blank -%}
-                    <h3 class="cbi__heading">
-                      {{ block.settings.customise_collection.title | escape }}
-                  </h3>
-                  {%- endif -%}
-                </div>
+              
                
                 <div class="cbi__inner">
-                    {%- if block.settings.customise_collection != blank -%}
-                        <div class="relative cbi__image" style="padding-top:{{ 1 | divided_by: block.settings.customise_collection.image.aspect_ratio | times: 100}}%;">
-                          {%- if block.settings.image_link != blank -%}
-                            <a href="{{ block.settings.image_link }}">
-                          {%- endif -%}
-        
-                            <img class="media lazyload"
-                            {%- render 'lazysizes', img: block.settings.customise_collection.image, img_type: 'responsive' -%}
-                            alt="{{ block.settings.image.alt }}">
-        
-                          {%- if block.settings.image_link != blank -%}
-                            </a>
+                    <div class="cbi__intro">
+                        {%- if block.settings.customise_collection != blank -%}
+                            <h3 class="cbi__heading">
+                              {{ block.settings.customise_collection.title | escape }}
+                          </h3>
                           {%- endif -%}
                         </div>
-                    
-                      {%- elsif block.settings.icon != blank -%}
-                        <span class="{{ settings.icon }} icon-xl text-secondary" aria-hidden="true">{{ block.settings.icon }}</span>
-                      {%- else -%}
-                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg spacer-bottom' }}
-                    {%- endif -%}
+                  
                     {%- if block.settings.text != blank -%}
                         <div class="cbi__bodycopy">
-                            {{ block.settings.text }}
+                            <img class=" lazyload cbi__bodycopy__image"
+                                {%- render 'lazysizes', img: block.settings.customise_collection.image, img_type: 'responsive' -%}
+                                alt="{{ block.settings.image.alt }}" style="-webkit-shape-outside: url({{ block.settings.customise_collection.image  | img_url:img_size  }});shape-outside: url({{ block.settings.customise_collection.image | img_url:img_size  }});">
+                            {{ block.settings.text }}  
+                            {%- if block.settings.customise_collection != blank -%}
+                                <div class="cbi__link">
+                                    <a href="{{ block.settings.customise_collection.url }}" class="">click here to order</a>
+                                </div>
+                            {%- endif -%}                        
                         </div>
                     {%- endif -%}
-                    {%- if block.settings.customise_collection != blank -%}
-                        <div class="cbi__link">
-                            <a href="{{ block.settings.customise_collection.url }}" class="">click here to order</a>
-                        </div>
-                    {%- endif -%}
+                    
                     
                 </div>
               </div>
@@ -78,6 +64,19 @@
   
       </div>
     </div>
+    <script>
+        function calcMarginTop (){
+            const col = document.getElementsByClassName('cbi__bodycopy');
+             console.log('test',col[0].getBoundingClientRect().height)
+        
+        }
+        window.onload = {
+            calcMarginTop ()
+        }
+        window.resize = {
+            calcMarginTop ()
+        }
+    </script>
   </div>
   
   {% schema %}

@@ -62,7 +62,6 @@
 
 .section--collection-columns {
   & .box {
-    @apply pb-0;
   }
   & .cc__intro {
     & .section-header {
@@ -75,49 +74,31 @@
   & .block--customise-by-industry {
     @apply lg:mb-0;
     & .cbi__inner {
-      @apply bg-[#d1d3d4] relative text-left h-full min-h-[250px] lg:min-h-[400px] p-2 lg:p-6  mx-auto lg:mx-0 overflow-hidden;
+      @apply bg-[#d1d3d4] relative text-left h-full  mx-auto lg:mx-0 overflow-hidden;
     }
     & .cbi__image {
-      @apply absolute bottom-0 overflow-hidden h-[250px] lg:h-[400px] w-[188px] !pt-0 right-4;
+      @apply hidden absolute bottom-0 overflow-hidden h-[250px] lg:h-[400px] w-[188px] !pt-0 right-4;
     }
-    & .cbi__collection-links {
-      & > li {
-        @apply mb-1 lg:mb-2;
-        & a {
-          @apply font-semibold;
-        }
-      }
-    }
+
     & .cbi__link {
+      @apply pb-7 lg:pb-10;
       & a {
         @apply inline-block bg-theme font-heading uppercase text-white p-2 lg:py-3 lg:px-5 leading-none font-semibold;
+      }
+    }
+    & .cbi__bodycopy {
+      @apply p-2 lg:p-6  pb-0 lg:pb-0;
+      & p {
+        @apply mb-4 lg:mb-7;
+      }
+      & .cbi__bodycopy__image {
+        @apply float-right w-52 h-[250px] object-contain object-right;
       }
     }
     & .cbi__intro {
       @apply bg-theme p-2 lg:p-4 text-center;
       & .cbi__heading {
         @apply text-xl lg:text-2xl xl:text-[30px] leading-none uppercase text-white font-semibold mt-0 mb-1;
-      }
-    }
-    &.cbc--men {
-      & .cbc__image {
-        @apply lg:h-[399px];
-      }
-    }
-    &.cbc--women {
-      & .cbc__image {
-        @apply lg:h-[378px];
-      }
-    }
-    &.cbc--kids {
-      & .cbc__image {
-        @apply lg:h-[338px];
-      }
-    }
-    &.cbc--women,
-    &.cbc--kids {
-      & .cbc__image {
-        @apply left-[120px]  xl:left-[140px];
       }
     }
   }

@@ -233,7 +233,6 @@
 }
 
 .section--collection-columns .box {
-  padding-bottom: 0px
 }
 
 .section--collection-columns .cc__intro .section-header {
@@ -281,20 +280,16 @@
   margin-left: auto;
   margin-right: auto;
   height: 100%;
-  min-height: 250px;
   overflow: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(209 211 212 / var(--tw-bg-opacity));
-  padding: 0.5rem;
   text-align: left
 }
 
 @media (min-width: 1024px) {
   .section--collection-columns .block--customise-by-industry .cbi__inner {
     margin-left: 0px;
-    margin-right: 0px;
-    min-height: 400px;
-    padding: 1.5rem
+    margin-right: 0px
   }
 }
 
@@ -302,6 +297,7 @@
   position: absolute;
   bottom: 0px;
   right: 1rem;
+  display: none;
   height: 250px;
   width: 188px;
   overflow: hidden;
@@ -314,18 +310,14 @@
   }
 }
 
-.section--collection-columns .block--customise-by-industry .cbi__collection-links > li {
-  margin-bottom: 0.25rem
+.section--collection-columns .block--customise-by-industry .cbi__link {
+  padding-bottom: 1.75rem
 }
 
 @media (min-width: 1024px) {
-  .section--collection-columns .block--customise-by-industry .cbi__collection-links > li {
-    margin-bottom: 0.5rem
+  .section--collection-columns .block--customise-by-industry .cbi__link {
+    padding-bottom: 2.5rem
   }
-}
-
-.section--collection-columns .block--customise-by-industry .cbi__collection-links > li a {
-  font-weight: 600
 }
 
 .section--collection-columns .block--customise-by-industry .cbi__link a {
@@ -348,6 +340,38 @@
     padding-left: 1.25rem;
     padding-right: 1.25rem
   }
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__bodycopy {
+  padding: 0.5rem;
+  padding-bottom: 0px
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry .cbi__bodycopy {
+    padding: 1.5rem;
+    padding-bottom: 0px
+  }
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__bodycopy p {
+  margin-bottom: 1rem
+}
+
+@media (min-width: 1024px) {
+  .section--collection-columns .block--customise-by-industry .cbi__bodycopy p {
+    margin-bottom: 1.75rem
+  }
+}
+
+.section--collection-columns .block--customise-by-industry .cbi__bodycopy .cbi__bodycopy__image {
+  float: right;
+  height: 250px;
+  width: 13rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: right;
+     object-position: right
 }
 
 .section--collection-columns .block--customise-by-industry .cbi__intro {
@@ -385,30 +409,6 @@
 @media (min-width: 1280px) {
   .section--collection-columns .block--customise-by-industry .cbi__intro .cbi__heading {
     font-size: 30px
-  }
-}
-
-@media (min-width: 1024px) {
-  .section--collection-columns .block--customise-by-industry.cbc--men .cbc__image {
-    height: 399px
-  }
-
-  .section--collection-columns .block--customise-by-industry.cbc--women .cbc__image {
-    height: 378px
-  }
-
-  .section--collection-columns .block--customise-by-industry.cbc--kids .cbc__image {
-    height: 338px
-  }
-}
-
-.section--collection-columns .block--customise-by-industry.cbc--women .cbc__image, .section--collection-columns .block--customise-by-industry.cbc--kids .cbc__image {
-  left: 120px
-}
-
-@media (min-width: 1280px) {
-  .section--collection-columns .block--customise-by-industry.cbc--women .cbc__image, .section--collection-columns .block--customise-by-industry.cbc--kids .cbc__image {
-    left: 140px
   }
 }
 
