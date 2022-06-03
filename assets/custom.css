@@ -60,6 +60,7 @@
 .section--simple-heading h2{
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
   max-width: 64rem;
   text-align: center;
   font-size: 1.5rem;
