@@ -2,6 +2,11 @@
 {% unless product %}
 <div class="">This section can only be used in product pages<div>
 {% endunless %}
+{% assign section_id =  product.id %}
+{%  assign current_variant = product.selected_or_first_available_variant
+%}
+<div class="" data-product-blocks >
+    {% capture form_id %}AddToCartForm-{{ section_id }}{% endcapture %}
 <div class="product-block" {{ block.shopify_attributes }}>
     {%- unless product.has_only_default_variant -%}
       {%- for option in product.options_with_values -%}
@@ -36,6 +41,16 @@
       {%- endfor -%}
     {%- endunless -%}
   </div>
+  <div class="product-block">
+    {%- render 'product-form',
+      form_id: form_id,
+      section_id: section_id,
+      product: product,
+      show_dynamic_checkout: block.settings.show_dynamic_checkout,
+      current_variant: current_variant
+    -%}
+  </div>
+</div>
 
 {% schema %}
 {
