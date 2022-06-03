@@ -231,6 +231,14 @@
         "text_align": "text-center"
       }
     },
+    "1654216209bffbc82c": {
+      "type": "simple-heading",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Temporary heading"
+      }
+    },
     "1653394728482a6f70": {
       "type": "featured-image",
       "settings": {
@@ -484,6 +492,14 @@
         "section_style": "section-blank",
         "customer_tag": "newsletter"
       }
+    },
+    "165421623100d7cc43": {
+      "type": "simple-heading",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Another heading"
+      }
     }
   },
   "order": [
@@ -492,11 +508,13 @@
     "16541967489cc89e50",
     "1654198978a95972d5",
     "1654207651283fb86b",
+    "1654216209bffbc82c",
     "1653394728482a6f70",
     "1653198284903dca7f",
     "1629399490b0e17cd0",
     "1629399290de0221c2",
     "16296208005741f69e",
-    "1652092599c6761edd"
+    "1652092599c6761edd",
+    "165421623100d7cc43"
   ]
 }
