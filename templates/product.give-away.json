@@ -8,21 +8,6 @@
           "settings": {
           }
         },
-        "22eb7137-6fac-47d8-8238-05ca992fef7d": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_labels": true,
-            "picker_type": "button",
-            "color_swatches": false
-          }
-        },
-        "76390eff-37cf-45b1-a8a4-cff1582efb4a": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -37,8 +22,6 @@
       },
       "block_order": [
         "price",
-        "22eb7137-6fac-47d8-8238-05ca992fef7d",
-        "76390eff-37cf-45b1-a8a4-cff1582efb4a",
         "description",
         "share"
       ],
