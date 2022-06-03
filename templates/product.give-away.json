@@ -8,13 +8,6 @@
           "settings": {
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -29,7 +22,6 @@
       },
       "block_order": [
         "price",
-        "buy_buttons",
         "description",
         "share"
       ],
