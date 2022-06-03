@@ -2,7 +2,7 @@
   {%- render 'block-width' -%}
 {%- endcapture -%}
 
-{%- if section.blocks.size > 0 and section.settings.show_guarantee -%}
+{%- if section.blocks.size > 0  -%}
   <div id="section-{{ section.id }}" class="{{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="guarantee-template">
     <div class="box box-small">
       <div class="wrapper">
@@ -56,11 +56,12 @@
     "class": "guarantee-section",
     "max_blocks": 8,
     "settings": [
+     
       {
-        "type": "checkbox",
-        "id": "show_guarantee",
-        "label": "t:sections.guarantee.settings.show_guarantee.label",
-        "default": true
+        "type": "text",
+        "id": "title",
+        "label": "t:sections.guarantee.blocks.text.settings.title.label",
+        "info": "t:sections.guarantee.blocks.text.settings.title.info"
       },
       {
         "type": "select",
