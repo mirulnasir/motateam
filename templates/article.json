@@ -1,1 +1,1 @@
-{"sections":{"main":{"type":"article-template","settings":{}},"back-to-blog":{"type":"article-back-to-blog","settings":{}}},"order":["main","back-to-blog"]}
+{"sections":{"main":{"type":"article-template","settings":{}},"blog-posts":{"type":"blog-posts","settings":{"title":"You may also like"}}},"order":["main","blog-posts"]}

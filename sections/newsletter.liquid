@@ -1,87 +1,98 @@
-<div id="section-{{ section.id }}" class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {% unless section.settings.show_on_mobile %} small--hide{% endunless %} {{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="newsletter-section">
-  <div class="box">
-    <div class="wrapper">
-      <div class="grid">
-        <div class="grid__item large--eight-twelfths push--large--two-twelfths one-whole text-center">
-          {%- unless section.settings.title == blank -%}
-          <h2>{{ section.settings.title | escape }}</h2>
-          {%- endunless -%}
-          {%- unless section.settings.subtitle == blank -%}
-          <p class="text-lead">{{ section.settings.subtitle | escape }}</p>
-          {%- endunless -%}
-          {%- render 'newsletter-form', source: section.settings.customer_tag -%}
-        </div>
+<div class="index-section index-section--alt newsletter-section newsletter-{{ section.id }}" data-aos>
+  <div class="page-width text-center">
+    {%- for block in section.blocks -%}
+      <div class="theme-block" {{ block.shopify_attributes }}>
+        {%- case block.type -%}
+          {%- when '@app' -%}
+            {% render block %}
+          {%- when 'title' -%}
+            {%- if block.settings.title != blank -%}
+              <div class="h2 appear-delay" {{ block.shopify_attributes }}>
+                {{ block.settings.title }}
+              </div>
+            {%- endif -%}
+          {%- when 'text' -%}
+            {%- if block.settings.text != blank -%}
+              <div class="rte rte--block appear-delay-1" {{ block.shopify_attributes }}>
+                {{ block.settings.text }}
+              </div>
+            {%- endif -%}
+          {%- when 'form' -%}
+            <div class="appear-delay-2" {{ block.shopify_attributes }}>
+              {%- render 'newsletter-form', section_id: section.id, snippet_context: 'section' -%}
+            </div>
+          {%- when 'share_buttons' -%}
+            {%- render 'social-sharing' -%}
+        {%- endcase -%}
       </div>
-    </div>
+    {%- endfor -%}
   </div>
 </div>
 
 {% schema %}
-  {
-    "name": "t:sections.newsletter.name",
-    "class": "newsletter-section",
-    "settings": [
-      {
-        "type": "checkbox",
-        "id": "show_on_desktop",
-        "label": "t:sections.newsletter.settings.show_on_desktop.label",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "show_on_mobile",
-        "label": "t:sections.newsletter.settings.show_on_mobile.label",
-        "default": true
-      },
-      {
-        "type": "text",
-        "id": "title",
-        "label": "t:sections.newsletter.settings.title.label",
-        "default": "Subscribe to our newsletter"
-      },
-	    {
-        "type": "text",
-        "id": "subtitle",
-        "label": "t:sections.newsletter.settings.subtitle.label",
-	    	"default": "A short sentence describing what someone will receive by subscribing"
-      },
-      {
-        "type": "select",
-        "id": "section_style",
-        "label": "t:sections.newsletter.settings.section_style.label",
-        "default": "section-blank",
-        "options": [
-          {
-            "value": "section-blank",
-            "label": "t:sections.newsletter.settings.section_style.options__1.label"
-          },
-          {
-            "value": "section-default",
-            "label": "t:sections.newsletter.settings.section_style.options__2.label"
-          },
-          {
-            "value": "section-border",
-            "label": "t:sections.newsletter.settings.section_style.options__3.label"
-          }
-        ]
-      },
-      {
-        "type": "text",
-        "id": "customer_tag",
-        "label": "t:sections.newsletter.settings.customer_tag.label",
-        "default": "newsletter",
-        "info": "t:sections.newsletter.settings.customer_tag.info"
-      },
-	    {
-        "type": "paragraph",
-        "content": "t:sections.newsletter.settings.paragraph.content"
-      }
-	  ],
-	  "presets": [
-      {
-        "name": "t:sections.newsletter.presets.name",
-        "category": "t:sections.newsletter.presets.category"
-      }
-    ]
-  }
+{
+  "name": "t:sections.newsletter.name",
+  "max_blocks": 6,
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "title",
+      "name": "t:sections.newsletter.blocks.title.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.newsletter.blocks.title.settings.title.label",
+          "default": "Sign up and save"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.newsletter.blocks.text.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:sections.newsletter.blocks.text.settings.text.label",
+          "default": "<p>Let customers know about the key benefits of joining your newsletter.</p>"
+        }
+      ]
+    },
+    {
+      "type": "form",
+      "name": "t:sections.newsletter.blocks.form.name",
+      "limit": 1
+    },
+    {
+      "type": "share_buttons",
+      "name": "t:sections.newsletter.blocks.share_buttons.name",
+      "limit": 1
+    }
+  ],
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.newsletter.settings.content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.newsletter.presets.email_signup.name",
+      "blocks": [
+        {
+          "type": "title"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "form"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}

@@ -1,73 +1,80 @@
-{%- liquid
-  if emptyState
-    assign article_title = 'home_page.onboarding.blog_title' | t
-    assign article_link = '/admin/articles'
-    assign article_content = 'home_page.onboarding.blog_excerpt' | t
-  else
-    assign article_title = article.title
-    assign article_link = article.url
-    assign article_content = article.excerpt_or_content
-  endif
+{%- assign fixed_aspect_ratio = false -%}
+{% unless image_size == 'natural' %}
+  {%- assign fixed_aspect_ratio = true -%}
+{% endunless %}
 
-  assign number_of_comments = article.comments_count
+<article class="article-listing" data-aos>
 
-  if comment and comment.created_at
-    assign number_of_comments = article.comments_count | plus: 1
-  endif
--%}
-
-<article class="grid__item {{ grid_item_width }} flex article-grid-item">
-  <div class="card">
-    <a href="{{ article_link }}" title="{{ 'blogs.article.read_more' | t }}">
-      <div class="image-link" title="{{ 'blogs.article.read_more' | t }}">
-        {%- if article.image != blank -%}
-          <div class="card-image media-wrapper" style="padding-top: 100%;">
-            <img class="media lazyload"
-              {%- render 'lazysizes', img: article.image, img_type: 'responsive' -%}
-                  alt="{{ article.image.alt }}">
+  {%- if article.image -%}
+    <div class="article__image-wrap">
+      <a href="{{ article.url }}" class="article__grid-image">
+        {%- if fixed_aspect_ratio -%}
+          <div class="image-wrap">
+            <div
+              class="grid__image-ratio grid__image-ratio--cover grid__image-ratio--{{ image_size }} lazyload"
+              data-bgset="{% render 'bgset', image: article.image %}"
+              data-sizes="auto">
+            </div>
+            <noscript>
+              <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}">
+            </noscript>
           </div>
-        {%- elsif emptyState -%}
-          {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'card-image placeholder-svg' }}
         {%- else -%}
-          {{ 'image' | append: current | placeholder_svg_tag: 'card-image placeholder-svg' }}
+          <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: article.image.aspect_ratio }}%;">
+            {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+            <img class="lazyload"
+                data-src="{{ img_url }}"
+                data-widths="[180, 360, 540, 720, 900, 1080]"
+                data-aspectratio="{{ article.image.aspect_ratio }}"
+                data-sizes="auto"
+                alt="{{ article.image.alt | escape }}">
+            <noscript>
+              <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}">
+            </noscript>
+          </div>
+        {%- endif -%}
+      </a>
+    </div>
+  {%- endif -%}
+
+  <div class="article__content text-center">
+    <div class="article__content-meta">
+      <div class="h3">
+        <a href="{{ article.url }}">{{ article.title }}</a>
+      </div>
+
+      <div class="article__date">
+        {%- assign first_item = true -%}
+        {%- if show_tags and article.tags.size > 0 -%}
+          {%- for tag in article.tags -%}
+            {% if tag contains "_" %}{%- assign tag_starts_with = tag | slice: 0 -%}{% if tag_starts_with == "_" %}{% if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif %}{% continue %}{% endif %}{% endif %}
+            {% unless first_item %} &middot; {% endunless %}{%- assign first_item = false -%}
+            <a href="{{ blog.url }}/tagged/{{ tag | handle }}">
+              {{ tag }}
+            </a>
+          {%- endfor -%}
+        {%- endif -%}
+        {%- if show_comments and article.comments_count > 0 -%}
+          {% unless first_item %} &middot; {% endunless %}{%- assign first_item = false -%}
+          <a href="{{ article.url }}#comments">
+            {{ 'blogs.comments.with_count' | t: count: article.comments_count }}
+          </a>
+        {%- endif -%}
+        {%- if show_date -%}
+          {% unless first_item %} &middot; {% endunless %}{%- assign first_item = false -%}
+          {{ article.published_at | time_tag: format: 'month_day_year' }}
         {%- endif -%}
       </div>
-    </a>
 
-    <div class="card-body">
-      <a href="{{ article_link }}" title="{{ 'blogs.article.read_more' | t }}">
-        {%- if no_heading_tag -%}
-          <p class="article_grid-title h3">
-            {{ article_title }}
-          </p>
-        {%- else -%}
-          {%- if request.page_type == "blog" -%}
-            <h3 class="article_grid-title h3">
-              {{ article_title }}
-            </h3>
-          {%- else -%}
-            <h4 class="article_grid-title">
-              {{ article_title }}
-            </h4>
-          {%- endif -%}
-        {%- endif -%}
-
-        {%- unless article_content == blank -%}
-          <p>
-            {{ article_content | strip_html | truncatewords: settings.word_count }}
-          </p>
-        {%- endunless -%}
-      </a>
-
-      {%- if settings.show_tags -%}
-        {%- render 'tags-article' with article as article, hide_label: true -%}
+      {%- if show_author -%}
+        <div class="article__author">by {{ article.author }}</div>
       {%- endif -%}
     </div>
 
-    <div class="card-footer card-footer-xs text-small text-italic">
-      <a href="{{ article_link }}" title="{{ 'blogs.article.read_more' | t }}">
-        {%- render 'blog-meta' with article as article, show_author: settings.show_author, show_date: settings.show_date, show_comments: settings.show_comments, number_of_comments: number_of_comments, number_of_comments: number_of_comments, blog: blog, emptyState: emptyState -%}
-      </a>
-    </div>
+    {%- if show_excerpt and article.excerpt.size > 0 -%}
+      <div class="rte rte--block">
+        {{ article.excerpt }}
+      </div>
+    {%- endif -%}
   </div>
 </article>
