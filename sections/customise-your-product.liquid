@@ -18,7 +18,7 @@
         {%- endunless -%}
   
         {%- if section.blocks.size > 0 -%}
-          <div class="grid cyp__cbc grid-spacer {{ section.settings.text_align }}">
+          <div class="grid cyp__cbc {{ section.settings.text_align }}">
   
             {%- capture column_width -%}
               {%- render 'block-width' -%}
