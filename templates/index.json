@@ -182,6 +182,7 @@
     },
     "1654207651283fb86b": {
       "type": "collection-columns",
+      "disabled": true,
       "blocks": {
         "1654207651ffaff750-0": {
           "type": "text_block",
