@@ -1,0 +1,25 @@
+{% comment %} {%- assign product = all_products[section.settings.featured_product] -%} {% endcomment %}
+{% unless product %}
+<div class="">not in product</div>
+{% endunless %}
+
+
+{% schema %}
+{
+  "name": "Featured Giveaway",
+  "settings": [
+  
+  ],
+  "blocks": [
+
+],
+  "presets": [
+    {
+      "name": "Giveaway Tickets",
+      "blocks": [
+       
+      ]
+    }
+  ]
+}
+{% endschema %}
