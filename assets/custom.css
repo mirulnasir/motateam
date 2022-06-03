@@ -431,6 +431,10 @@
   justify-content: center
 }
 
+#section-template--14249950019630__16417123741684874d .grid.grid-spacer, #section-template--14249963716654__16417123741684874d .grid.grid-spacer {
+  margin-bottom: 0px
+}
+
 #section-template--14249950019630__16417123741684874d .grid .grid__item, #section-template--14249963716654__16417123741684874d .grid .grid__item {
   margin-bottom: 0px
 }
@@ -497,6 +501,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-footer h6 {
+  text-align: center;
   font-family: Barlow Condensed;
   font-size: 2.25rem;
   line-height: 2.5rem;

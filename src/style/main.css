@@ -8,6 +8,9 @@
   @apply bg-theme py-4 lg:py-0;
   & .grid {
     @apply justify-center items-center;
+    &.grid-spacer {
+      @apply mb-0;
+    }
     & .grid__item {
       @apply mb-0;
     }
@@ -52,7 +55,7 @@ h6 {
 .top-footer {
   @apply bg-gray-200 py-6 lg:py-8;
   & h6 {
-    @apply font-heading text-4xl uppercase !text-gray-900;
+    @apply font-heading text-4xl uppercase !text-gray-900 text-center;
   }
   & .top-footer__inner {
     @apply w-max mx-auto;
