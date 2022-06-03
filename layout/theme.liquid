@@ -80,7 +80,7 @@
 
     <!-- Preload assets -->
     <link rel="preload" href="{{ "theme.scss.css" | asset_url }}" as="style">
-    <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@400;600&display=swap" type="font/woff2" crossorigin>
+    {% comment %} <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@400;600&display=swap" type="font/woff2" crossorigin> {% endcomment %}
     {% comment %} <link rel="preload" as="font" href="{{ header_family | font_url }}" type="font/woff2" crossorigin>
     <link rel="preload" as="font" href="{{ accent_family | font_url }}" type="font/woff2" crossorigin>
     <link rel="preload" as="font" href="{{ base_family | font_url }}" type="font/woff2" crossorigin> {% endcomment %}

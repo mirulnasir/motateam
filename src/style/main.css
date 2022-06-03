@@ -3,6 +3,7 @@
 @import "tailwindcss/utilities";
 
 @import "./layout.css";
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@400;600&display=swap");
 #section-template--14249950019630__16417123741684874d,
 #section-template--14249963716654__16417123741684874d {
   @apply bg-theme py-4 lg:py-0;
