@@ -140,11 +140,11 @@
         }
     },
     "order": [
+        "main",
         "hero-animated",
         "text-and-image",
         "text-and-image2",
         "testimonials",
-        "main",
         "sub",
         "hero-video",
         "product-recommendations",
