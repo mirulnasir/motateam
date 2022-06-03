@@ -472,8 +472,8 @@
           "type": "text",
           "settings": {
             "title": "",
-            "guarantee_icon": "loyalty",
-            "heading_text": "Our Guarantee",
+            "guarantee_icon": "electric_rickshaw",
+            "heading_text": "Shipping Australia Wide",
             "text": "<p>Share your guarantees with your customers.<\/p>",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center",
@@ -486,8 +486,8 @@
           "type": "text",
           "settings": {
             "title": "",
-            "guarantee_icon": "loyalty",
-            "heading_text": "Our Guarantee",
+            "guarantee_icon": "forward_30",
+            "heading_text": "Satisfied Or Refunded",
             "text": "<p>Share your guarantees with your customers.<\/p>",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center",
@@ -500,8 +500,8 @@
           "type": "text",
           "settings": {
             "title": "",
-            "guarantee_icon": "loyalty",
-            "heading_text": "Our Guarantee",
+            "guarantee_icon": "mail_outline",
+            "heading_text": "Top-Notch Support",
             "text": "<p>Share your guarantees with your customers.<\/p>",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center",
@@ -514,8 +514,8 @@
           "type": "text",
           "settings": {
             "title": "",
-            "guarantee_icon": "loyalty",
-            "heading_text": "Our Guarantee",
+            "guarantee_icon": "credit_card",
+            "heading_text": "Secure Payments",
             "text": "<p>Share your guarantees with your customers.<\/p>",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center",
