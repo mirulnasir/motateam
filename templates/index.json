@@ -250,78 +250,6 @@
         "image_link": ""
       }
     },
-    "165421766608d91cf7": {
-      "type": "guarantee-grid",
-      "blocks": {
-        "1654217666b845bc40-0": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "guarantee_icon": "loyalty",
-            "heading_text": "Our Guarantee",
-            "text": "<p>Share your guarantees with your customers.<\/p>",
-            "text_alignment": "text-center",
-            "text_alignment_mobile": "text-center",
-            "button_style": "btn-outline-primary",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "1654217666b845bc40-1": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "guarantee_icon": "loyalty",
-            "heading_text": "Our Guarantee",
-            "text": "<p>Share your guarantees with your customers.<\/p>",
-            "text_alignment": "text-center",
-            "text_alignment_mobile": "text-center",
-            "button_style": "btn-outline-primary",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "1654217666b845bc40-2": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "guarantee_icon": "loyalty",
-            "heading_text": "Our Guarantee",
-            "text": "<p>Share your guarantees with your customers.<\/p>",
-            "text_alignment": "text-center",
-            "text_alignment_mobile": "text-center",
-            "button_style": "btn-outline-primary",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "79e6b343-8c9b-413e-a0ee-2dc1daafdf74": {
-          "type": "text",
-          "settings": {
-            "title": "",
-            "guarantee_icon": "loyalty",
-            "heading_text": "Our Guarantee",
-            "text": "<p>Share your guarantees with your customers.<\/p>",
-            "text_alignment": "text-center",
-            "text_alignment_mobile": "text-center",
-            "button_style": "btn-outline-primary",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1654217666b845bc40-0",
-        "1654217666b845bc40-1",
-        "1654217666b845bc40-2",
-        "79e6b343-8c9b-413e-a0ee-2dc1daafdf74"
-      ],
-      "settings": {
-        "title": "CANGURO APPAREL",
-        "guarantee_size": "xl",
-        "section_style": "section-border"
-      }
-    },
     "1653198284903dca7f": {
       "type": "custom-html",
       "disabled": true,
@@ -537,6 +465,78 @@
         "autoplayspeed": 5
       }
     },
+    "165421766608d91cf7": {
+      "type": "guarantee-grid",
+      "blocks": {
+        "1654217666b845bc40-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "guarantee_icon": "loyalty",
+            "heading_text": "Our Guarantee",
+            "text": "<p>Share your guarantees with your customers.<\/p>",
+            "text_alignment": "text-center",
+            "text_alignment_mobile": "text-center",
+            "button_style": "btn-outline-primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1654217666b845bc40-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "guarantee_icon": "loyalty",
+            "heading_text": "Our Guarantee",
+            "text": "<p>Share your guarantees with your customers.<\/p>",
+            "text_alignment": "text-center",
+            "text_alignment_mobile": "text-center",
+            "button_style": "btn-outline-primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1654217666b845bc40-2": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "guarantee_icon": "loyalty",
+            "heading_text": "Our Guarantee",
+            "text": "<p>Share your guarantees with your customers.<\/p>",
+            "text_alignment": "text-center",
+            "text_alignment_mobile": "text-center",
+            "button_style": "btn-outline-primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "79e6b343-8c9b-413e-a0ee-2dc1daafdf74": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "guarantee_icon": "loyalty",
+            "heading_text": "Our Guarantee",
+            "text": "<p>Share your guarantees with your customers.<\/p>",
+            "text_alignment": "text-center",
+            "text_alignment_mobile": "text-center",
+            "button_style": "btn-outline-primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654217666b845bc40-0",
+        "1654217666b845bc40-1",
+        "1654217666b845bc40-2",
+        "79e6b343-8c9b-413e-a0ee-2dc1daafdf74"
+      ],
+      "settings": {
+        "title": "CANGURO APPAREL",
+        "guarantee_size": "xl",
+        "section_style": "section-border"
+      }
+    },
     "16296208005741f69e": {
       "type": "featured-blog",
       "disabled": true,
@@ -567,6 +567,7 @@
     },
     "165421623100d7cc43": {
       "type": "simple-heading",
+      "disabled": true,
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
@@ -582,10 +583,10 @@
     "1654207651283fb86b",
     "1654216209bffbc82c",
     "1653394728482a6f70",
-    "165421766608d91cf7",
     "1653198284903dca7f",
     "1629399490b0e17cd0",
     "1629399290de0221c2",
+    "165421766608d91cf7",
     "16296208005741f69e",
     "1652092599c6761edd",
     "165421623100d7cc43"
