@@ -135,6 +135,14 @@
         "wrapper_size": ""
       }
     },
+    "16541967489cc89e50": {
+      "type": "simple-heading",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "100% AUSTRALIAN COTTON BLANK T-SHIRTS & APPAREL MANUFACTURED FOR SUPERIOR DTG, DTF & SCREEN PRINTING"
+      }
+    },
     "1654198978a95972d5": {
       "type": "customise-your-product",
       "blocks": {
@@ -221,14 +229,6 @@
         "subtitle": "",
         "section_style": "section-blank",
         "text_align": "text-center"
-      }
-    },
-    "16541967489cc89e50": {
-      "type": "simple-heading",
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "title": "100% AUSTRALIAN COTTON BLANK T-SHIRTS & APPAREL MANUFACTURED FOR SUPERIOR DTG, DTF & SCREEN PRINTING"
       }
     },
     "1653394728482a6f70": {
@@ -489,9 +489,9 @@
   "order": [
     "164329366375cc67e0",
     "16417123741684874d",
+    "16541967489cc89e50",
     "1654198978a95972d5",
     "1654207651283fb86b",
-    "16541967489cc89e50",
     "1653394728482a6f70",
     "1653198284903dca7f",
     "1629399490b0e17cd0",
