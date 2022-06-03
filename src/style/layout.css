@@ -1,7 +1,7 @@
 .section--simple-heading {
   @apply py-8 lg:py-16;
   & h2 {
-    @apply text-3xl lg:text-4xl xl:text-[44px] text-center leading-tight max-w-5xl mx-auto;
+    @apply text-2xl lg:text-3xl xl:text-4xl text-center leading-tight max-w-5xl mx-auto;
   }
 }
 .section--customise-your-product {

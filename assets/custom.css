@@ -62,21 +62,22 @@
   margin-right: auto;
   max-width: 64rem;
   text-align: center;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   line-height: 1.25
 }
 
 @media (min-width: 1024px){
   .section--simple-heading h2{
-    font-size: 2.25rem;
-    line-height: 2.5rem
+    font-size: 1.875rem;
+    line-height: 2.25rem
   }
 }
 
 @media (min-width: 1280px){
   .section--simple-heading h2{
-    font-size: 44px
+    font-size: 2.25rem;
+    line-height: 2.5rem
   }
 }
 
