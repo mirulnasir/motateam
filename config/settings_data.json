@@ -465,7 +465,7 @@
         "settings": {
           "show_guarantee": true,
           "guarantee_size": "xl",
-          "section_style": "section-border"
+          "section_style": "section-blank"
         }
       },
       "footer": {
