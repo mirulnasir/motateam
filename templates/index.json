@@ -298,6 +298,18 @@
         "title": "FAQs"
       }
     },
+    "1654498494af01ade5": {
+      "type": "marquee",
+      "settings": {
+        "text": "FOLLOW US ON INSTAGRAM @MOTATEAMAUSTRALIIA",
+        "link": "",
+        "text_size": 30,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "slow"
+      }
+    },
     "165448950900f21cf3": {
       "type": "apps",
       "blocks": {
@@ -352,6 +364,7 @@
     "29497505_1654137220",
     "165448555898d0b98d",
     "1654486549b02fc74f",
+    "1654498494af01ade5",
     "165448950900f21cf3",
     "165449668147bb6440"
   ]
