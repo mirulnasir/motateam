@@ -1,1 +1,23 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16544897767fdb6bdb": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "Featured collection",
+        "description": "",
+        "home_featured_products": "ticket-entries",
+        "per_row": "small",
+        "alt": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16544897767fdb6bdb"
+  ]
+}
