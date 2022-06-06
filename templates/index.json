@@ -263,7 +263,7 @@
           "type": "question",
           "settings": {
             "title": "Is your payments secure?",
-            "text": "<p>We take payment security seriously. Our website is protected and encrypted by secure socket layer technology (SSL). Our payment gateways are also protected by<br\/>further security measures.<\/p>"
+            "text": "<p>We take payment security seriously. Our website is protected and encrypted by secure socket layer technology (SSL). Our payment gateways are also protected by further security measures.<\/p>"
           }
         },
         "912c8d2e-91e9-4a1f-8ad8-f141649f274c": {
