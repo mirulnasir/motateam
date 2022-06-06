@@ -199,6 +199,32 @@
         "layout": "left",
         "alt": false
       }
+    },
+    "1654486549b02fc74f": {
+      "type": "faq",
+      "blocks": {
+        "1654486549b49122fe-0": {
+          "type": "question",
+          "settings": {
+            "title": "What is Mota Team?",
+            "text": "<p>Mota Team is<br\/>an automative car club which supports charities, local businesses and gives you<br\/>the chance to win luxury cars and prizes.<\/p>"
+          }
+        },
+        "1654486549b49122fe-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1654486549b49122fe-0",
+        "1654486549b49122fe-1"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
     }
   },
   "order": [
@@ -210,6 +236,7 @@
     "slideshow",
     "featured-collection",
     "29497505_1654137220",
-    "165448555898d0b98d"
+    "165448555898d0b98d",
+    "1654486549b02fc74f"
   ]
 }
