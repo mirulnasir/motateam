@@ -221,7 +221,7 @@
           "type": "question",
           "settings": {
             "title": "How Many entrants are in each draw?",
-            "text": "<p>Mota Team provide a competitive chance for our members, that's why we've capped our promotions.<\/p><p>Each promotion has a different cap depending on the value of the prize.<\/p><p>If we satisfy the entrant cap before the close date, we will automatically close the<br\/>draw, aach entrant can hold multiple entries in our draws. <\/p>"
+            "text": "<p>Mota Team provide a competitive chance for our members, that's why we've capped our promotions.<\/p><p>Each promotion has a different cap depending on the value of the prize.<\/p><p>If we satisfy the entrant cap before the close date, we will automatically close the draw, aach entrant can hold multiple entries in our draws. <\/p>"
           }
         },
         "46d61f07-b859-4ccb-be4a-7a25ef614cb2": {
@@ -277,7 +277,7 @@
           "type": "question",
           "settings": {
             "title": "What giveaways are open?",
-            "text": "<p>View Current<br\/>giveaways <a href=\"\/collections\/ticket-entries\" title=\"TICKET ENTRIES\">here<\/a><\/p>"
+            "text": "<p>View Current giveaways <a href=\"\/collections\/ticket-entries\" title=\"TICKET ENTRIES\">here<\/a><\/p>"
           }
         }
       },
