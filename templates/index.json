@@ -168,8 +168,8 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "win this porsche",
-        "description": "Lorem ipsum",
+        "title": "GET YOUR ENTRIES NOW!",
+        "description": "OR FOR THE BEST VALUE, GET ONE OF OUR VIP MEMBERSHIPS HERE",
         "home_featured_products": "ticket-entries",
         "rows": 2,
         "per_row_desktop": 3,
