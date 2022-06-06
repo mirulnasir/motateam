@@ -62,6 +62,12 @@
           "type": "share",
           "settings": {
           }
+        },
+        "8a5b85cf-61d9-4e26-a5ab-4719d65b3886": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": ""
+          }
         }
       },
       "block_order": [
@@ -73,7 +79,8 @@
         "buy_buttons",
         "tab",
         "contact",
-        "share"
+        "share",
+        "8a5b85cf-61d9-4e26-a5ab-4719d65b3886"
       ],
       "settings": {
         "product_image_size": "large",
