@@ -272,6 +272,13 @@
             "title": "Can I cancel my entries?",
             "text": "<p>You can cancel your membership at anytime.<br\/><br\/>If you are not entirely satisfied with your purchase, we’re here to help.<\/p><p><\/p><p>Please email us at <a href=\"mailto:info@motateam.com\">info@motateam.com <\/a>and<br\/>we will come back to you with a solution<\/p>"
           }
+        },
+        "f44d3083-c886-475c-8255-1a19c01d175a": {
+          "type": "question",
+          "settings": {
+            "title": "What giveaways are open?",
+            "text": "<p>View Current<br\/>giveaways <a href=\"\/collections\/ticket-entries\" title=\"TICKET ENTRIES\">here<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -284,7 +291,8 @@
         "51c3270a-3c9d-425c-9e72-4d7a0d24b772",
         "90a8ca6a-fa10-459b-99c0-bd6333b8fad7",
         "4bfe4262-7e67-41a6-951a-ebc2f7b3d35a",
-        "912c8d2e-91e9-4a1f-8ad8-f141649f274c"
+        "912c8d2e-91e9-4a1f-8ad8-f141649f274c",
+        "f44d3083-c886-475c-8255-1a19c01d175a"
       ],
       "settings": {
         "title": "FAQs"
