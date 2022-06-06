@@ -2,6 +2,7 @@
   "sections": {
     "165448796513f763e0": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "",
         "title": "1978 Porsche 930 Turbo GT2 Tribute",
@@ -17,6 +18,7 @@
     },
     "1654488472844e7f95": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1.png",
         "image2": "shopify:\/\/shop_images\/2.png",
