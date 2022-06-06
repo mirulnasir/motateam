@@ -304,7 +304,7 @@
         "bfb596c7-91ec-460e-afb2-5c5d2d04e37b": {
           "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
+            "heading_size": 25,
             "feed_width": 100,
             "html_area": ""
           }
