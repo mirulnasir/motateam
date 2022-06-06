@@ -50,22 +50,22 @@
     "main-collection": {
       "type": "main-collection",
       "blocks": {
+        "34a84e25-3c2a-481b-87bd-9eb2da5d5acc": {
+          "type": "collection_description",
+          "settings": {
+          }
+        },
         "product_grid": {
           "type": "product_grid",
           "settings": {
             "per_row_desktop": 3,
             "per_row_mobile": "1"
           }
-        },
-        "34a84e25-3c2a-481b-87bd-9eb2da5d5acc": {
-          "type": "collection_description",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "product_grid",
-        "34a84e25-3c2a-481b-87bd-9eb2da5d5acc"
+        "34a84e25-3c2a-481b-87bd-9eb2da5d5acc",
+        "product_grid"
       ],
       "settings": {
       }
