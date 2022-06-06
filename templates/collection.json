@@ -1,39 +1,5 @@
 {
   "sections": {
-    "165448796513f763e0": {
-      "type": "background-image-text",
-      "disabled": true,
-      "settings": {
-        "subtitle": "",
-        "title": "1978 Porsche 930 Turbo GT2 Tribute",
-        "text": "<p>Porsche produced only 57 examples of the original 993 GT2, which were only available for sale in Europe from 1995 to 1998. Assuming you can even locate one for sale, today it would cost you somewhere in the region of $2,000,000 to put one in your garage.<\/p><p>The 993 GT2 was a stunner when it was unveiled. The already widened 993 Turbo<br\/>bodywork was stretched to almost cartoonish proportions thanks to the muscular looking fender flares that were fastened with exposed hardware, the wide rear end boasting a towering rear wing and the menacingly deep dish, plus the three-piece speedline wheels.<\/p><p>Before RWB-style cars were even a thing, Porsche was showing the way forward with this outrageous creation.<\/p><p>The GT2 tribute we have here is based on a 1978 930 Turbo, producing in the region of 400HP. It is finished in jet black which frankly is the only colour to have a GT2 in, it looks absolutely menacing and turns heads like no other. <\/p><p><\/p>",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/1.png",
-        "desktop_size": -30,
-        "image_alignment": "center center",
-        "color_border": "#f4f4f4",
-        "layout": "left"
-      }
-    },
-    "1654488472844e7f95": {
-      "type": "text-and-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/1.png",
-        "image2": "shopify:\/\/shop_images\/2.png",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "this porsche has",
-        "text": "<p>- 6cylinder 3.3Ltr Turbo engine <\/p><p>- Racing bucket seats<\/p><p>- 4 speed manual gearbox- Widebody GT2 body kit<\/p><p>- Racing bonnet and engine clips <\/p><p>This car is absolutely stunning and could be yours for only $25.<\/p><p>Getyour VIP membership or single entries in today, tickets are extremely limited for this promotion, giving you the best chance to win! <\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "right",
-        "alt": false
-      }
-    },
     "collection-filters": {
       "type": "collection-filters",
       "disabled": true,
@@ -74,8 +40,6 @@
     }
   },
   "order": [
-    "165448796513f763e0",
-    "1654488472844e7f95",
     "collection-filters",
     "collection-header",
     "main-collection"
