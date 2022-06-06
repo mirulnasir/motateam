@@ -297,6 +297,26 @@
       "settings": {
         "title": "FAQs"
       }
+    },
+    "165448950900f21cf3": {
+      "type": "apps",
+      "blocks": {
+        "bfb596c7-91ec-460e-afb2-5c5d2d04e37b": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "bfb596c7-91ec-460e-afb2-5c5d2d04e37b"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -309,6 +329,7 @@
     "featured-collection",
     "29497505_1654137220",
     "165448555898d0b98d",
-    "1654486549b02fc74f"
+    "1654486549b02fc74f",
+    "165448950900f21cf3"
   ]
 }
