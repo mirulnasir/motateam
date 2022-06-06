@@ -1,1 +1,198 @@
-{"sections":{"main":{"type":"main-product","blocks":{"price":{"type":"price","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{}},"description":{"type":"description","settings":{}},"variant_picker":{"type":"variant_picker","settings":{}},"inventory_status":{"type":"inventory_status","settings":{}},"share":{"type":"share","settings":{}},"sales_point":{"type":"sales_point","settings":{}},"tab":{"type":"tab","settings":{}},"text":{"type":"text","settings":{}},"separator":{"type":"separator","settings":{}},"contact":{"type":"contact","settings":{}}},"block_order":["price","variant_picker","sales_point","inventory_status","buy_buttons","description","tab","contact","share"],"settings":{}},"sub":{"type":"product-full-width","disabled":true,"settings":{}},"product-recommendations":{"type":"product-recommendations","settings":{}},"collection-return":{"type":"collection-return","settings":{}},"background-image-text":{"type":"background-image-text","settings":{}},"text-and-image":{"type":"text-and-image","settings":{}},"text-and-image2":{"type":"text-and-image","settings":{"layout":"left"}},"testimonials":{"type":"testimonials","blocks":{"testimonials-0":{"type":"testimonial","settings":{}},"testimonials-1":{"type":"testimonial","settings":{}},"testimonials-2":{"type":"testimonial","settings":{}}},"block_order":["testimonials-0","testimonials-1","testimonials-2"],"settings":{}}},"order":["main","sub","background-image-text","text-and-image","text-and-image2","testimonials","product-recommendations","collection-return"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Refund Policy",
+            "content": "<p>Faulty Product Returns Policy<br\/><br\/><em>Our goods and services come with guarantees that cannot be excluded under the Australian Consumer Law. For major failures with the service, you are entitled:<\/em><\/p><p><em>to cancel your service contract with us; andto<br\/>     a refund for the unused portion, or to compensation for its reduced value.<\/em><\/p><p><em>You are also entitled to choose a refund or<br\/>replacement for major failures with goods. If a failure with the goods or a<br\/>service does not amount to a major failure, you are entitled to have the<br\/>failure rectified in a reasonable time. If this is not done you are entitled to<br\/>a refund for the goods and to cancel the contract for the service and obtain a<br\/>refund of any unused portion. You are also entitled to be compensated for any<br\/>other reasonably foreseeable loss or damage from a failure in the goods or<br\/>service.<\/em><\/p><p><strong>Returns<br\/>of faulty products<\/strong><\/p><p>If the<br\/>problem is major, you are entitled to a replacement, repair or refund. Examples<br\/>of major failure are when the product:<\/p><p>has<br\/>     a problem that would have stopped you buying it had you known about it;is<br\/>     unsafe;is<br\/>     significantly different from the description of the product; ordoesn’t<br\/>     do what we said it would do,<\/p><p>but does not<br\/>include damage caused by misuse or returns simply due to change of mind.<\/p><p>If the<br\/>problem is not major, we may choose to give you a free replacement instead of a<br\/>replacement or refund if this is possible.<\/p><p>If we cannot<br\/>repair the product within a reasonable time, you can choose a refund or<br\/>replacement. We reserve the right to refuse to provide a refund, repair or<br\/>replacement if the problem has, for instance, arisen because the product was<br\/>misused by the customer.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "description",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "tab",
+        "contact",
+        "share"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "stacked",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "desktop_size": 0,
+        "image_alignment": "center center",
+        "color_border": "#f4f4f4",
+        "layout": "left"
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "text-and-image2": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "left",
+        "alt": false
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "alt": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "background-image-text",
+    "text-and-image",
+    "text-and-image2",
+    "testimonials",
+    "product-recommendations",
+    "collection-return"
+  ]
+}
