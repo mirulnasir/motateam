@@ -18,6 +18,8 @@
     "1654488472844e7f95": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/1.png",
+        "image2": "shopify:\/\/shop_images\/2.png",
         "image_width": 700,
         "subtitle": "",
         "title": "this porsche has",
