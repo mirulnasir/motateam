@@ -32,6 +32,7 @@
     "type_base_spacing": 25,
     "type_base_size": 15,
     "type_base_line_height": 1.6,
+    "type_navigation_size": 26,
     "button_type_style": "normal",
     "button_style": "round",
     "animate_images": true,
@@ -136,6 +137,21 @@
       },
       "social": {
         "type": "social",
+        "blocks": {
+          "e63c9ca3-a30b-4b10-a37a-9070480e0cdb": {
+            "type": "post",
+            "settings": {
+              "link": "",
+              "product": "",
+              "account": "",
+              "caption": "",
+              "likes": ""
+            }
+          }
+        },
+        "block_order": [
+          "e63c9ca3-a30b-4b10-a37a-9070480e0cdb"
+        ],
         "settings": {
           "enable_home": false,
           "enable_product": false,
