@@ -18,7 +18,7 @@
         "title": "WE ARE MOTA.",
         "title_size": 81,
         "subheading": "JOIN OUR VIP CLUB & GET EXCLUSIVE DISCOUNTS",
-        "link_text": "LEARN MORE",
+        "link_text": "",
         "link": "shopify:\/\/pages\/giveaway",
         "color_accent": "#ffffff",
         "text_align": "vertical-bottom horizontal-center",
@@ -39,7 +39,7 @@
         "button_label": "BUY ENTRIES",
         "button_link": "",
         "button_style": "secondary",
-        "align_text": "center",
+        "align_text": "left",
         "layout": "right",
         "alt": false
       }
