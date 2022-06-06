@@ -19,7 +19,7 @@
           "settings": {
             "variant_labels": true,
             "picker_type": "button",
-            "color_swatches": false
+            "color_swatches": true
           }
         },
         "sales_point": {
