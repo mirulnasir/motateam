@@ -47,6 +47,8 @@
     "product_image_type": "stacked",
     "cart_type": "sticky",
     "cart_icon": "bag",
+    "social_instagram_link": "https:\/\/www.instagram.com\/motateamaustralia",
+    "social_facebook_link": "https:\/\/www.facebook.com\/motateamaustralia",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
