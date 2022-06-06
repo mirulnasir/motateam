@@ -11,7 +11,7 @@
     "collection-header": {
       "type": "collection-header",
       "settings": {
-        "collection_image_enable": false,
+        "collection_image_enable": true,
         "description_enable": false
       }
     },
