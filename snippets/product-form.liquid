@@ -11,11 +11,7 @@
   {%- if enable_dynamic_buttons -%}
     <div class="payment-buttons">
   {%- endif -%}
-
-   {%- if enable_dynamic_buttons -%}
-    <div class="payment-buttons">
-  {%- endif -%}    
-      
+ 
     {%- liquid
       assign default_text = 'products.product.add_to_cart' | t
       assign button_text = 'products.product.add_to_cart' | t
