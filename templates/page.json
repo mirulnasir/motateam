@@ -1,5 +1,17 @@
 {
   "sections": {
+    "1654580473ea92260b": {
+      "type": "marquee",
+      "settings": {
+        "text": "Free shipping and returns",
+        "link": "shopify:\/\/pages\/vip-club",
+        "text_size": 30,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "slow"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -48,6 +60,7 @@
     }
   },
   "order": [
+    "1654580473ea92260b",
     "main",
     "1654489882563f26ea",
     "1654491321c614394f",
