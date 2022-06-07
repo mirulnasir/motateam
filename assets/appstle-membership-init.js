@@ -118,7 +118,7 @@
                 "color": "",
             },
             "appstle_widget_text_color": {
-                "color": "",
+                "color": "#000000",
             },
             "appstle_selected_background": {
                 "background": "transparent",
