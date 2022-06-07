@@ -189,7 +189,7 @@
         "title": "Vip Membership",
         "description": "",
         "home_featured_products": "vip-memberships",
-        "rows": 2,
+        "rows": 1,
         "per_row_desktop": 3,
         "per_row_mobile": "1",
         "view_all": false,
