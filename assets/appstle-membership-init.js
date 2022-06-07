@@ -26,7 +26,7 @@
             "subscriptionLinkPlacement": "BEFORE"
         },
         "useUrlWithCustomerId": false,
-        "atcButtonSelector": "",
+        "atcButtonSelector": ".text-with-icons ",
         "moneyFormat": "{% raw %}${{amount}}{% endraw %}",
         "oneTimePurchaseText": "One Time Purchase",
         "shop": "motateam2.myshopify.com",
