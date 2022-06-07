@@ -45,6 +45,7 @@
     "enable_swatches": true,
     "quick_shop_enable": true,
     "quick_shop_style": "product",
+    "product_image_size": "medium",
     "product_image_type": "stacked",
     "cart_type": "sticky",
     "cart_icon": "bag",

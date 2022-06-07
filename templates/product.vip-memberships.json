@@ -5,6 +5,7 @@
       "blocks": {
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
@@ -86,9 +87,9 @@
         "8a5b85cf-61d9-4e26-a5ab-4719d65b3886"
       ],
       "settings": {
-        "product_image_size": "large",
+        "product_image_size": "small",
         "product_image_type": "stacked",
-        "product_zoom_enable": true,
+        "product_zoom_enable": false,
         "enable_video_looping": true,
         "product_video_style": "muted",
         "sku_enable": false
