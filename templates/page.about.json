@@ -34,56 +34,20 @@
         "autoplay_speed": 7
       }
     },
-    "16545740875d0af02d": {
-      "type": "featured-product",
-      "blocks": {
-        "165457408797050e33-0": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "165457408797050e33-1": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
-        "165457408797050e33-2": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_labels": true,
-            "picker_type": "button",
-            "color_swatches": false
-          }
-        },
-        "165457408797050e33-3": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
-          }
-        }
-      },
-      "block_order": [
-        "165457408797050e33-0",
-        "165457408797050e33-1",
-        "165457408797050e33-2",
-        "165457408797050e33-3"
-      ],
+    "1654589114a9256fa4": {
+      "type": "featured-collection-slider",
       "settings": {
-        "featured_product": "test-1",
-        "product_image_size": "medium",
-        "product_image_type": "stacked",
-        "product_zoom_enable": false,
-        "enable_video_looping": true,
-        "product_video_style": "muted",
-        "sku_enable": false
+        "title": "Featured collection",
+        "description": "",
+        "home_featured_products": "vip-memberships",
+        "per_row": "small",
+        "alt": false
       }
     }
   },
   "order": [
     "main",
     "slideshow",
-    "16545740875d0af02d"
+    "1654589114a9256fa4"
   ]
 }
