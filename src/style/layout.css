@@ -21,3 +21,8 @@
     }
   }
 }
+.section--featured-membership {
+  .section__btn {
+    @apply mt-6 lg:mt-10;
+  }
+}

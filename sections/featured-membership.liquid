@@ -20,7 +20,7 @@
   
   {%- capture grid_item_width -%}{{ grid_small_width }} {{ grid_large_width}}{%- endcapture -%}
   
-  <div class="index-section{% if section.settings.alt %} index-section--alt{% endif %}">
+  <div class="index-section{% if section.settings.alt %} section--featured-membership index-section--alt{% endif %}">
   
     <div
       id="CollectionSection-{{ section.id }}"
@@ -95,10 +95,10 @@
             {%- endif -%}
           </div>
   
-          {%- if section.settings.view_all -%}
-            <div class="text-center">
-              <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn">
-                {{ 'collections.general.all_of_collection' | t }}
+          {%- if section.settings.display_button -%}
+            <div class="text-center section__btn">
+              <a href="/pages/vip-club" class="btn">
+                BUY VIP MEMBERSHIP
               </a>
             </div>
           {%- endif -%}

@@ -143,6 +143,16 @@
   }
 }
 
+.section--featured-membership .section__btn {
+  margin-top: 1.5rem
+}
+
+@media (min-width: 1024px) {
+  .section--featured-membership .section__btn {
+    margin-top: 2.5rem
+  }
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
