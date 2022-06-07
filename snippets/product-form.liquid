@@ -42,7 +42,7 @@
       data-buy-vip-membership
       class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--tertiary{% endif %}"
       {% unless current_variant.available %} disabled="disabled"{% endunless %}>
-      <span data-add-to-cart-text data-default-text="{{ default_text }}">
+      <span data-buy-vip-membership-text data-default-text="{{ default_text }}">
         {{ button_text }}
       </span>
     </button>
