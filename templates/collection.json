@@ -1,5 +1,17 @@
 {
   "sections": {
+    "16545806936f901905": {
+      "type": "marquee",
+      "settings": {
+        "text": "JOIN OUR EXCLUSIVE VIP CLUB NOW!",
+        "link": "shopify:\/\/pages\/vip-club",
+        "text_size": 24,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "slow"
+      }
+    },
     "collection-filters": {
       "type": "collection-filters",
       "disabled": true,
@@ -40,6 +52,7 @@
     }
   },
   "order": [
+    "16545806936f901905",
     "collection-filters",
     "collection-header",
     "main-collection"
