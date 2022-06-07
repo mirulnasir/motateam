@@ -24,6 +24,7 @@
         },
         "sales_point": {
           "type": "sales_point",
+          "disabled": true,
           "settings": {
             "icon": "truck",
             "text": "Free Metro City Shipping"
@@ -31,6 +32,7 @@
         },
         "inventory_status": {
           "type": "inventory_status",
+          "disabled": true,
           "settings": {
             "inventory_threshold": 10,
             "inventory_transfers_enable": true
@@ -65,6 +67,7 @@
         },
         "8a5b85cf-61d9-4e26-a5ab-4719d65b3886": {
           "type": "size_chart",
+          "disabled": true,
           "settings": {
             "size_chart": ""
           }
