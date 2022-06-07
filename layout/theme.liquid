@@ -71,6 +71,7 @@
   {%- render 'css-variables' -%}
   {%- render 'critical-css' -%}
   {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
 
   <script src="{{ 'vendor-v6.js' | asset_url | split: '?' | first }}" defer="defer"></script>
   {%- if shop.enabled_currencies.size > 1 -%}

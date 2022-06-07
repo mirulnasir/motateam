@@ -1,122 +1,22 @@
-.section--simple-heading {
-  @apply py-6 lg:py-10;
-  & h2 {
-    @apply text-2xl lg:text-3xl xl:text-4xl text-center leading-tight max-w-5xl mx-auto mb-0;
-  }
-}
-.section--customise-your-product {
-  @apply bg-[#f1f2f2];
-  & .box {
-    @apply pb-0;
-  }
-  & .cyp__intro {
-    & .section-header {
-      @apply mb-0 lg:mb-10;
-      & h2 {
-        @apply text-3xl lg:text-4xl xl:text-[44px] uppercase text-center leading-tight max-w-5xl mx-auto;
+.membership-item {
+  & .grid-product__link {
+    @apply max-w-xs mx-auto bg-white overflow-hidden rounded-md shadow-md hover:shadow-xl transition-all hover:-translate-y-1 duration-300;
+
+    & .product-slider {
+      & .grid-product__title {
+        @apply py-2 lg:py-4 px-3 lg:px-4 bg-lime-700 text-white uppercase leading-tight font-bold italic text-xl;
       }
-    }
-  }
-  & .block--customise-by-collection {
-    @apply lg:mb-0;
-    & .cbc__inner {
-      @apply relative text-left h-full min-h-[250px] lg:min-h-[400px] max-w-[375px] mx-auto lg:mx-0 overflow-hidden;
-    }
-    & .cbc__image {
-      @apply absolute bottom-0 overflow-hidden h-[250px] lg:h-[400px] w-[188px] !pt-0 left-[140px] xl:left-[170px];
-    }
-    & .cbc__collection-links {
-      & > li {
-        @apply mb-1 lg:mb-2;
-        & a {
-          @apply font-semibold;
+      & .grid-product__price {
+        @apply py-3 lg:py-5 px-2 lg:px-3;
+        & span {
+          @apply text-3xl leading-none;
         }
       }
-    }
-    & .cbc__heading {
-      @apply text-2xl lg:text-3xl xl:text-[40px] uppercase text-theme font-semibold mb-3 lg:mb-6 pt-4 lg:pt-2;
-    }
-    &.cbc--men {
-      & .cbc__image {
-        @apply lg:h-[399px];
+      & .grid-product__perks {
+        @apply pb-3 lg:pb-4 px-2 lg:px-3;
       }
-    }
-    &.cbc--women {
-      & .cbc__image {
-        @apply lg:h-[378px];
-      }
-    }
-    &.cbc--kids {
-      & .cbc__image {
-        @apply lg:h-[338px];
-      }
-    }
-    &.cbc--women,
-    &.cbc--kids {
-      & .cbc__image {
-        @apply left-[120px]  xl:left-[140px];
-      }
-    }
-  }
-}
-
-.section--collection-columns {
-  & .box {
-  }
-  & .cc__intro {
-    & .section-header {
-      @apply mb-0 lg:mb-10;
-      & h2 {
-        @apply text-3xl lg:text-4xl xl:text-[44px] uppercase text-center leading-tight max-w-5xl mx-auto;
-      }
-    }
-  }
-  & .block--customise-by-industry {
-    @apply lg:mb-0;
-    & .cbi__inner {
-      @apply bg-[#d1d3d4] relative text-left h-full  mx-auto lg:mx-0 overflow-hidden;
-    }
-    & .cbi__image {
-      @apply hidden absolute bottom-0 overflow-hidden h-[250px] lg:h-[400px] w-[188px] !pt-0 right-4;
-    }
-
-    & .cbi__link {
-      @apply pb-7 lg:pb-10;
-      & a {
-        @apply inline-block bg-theme font-heading uppercase text-white p-2 lg:py-3 lg:px-5 leading-none font-semibold;
-      }
-    }
-    & .cbi__bodycopy {
-      @apply p-2 lg:p-6  pb-0 lg:pb-0;
-      & p {
-        @apply mb-4 lg:mb-7;
-      }
-      & .cbi__bodycopy__image {
-        @apply float-right w-52 h-[250px] object-contain object-right;
-      }
-    }
-    & .cbi__intro {
-      @apply bg-theme p-2 lg:p-4 text-center;
-      & .cbi__heading {
-        @apply text-xl lg:text-2xl xl:text-[30px] leading-none uppercase text-white font-semibold mt-0 mb-1;
-      }
-    }
-  }
-}
-
-.section--guarantee-grid {
-  & .gg__intro {
-    @apply mb-6 lg:mb-12;
-    & h2 {
-      @apply text-3xl lg:text-4xl xl:text-[44px] uppercase text-center leading-tight max-w-5xl mx-auto;
-    }
-  }
-  & .gg__wrapper {
-    @apply flex-wrap;
-    & > .block--guarantee {
-      @apply w-full sm:w-1/2 md:w-1/3 lg:w-1/4 basis-auto mb-4 lg:mb-8;
-      & .guarantee-title {
-        @apply text-xl mb-1 lg:mb-2;
+      & .grid-product__action {
+        @apply pb-3 lg:pb-4 px-2 lg:px-3;
       }
     }
   }

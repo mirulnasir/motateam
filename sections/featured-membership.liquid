@@ -86,7 +86,7 @@
             {%- else -%}
   
               {%- for product in collections[section.settings.home_featured_products].products limit: paginate_by -%}
-                {%- render 'product-grid-item'
+                {%- render 'membership-grid-item'
                   product: product,
                   grid_item_width: grid_item_width
                 -%}
