@@ -34,37 +34,56 @@
         "autoplay_speed": 7
       }
     },
-    "rich-text": {
-      "type": "rich-text",
+    "16545740875d0af02d": {
+      "type": "featured-product",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "165457408797050e33-0": {
+          "type": "price",
           "settings": {
-            "title": "Rich text"
           }
         },
-        "text": {
-          "type": "text",
+        "165457408797050e33-1": {
+          "type": "description",
           "settings": {
-            "enlarge_text": false,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "is_tab": false
+          }
+        },
+        "165457408797050e33-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "165457408797050e33-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "165457408797050e33-0",
+        "165457408797050e33-1",
+        "165457408797050e33-2",
+        "165457408797050e33-3"
       ],
       "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "alt": false
+        "featured_product": "test-1",
+        "product_image_size": "medium",
+        "product_image_type": "stacked",
+        "product_zoom_enable": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
       }
     }
   },
   "order": [
     "main",
     "slideshow",
-    "rich-text"
+    "16545740875d0af02d"
   ]
 }
