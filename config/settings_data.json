@@ -41,7 +41,7 @@
     "product_hover_details": true,
     "product_hover_image": true,
     "product_image_scatter": false,
-    "product_grid_image_size": "natural",
+    "product_grid_image_size": "square",
     "enable_swatches": true,
     "quick_shop_enable": true,
     "quick_shop_style": "product",
