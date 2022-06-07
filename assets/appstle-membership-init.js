@@ -79,7 +79,7 @@
 
             "appstle_membership_wrapper": {
                 "border-width": "",
-                "border-color": "",
+                "border-color": "#000000",
             },
 
             "appstle_circle": {
