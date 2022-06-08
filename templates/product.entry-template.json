@@ -36,6 +36,12 @@
             "inventory_transfers_enable": true
           }
         },
+        "8a5b85cf-61d9-4e26-a5ab-4719d65b3886": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": "sizing"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -62,12 +68,6 @@
           "type": "share",
           "settings": {
           }
-        },
-        "8a5b85cf-61d9-4e26-a5ab-4719d65b3886": {
-          "type": "size_chart",
-          "settings": {
-            "size_chart": "sizing"
-          }
         }
       },
       "block_order": [
@@ -76,11 +76,11 @@
         "variant_picker",
         "sales_point",
         "inventory_status",
+        "8a5b85cf-61d9-4e26-a5ab-4719d65b3886",
         "buy_buttons",
         "tab",
         "contact",
-        "share",
-        "8a5b85cf-61d9-4e26-a5ab-4719d65b3886"
+        "share"
       ],
       "settings": {
         "product_image_size": "large",
