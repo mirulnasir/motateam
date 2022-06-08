@@ -150,7 +150,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "GET YOUR ENTRIES NOW!",
-        "description": "OR FOR THE BEST VALUE, GET ONE OF OUR VIP MEMBERSHIPS HERE",
+        "description": "",
         "home_featured_products": "ticket-entries",
         "rows": 2,
         "per_row_desktop": 3,
