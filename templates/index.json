@@ -174,7 +174,7 @@
         "rows": 2,
         "per_row_desktop": 3,
         "per_row_mobile": "2-flush",
-        "view_all": true,
+        "view_all": false,
         "alt": false
       }
     },
