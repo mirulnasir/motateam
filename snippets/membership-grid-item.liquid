@@ -118,7 +118,7 @@
           class="slideshow-wrapper product-slider"
           data-image-count="{{ product.media.size }}"
           data-id="{{ product.id }}">
-            <div class="grid-product__title">
+            <div class="grid-product__title" {% if product.metafields.my_fields.membership_color %}style="background-color:{{ product.metafields.my_fields.membership_color }}!important"{% endif %}>
                 {{ product.title }}
             </div>
             <div class="grid-product__price">
@@ -145,7 +145,7 @@
             </div>
           {% endif%}
           <div class="grid-product__action">
-            <div class="btn">purchase</div>
+            <div class="btn">Select</div>
         </div>
           {%- for media in product.media limit: image_limit -%}
             {%- assign image_count = image_count | plus: 1 -%}
