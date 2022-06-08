@@ -65,6 +65,19 @@
       ],
       "settings": {
       }
+    },
+    "1654652233fa2becc6": {
+      "type": "featured-membership",
+      "settings": {
+        "title": "GET YOUR VIP MEMBERSHIP NOW!",
+        "description": "",
+        "home_featured_products": "vip-memberships",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "display_button": true,
+        "alt": false
+      }
     }
   },
   "order": [
@@ -72,6 +85,7 @@
     "collection-filters",
     "collection-header",
     "16546474276fb7d2f1",
-    "main-collection"
+    "main-collection",
+    "1654652233fa2becc6"
   ]
 }
