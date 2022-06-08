@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "165465310429d66161": {
+      "type": "map",
+      "settings": {
+        "map_title": "MOTA HQ",
+        "address": "<p>Ground Floor, 470 St Kilda Rd, Melbourne 3004 <\/p><p><strong>PHONE:<\/strong> (03) 8319 0984<\/p><p><\/p>",
+        "map_address": "470 St Kilda Rd, Melbourne 3004",
+        "api_key": "",
+        "background_image": "shopify:\/\/shop_images\/MOTA_SHOP_IMAGE.png",
+        "background_image_position": "center center"
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "show_phone": true,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "165465310429d66161",
+    "form"
+  ]
+}
