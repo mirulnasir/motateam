@@ -59,40 +59,6 @@
         "layout": "left"
       }
     },
-    "1653981652338fbaf0": {
-      "type": "hero-animated",
-      "blocks": {
-        "1653981651a42d4693-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_30.png",
-            "focal_point": "center center"
-          }
-        },
-        "1653981651a42d4693-1": {
-          "type": "image",
-          "settings": {
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "1653981651a42d4693-0",
-        "1653981651a42d4693-1"
-      ],
-      "settings": {
-        "style": "gif",
-        "title": "Our first giveaway!\n\n1978 Porsche 930 Turbo GT2 Tribute",
-        "title_size": 66,
-        "subheading": "6 cylinder 3.3Ltr Turbo engine  Racing bucket seats 4 speed manual gearbox  Widebody GT2 body kit  Racing bonnet and engine clips  Valued at over $200,000",
-        "link": "shopify:\/\/collections\/ticket-entries",
-        "link_text": "BUY ENTRIES",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "desktop_size": 0,
-        "mobile_size": 100
-      }
-    },
     "1653981611f18a881e": {
       "type": "text-with-icons",
       "blocks": {
@@ -260,7 +226,6 @@
     "hero-video",
     "text-and-image",
     "165465702668704949",
-    "1653981652338fbaf0",
     "1653981611f18a881e",
     "slideshow",
     "featured-collection",
