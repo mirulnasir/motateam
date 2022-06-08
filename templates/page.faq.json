@@ -6,17 +6,35 @@
       "settings": {
       }
     },
-    "form": {
-      "type": "contact-form",
+    "16546521576902441b": {
+      "type": "faq",
+      "blocks": {
+        "16546521579e8b9caa-0": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "16546521579e8b9caa-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16546521579e8b9caa-0",
+        "16546521579e8b9caa-1"
+      ],
       "settings": {
-        "title": "Contact us",
-        "show_phone": true,
-        "narrow_column": true
+        "title": "FAQs"
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "16546521576902441b"
   ]
 }
