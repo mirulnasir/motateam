@@ -10,7 +10,7 @@
       "type": "featured-membership",
       "settings": {
         "title": "join our vip club now!",
-        "description": "",
+        "description": "Lorem Ipsum",
         "home_featured_products": "vip-memberships",
         "rows": 2,
         "per_row_desktop": 3,
