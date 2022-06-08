@@ -36,11 +36,11 @@
         "text": "<p>Wear the MOTA Team gear with pride.<\/p>",
         "button_label": "",
         "button_link": "",
-        "image": "shopify:\/\/shop_images\/MOTA_SHOP_IMAGE.png",
-        "desktop_size": 0,
+        "image": "shopify:\/\/shop_images\/2_6cf269b6-a773-4fea-baca-d7a886d1b302.jpg",
+        "desktop_size": -30,
         "image_alignment": "center center",
         "color_border": "#f4f4f4",
-        "layout": "left"
+        "layout": "right"
       }
     },
     "main-collection": {
