@@ -6,14 +6,6 @@
       "settings": {
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "title": "Contact us",
-        "show_phone": true,
-        "narrow_column": true
-      }
-    },
     "165465310429d66161": {
       "type": "map",
       "settings": {
@@ -24,11 +16,19 @@
         "background_image": "shopify:\/\/shop_images\/MOTA_SHOP_IMAGE.png",
         "background_image_position": "center center"
       }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "show_phone": true,
+        "narrow_column": true
+      }
     }
   },
   "order": [
     "main",
-    "form",
-    "165465310429d66161"
+    "165465310429d66161",
+    "form"
   ]
 }
