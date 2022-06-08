@@ -30,7 +30,7 @@
         "desktop_size": 10,
         "image_alignment": "80% 10%",
         "color_border": "#f4f4f4",
-        "layout": "left"
+        "layout": "right"
       }
     },
     "1654491321c614394f": {
@@ -52,7 +52,7 @@
       "type": "featured-collection-slider",
       "settings": {
         "title": "GET YOUR ENTRIES NOW!",
-        "description": "OR FOR THE BEST VALUE, GET ONE OF OUR VIP MEMBERSHIPS HERE",
+        "description": "",
         "home_featured_products": "ticket-entries",
         "per_row": "small",
         "alt": false
