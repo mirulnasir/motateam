@@ -75,7 +75,7 @@
         "rows": 2,
         "per_row_desktop": 3,
         "per_row_mobile": "1",
-        "display_button": true,
+        "display_button": false,
         "alt": false
       }
     },
