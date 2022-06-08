@@ -200,104 +200,6 @@
         "alt": false
       }
     },
-    "1654486549b02fc74f": {
-      "type": "faq",
-      "blocks": {
-        "1654486549b49122fe-0": {
-          "type": "question",
-          "settings": {
-            "title": "What is Mota Team?",
-            "text": "<p>Mota Team is an automative car club which supports charities, local businesses and gives you the chance to win luxury cars and prizes.<\/p>"
-          }
-        },
-        "1654486549b49122fe-1": {
-          "type": "question",
-          "settings": {
-            "title": "Is it a one off payment?",
-            "text": "<p>You can choose to sign up for a monthly membership or buy tickets into one draw. Individual tickets into a car giveaway is a one time payment only. <\/p><p>The monthly membership is the best value and can be canceled at any time.<\/p>"
-          }
-        },
-        "f5144197-dce8-4e41-a9d2-c33616f54cd4": {
-          "type": "question",
-          "settings": {
-            "title": "How Many entrants are in each draw?",
-            "text": "<p>Mota Team provide a competitive chance for our members, that's why we've capped our promotions.<\/p><p>Each promotion has a different cap depending on the value of the prize.<\/p><p>If we satisfy the entrant cap before the close date, we will automatically close the draw, aach entrant can hold multiple entries in our draws. <\/p>"
-          }
-        },
-        "46d61f07-b859-4ccb-be4a-7a25ef614cb2": {
-          "type": "question",
-          "settings": {
-            "title": "Is it open to everyone in Australia?",
-            "text": "<p>This giveaway is permitted to be run in all states and territories in Australia with the exception of South Australia. Once we’ve started the draw it means that one<br\/>lucky person in Australia has to win.<\/p>"
-          }
-        },
-        "b8a453ae-aef7-4360-8c67-eecc7bea4bcd": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "76aa73ca-5949-4ddd-b9ab-280a507b06bd": {
-          "type": "question",
-          "settings": {
-            "title": "Is this a promotional giveaway?",
-            "text": "<p>Yes, this is a trade promotional giveaway run by Mota Team. We fund the entirety of the project including the purchase price of the vehicle, legal fees, permits,<br\/>marketing, etc. <\/p>"
-          }
-        },
-        "51c3270a-3c9d-425c-9e72-4d7a0d24b772": {
-          "type": "question",
-          "settings": {
-            "title": "I cant log into my account",
-            "text": "<p>If you can’t remember your password, please follow the prompts to reset your password. If you can’t log in because of a technical issue, please email us at <a href=\"mailto:info@motateam.com\" target=\"_blank\" title=\"mailto:info@motateam.com\">info@motateam.com<\/a><\/p>"
-          }
-        },
-        "90a8ca6a-fa10-459b-99c0-bd6333b8fad7": {
-          "type": "question",
-          "settings": {
-            "title": "What payment types do you accept?",
-            "text": "<p>We currently accept Visa, MasterCard, amex, afterpay and PayPal!<\/p>"
-          }
-        },
-        "4bfe4262-7e67-41a6-951a-ebc2f7b3d35a": {
-          "type": "question",
-          "settings": {
-            "title": "Is your payments secure?",
-            "text": "<p>We take payment security seriously. Our website is protected and encrypted by secure socket layer technology (SSL). Our payment gateways are also protected by further security measures.<\/p>"
-          }
-        },
-        "912c8d2e-91e9-4a1f-8ad8-f141649f274c": {
-          "type": "question",
-          "settings": {
-            "title": "Can I cancel my entries?",
-            "text": "<p>You can cancel your membership at anytime.<br\/><br\/>If you are not entirely satisfied with your purchase, we’re here to help.<\/p><p><\/p><p>Please email us at <a href=\"mailto:info@motateam.com\">info@motateam.com <\/a>and<br\/>we will come back to you with a solution<\/p>"
-          }
-        },
-        "f44d3083-c886-475c-8255-1a19c01d175a": {
-          "type": "question",
-          "settings": {
-            "title": "What giveaways are open?",
-            "text": "<p>View Current giveaways <a href=\"\/collections\/ticket-entries\" title=\"TICKET ENTRIES\">here<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1654486549b49122fe-0",
-        "1654486549b49122fe-1",
-        "f5144197-dce8-4e41-a9d2-c33616f54cd4",
-        "46d61f07-b859-4ccb-be4a-7a25ef614cb2",
-        "b8a453ae-aef7-4360-8c67-eecc7bea4bcd",
-        "76aa73ca-5949-4ddd-b9ab-280a507b06bd",
-        "51c3270a-3c9d-425c-9e72-4d7a0d24b772",
-        "90a8ca6a-fa10-459b-99c0-bd6333b8fad7",
-        "4bfe4262-7e67-41a6-951a-ebc2f7b3d35a",
-        "912c8d2e-91e9-4a1f-8ad8-f141649f274c",
-        "f44d3083-c886-475c-8255-1a19c01d175a"
-      ],
-      "settings": {
-        "title": "FAQs"
-      }
-    },
     "1654498494af01ade5": {
       "type": "marquee",
       "settings": {
@@ -332,21 +234,6 @@
     },
     "165449668147bb6440": {
       "type": "apps",
-      "blocks": {
-        "cb99c83b-b7e3-45e6-80fb-e85a50623012": {
-          "type": "shopify:\/\/apps\/easy-faq-page-customer-faqs\/blocks\/app-block\/89f30064-d200-4f10-b92c-a16fc4c5815c",
-          "settings": {
-            "heading": "Frequently Asked Questions",
-            "heading_text_type": "h2",
-            "heading_alignment": "left",
-            "faq_embed_code": "Copy paste embed code you received from app.",
-            "faqs_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "cb99c83b-b7e3-45e6-80fb-e85a50623012"
-      ],
       "settings": {
         "full_width": false,
         "space_around": true
@@ -363,7 +250,6 @@
     "featured-collection",
     "29497505_1654137220",
     "165448555898d0b98d",
-    "1654486549b02fc74f",
     "1654498494af01ade5",
     "165448950900f21cf3",
     "165449668147bb6440"
