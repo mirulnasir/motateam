@@ -26,3 +26,6 @@
     @apply mt-6 lg:mt-10;
   }
 }
+.btn--vip {
+  @apply mt-2.5 bg-[#cfae4f];
+}

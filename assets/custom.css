@@ -153,6 +153,12 @@
   }
 }
 
+.btn--vip {
+  margin-top: 0.625rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(207 174 79 / var(--tw-bg-opacity))
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale

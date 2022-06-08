@@ -39,7 +39,12 @@
     {%- if enable_dynamic_buttons -%}
       {{ form | payment_button }}
     {%- endif -%}
-
+    <!--Convert the tags into a string by joining them with COMMA-->
+    {% assign productTags = product.tags | join: ', ' %}
+    <!--Now Check for the desired tag name-->
+    {% unless productTags contains 'VIP' %}
+    <a href="/pages/vip-club" class="btn btn--full btn--vip">BUY VIP MEMBERSHIP</a>
+    {% endunless %}
   {%- if enable_dynamic_buttons -%}
     </div>
   {%- endif -%}
