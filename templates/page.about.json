@@ -6,48 +6,22 @@
       "settings": {
       }
     },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "title": "About us",
-            "title_size": 80,
-            "subheading": "And an optional subheading",
-            "link": "",
-            "link_text": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "slideshow-0"
-      ],
-      "settings": {
-        "style": "arrows",
-        "desktop_size": 0,
-        "mobile_size": 0,
-        "autoplay": false,
-        "autoplay_speed": 7
-      }
-    },
-    "1654589114a9256fa4": {
-      "type": "featured-collection-slider",
+    "16546467580dd3c0e2": {
+      "type": "featured-membership",
       "settings": {
         "title": "join our vip club now!",
         "description": "",
         "home_featured_products": "vip-memberships",
-        "per_row": "small",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "display_button": false,
         "alt": false
       }
     }
   },
   "order": [
     "main",
-    "slideshow",
-    "1654589114a9256fa4"
+    "16546467580dd3c0e2"
   ]
 }
