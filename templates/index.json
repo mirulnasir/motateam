@@ -183,19 +183,6 @@
       "settings": {
       }
     },
-    "165463496395dd1b90": {
-      "type": "featured-membership",
-      "settings": {
-        "title": "Vip Membership",
-        "description": "",
-        "home_featured_products": "vip-memberships",
-        "rows": 1,
-        "per_row_desktop": 3,
-        "per_row_mobile": "1",
-        "view_all": false,
-        "alt": true
-      }
-    },
     "165448555898d0b98d": {
       "type": "text-and-image",
       "settings": {
@@ -375,7 +362,6 @@
     "slideshow",
     "featured-collection",
     "29497505_1654137220",
-    "165463496395dd1b90",
     "165448555898d0b98d",
     "1654486549b02fc74f",
     "1654498494af01ade5",
