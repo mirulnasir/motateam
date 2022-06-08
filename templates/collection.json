@@ -78,6 +78,16 @@
         "display_button": true,
         "alt": false
       }
+    },
+    "1654652236ffdbee09": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "Featured collection",
+        "description": "",
+        "home_featured_products": "ticket-entries",
+        "per_row": "small",
+        "alt": false
+      }
     }
   },
   "order": [
@@ -86,6 +96,7 @@
     "collection-header",
     "16546474276fb7d2f1",
     "main-collection",
-    "1654652233fa2becc6"
+    "1654652233fa2becc6",
+    "1654652236ffdbee09"
   ]
 }
