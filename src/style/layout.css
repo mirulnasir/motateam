@@ -6,6 +6,9 @@
       & .grid-product__title {
         @apply py-2 lg:py-4 px-3 lg:px-4 bg-lime-700 text-white uppercase leading-tight font-bold italic text-xl;
       }
+      & .grid-product__subtitle {
+        @apply text-sm pb-3 lg:pb-5 pt-1 lg:pt-2 -mt-3 lg:-mt-5;
+      }
       & .grid-product__price {
         @apply py-3 lg:py-5 px-2 lg:px-3;
         & span {
@@ -28,4 +31,9 @@
 }
 .btn--vip {
   @apply mt-2.5 bg-[#cfae4f];
+}
+.background-media-text {
+  & .background-media-text__text {
+    @apply bg-white bg-opacity-70;
+  }
 }

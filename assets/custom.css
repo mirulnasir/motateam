@@ -93,6 +93,22 @@
   }
 }
 
+.membership-item .grid-product__link .product-slider .grid-product__subtitle {
+  margin-top: -0.75rem;
+  padding-bottom: 0.75rem;
+  padding-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem
+}
+
+@media (min-width: 1024px) {
+  .membership-item .grid-product__link .product-slider .grid-product__subtitle {
+    margin-top: -1.25rem;
+    padding-bottom: 1.25rem;
+    padding-top: 0.5rem
+  }
+}
+
 .membership-item .grid-product__link .product-slider .grid-product__price {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -157,6 +173,11 @@
   margin-top: 0.625rem;
   --tw-bg-opacity: 1;
   background-color: rgb(207 174 79 / var(--tw-bg-opacity))
+}
+
+.background-media-text .background-media-text__text {
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.7
 }
 
 body {

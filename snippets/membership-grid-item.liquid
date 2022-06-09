@@ -138,6 +138,11 @@
                   </span>
                 {%- endif -%}
               </div>
+              {% if product.metafields.my_fields.membership_subheading %}
+              <div class="grid-product__subtitle">
+                {{ product.metafields.my_fields.membership_subheading}}
+              </div>
+            {% endif %}
           {% if product.metafields.my_fields.vip_perks %}
             <div class="grid-product__perks">
                 {% assign perks = product.metafields.my_fields.vip_perks.value | newline_to_br | split: '<br />' %}
