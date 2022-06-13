@@ -36,6 +36,8 @@
     "1654491321c614394f": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/10.jpg",
+        "image2": "shopify:\/\/shop_images\/4.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "cAR FEATURES",
