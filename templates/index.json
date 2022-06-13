@@ -3,7 +3,7 @@
     "marquee": {
       "type": "marquee",
       "settings": {
-        "text": "JOIN OUR EXCLUSIVE VIP CLUB NOW!",
+        "text": "Our Current Giveaway, 1978 Porsche 930 Turbo",
         "link": "shopify:\/\/pages\/vip-club",
         "text_size": 24,
         "text_spacing": true,
@@ -35,7 +35,7 @@
         "image_width": 700,
         "subtitle": "",
         "title": "WHO WE ARE",
-        "text": "<p>We are a Company formed by a team of Car enthusiasts that set out to give like minded people the opportunity to own classic luxury cars without necessarily being able to purchase one for themselves.<\/p><p>We run promotional giveaways that give back to our members, Mota Team also set out to give back to the community by partnering and raising funds for charities, Clubs and Organisations.<\/p><p>Mota team brings our passion for luxury cars, supporting the Community and Charities all together in one place. This is how Mota Team was formed<\/p>",
+        "text": "<p>Welcome to ‘Mota’, Australia’s most exciting rewards club.<\/p><p>Through our rewards program,members receive exclusive discounts across our retail partner network. <\/p><p>Mota was founded by a team of car enthusiasts that set out to give like minded people the opportunity to own classic and rare cars through our member giveaways. <\/p><p>We've partnered with charities, clubs and community organisations to help raise money for some great causes.<\/p><p>Thanks<br\/>for your support!<\/p>",
         "button_label": "JOIN VIP",
         "button_link": "shopify:\/\/pages\/vip-club",
         "button_style": "secondary",
@@ -75,7 +75,7 @@
           "settings": {
             "icon": "sales-tag",
             "title": "SHOP AND SAVE",
-            "text": "<p>Recieve discounts and Cash Back from our +4,500 Retail partners<\/p>"
+            "text": "<p>Receive discounts and offers across our +4,500 retail partner network <\/p>"
           }
         },
         "165398161197938c5e-2": {
@@ -108,9 +108,9 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "title": "OUR FIRST GIVEAWAY!",
+            "title": "",
             "title_size": 70,
-            "subheading": "Lorem Ipusm...",
+            "subheading": "",
             "link": "",
             "link_text": "",
             "color_accent": "rgba(0,0,0,0)",
@@ -122,9 +122,9 @@
         "e0f76771-1fdc-4de0-ab73-3b9fbeca1ba6": {
           "type": "image",
           "settings": {
-            "title": "Two line\nslide title.",
+            "title": "",
             "title_size": 80,
-            "subheading": "And an optional subheading",
+            "subheading": "",
             "link": "",
             "link_text": "",
             "color_accent": "rgba(0,0,0,0)",
