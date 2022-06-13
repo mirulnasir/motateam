@@ -5,7 +5,7 @@
       "settings": {
         "text": "Our Current Giveaway, 1978 Porsche 930 Turbo",
         "link": "shopify:\/\/pages\/vip-club",
-        "text_size": 24,
+        "text_size": 20,
         "text_spacing": true,
         "color_scheme": "button",
         "direction": "left",
@@ -115,7 +115,7 @@
             "link_text": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/1_90aa6fb3-8dbc-4013-a678-7921d18b82c2.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_1.8.1-Enhanced_0.5x.png",
             "focal_point": "center center"
           }
         },
@@ -132,11 +132,53 @@
             "image": "shopify:\/\/shop_images\/2.jpg",
             "focal_point": "center center"
           }
+        },
+        "4e35a939-fe3c-42f1-8d30-0fa06b637f26": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center center"
+          }
+        },
+        "8e32e42a-b9e5-4c06-9856-5313015b66e3": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center center"
+          }
+        },
+        "9c3747e1-b647-4051-8ed5-93ca7bc432aa": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "slideshow-0",
-        "e0f76771-1fdc-4de0-ab73-3b9fbeca1ba6"
+        "e0f76771-1fdc-4de0-ab73-3b9fbeca1ba6",
+        "4e35a939-fe3c-42f1-8d30-0fa06b637f26",
+        "8e32e42a-b9e5-4c06-9856-5313015b66e3",
+        "9c3747e1-b647-4051-8ed5-93ca7bc432aa"
       ],
       "settings": {
         "style": "arrows",
