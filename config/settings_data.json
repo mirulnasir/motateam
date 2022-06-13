@@ -57,7 +57,7 @@
     "social_facebook_link": "https:\/\/www.facebook.com\/motateamaustralia",
     "checkout_logo_image": "shopify:\/\/shop_images\/MOTA_LOGO-transparent-02_1.png",
     "checkout_logo_position": "left",
-    "checkout_logo_size": "large",
+    "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#fafafa",
