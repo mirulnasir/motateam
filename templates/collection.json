@@ -54,7 +54,7 @@
         "product_grid": {
           "type": "product_grid",
           "settings": {
-            "per_row_desktop": 3,
+            "per_row_desktop": 2,
             "per_row_mobile": "1"
           }
         }
