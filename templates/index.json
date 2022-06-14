@@ -9,7 +9,7 @@
         "text_spacing": true,
         "color_scheme": "button",
         "direction": "left",
-        "speed": "fast"
+        "speed": "slow"
       }
     },
     "hero-video": {
