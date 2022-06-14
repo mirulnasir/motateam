@@ -83,7 +83,7 @@
           "logo": "shopify:\/\/shop_images\/MOTA_LOGO-transparent-02.png",
           "desktop_logo_width": 260,
           "mobile_logo_width": 180,
-          "logo_hide_mobile": false,
+          "logo_hide_mobile": true,
           "main_menu_link_list": "main-menu",
           "show_announcement": false,
           "show_announcement_home_only": false,
