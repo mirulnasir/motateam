@@ -124,9 +124,9 @@
         ],
         "settings": {
           "mode": true,
-          "disable_for_account_holders": false,
+          "disable_for_account_holders": true,
           "popup_seconds": 5,
-          "popup_days": 30,
+          "popup_days": 5,
           "popup_title": "",
           "popup_text": "",
           "popup_image": "shopify:\/\/shop_images\/1.png",
