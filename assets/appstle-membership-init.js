@@ -31,7 +31,7 @@
         "oneTimePurchaseText": "One Time Purchase",
         "shop": "motateam2.myshopify.com",
         "deliveryText": "delivery",
-        "purchaseOptionsText": "Membership Options",
+        "purchaseOptionsText": "",
         "manageSubscriptionButtonText": "Manage Membership",
         "subscriptionOptionText": "Join Now",
         "sellingPlanSelectTitle": "DELIVERY FREQUENCY",
