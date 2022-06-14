@@ -33,11 +33,25 @@
         "display_button": false,
         "alt": false
       }
+    },
+    "16551781929abf6bb7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "GET YOUR SINGLE ENTRIES NOW",
+        "description": "",
+        "home_featured_products": "ticket-entries",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "view_all": false,
+        "alt": false
+      }
     }
   },
   "order": [
     "main",
     "16546472197b98ef67",
-    "16546467580dd3c0e2"
+    "16546467580dd3c0e2",
+    "16551781929abf6bb7"
   ]
 }
