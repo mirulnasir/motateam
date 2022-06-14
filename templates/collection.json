@@ -79,13 +79,16 @@
         "alt": false
       }
     },
-    "1654652236ffdbee09": {
-      "type": "featured-collection-slider",
+    "1655180886e366f611": {
+      "type": "featured-collection",
       "settings": {
-        "title": "GET YOUR ENTRIES NOW!",
+        "title": "or get your single entries now",
         "description": "",
         "home_featured_products": "ticket-entries",
-        "per_row": "small",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "view_all": true,
         "alt": false
       }
     }
@@ -97,6 +100,6 @@
     "16546474276fb7d2f1",
     "main-collection",
     "1654652233fa2becc6",
-    "1654652236ffdbee09"
+    "1655180886e366f611"
   ]
 }
