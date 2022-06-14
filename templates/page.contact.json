@@ -1,5 +1,17 @@
 {
   "sections": {
+    "165517148239dca6b3": {
+      "type": "marquee",
+      "settings": {
+        "text": "Our Current Giveaway, 1978 Porsche 930 Turbo",
+        "link": "shopify:\/\/pages\/vip-club",
+        "text_size": 20,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "slow"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -27,6 +39,7 @@
     }
   },
   "order": [
+    "165517148239dca6b3",
     "main",
     "165465310429d66161",
     "form"
