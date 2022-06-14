@@ -194,7 +194,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "GET YOUR ENTRIES NOW!",
+        "title": "GET YOUR SINGLE ENTRIES NOW!",
         "description": "One time Payment only - Join VIP for the best chance to WIN!",
         "home_featured_products": "ticket-entries",
         "rows": 2,
