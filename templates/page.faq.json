@@ -12,21 +12,85 @@
         "16546521579e8b9caa-0": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "title": "What is Mota Team?",
+            "text": "<p>Mota Team is an automative car club which supports charities, local businesses and gives you the chance to win luxury cars and prizes.<\/p>"
           }
         },
         "16546521579e8b9caa-1": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "title": "Is it a one off payment?",
+            "text": "<p>You canchoose to sign up for a monthly membership or buy tickets into one draw.<\/p><p><br\/>Individual tickets into a car giveaway is a one time payment only. <\/p><p>The monthlymembership is the best value and can be canceled at any time.<\/p>"
+          }
+        },
+        "c9464c49-3208-4144-8894-678722c9dbd6": {
+          "type": "question",
+          "settings": {
+            "title": "How Many entrants are in each draw?",
+            "text": "<p>Mota Team provide a competitive chance for our members, that's why we've capped our promotions.<\/p><p>Each promotion has a different cap depending on the value of the prize.<\/p><p>If we satisfy the entrant cap before the close date, we will automatically close the draw, aach entrant can hold multiple entries in our draws. <\/p>"
+          }
+        },
+        "6532f930-ef53-48df-adf3-60b71e7761dc": {
+          "type": "question",
+          "settings": {
+            "title": "Is it open to everyone in Australia?",
+            "text": "<p>This giveaway is permitted to be run in all states and territories in Australia with the exception of South Australia. Once we’ve started the draw it means that one<br\/>lucky person in Australia has to win.<\/p>"
+          }
+        },
+        "4fa80453-3af4-4531-99c3-4b4b96a9e0df": {
+          "type": "question",
+          "settings": {
+            "title": "Is this a promotional giveaway?",
+            "text": "<p>Yes, this is a trade promotional giveaway run by Mota Team. We fund the entirety of the project including the purchase price of the vehicle, legal fees, permits,<br\/>marketing, etc. <\/p>"
+          }
+        },
+        "ce3de092-e6e9-4e0d-9511-2c9f1b59ae80": {
+          "type": "question",
+          "settings": {
+            "title": "I can't log into my account",
+            "text": "<p>If you can’t remember your password, please follow the prompts to reset your password. If<br\/>you can’t log in because of a technical issue, please email us at info@motateam.com<\/p>"
+          }
+        },
+        "724dab37-20fb-4c27-aef3-b8b0e27a5c98": {
+          "type": "question",
+          "settings": {
+            "title": "What payment types do you accept?",
+            "text": "<p>We currently accept Visa, MasterCard, amex, afterpay and PayPal!<\/p>"
+          }
+        },
+        "da1c55e3-88c5-4f6b-91c2-a9ee59871a72": {
+          "type": "question",
+          "settings": {
+            "title": "Is your payments secure?",
+            "text": "<p>We take payment security seriously. Our website is protected and encrypted by secure socket layer technology (SSL). Our payment gateways are also protected by<br\/>further security measures.<\/p>"
+          }
+        },
+        "f4ee2d42-25d6-4f12-b694-04856fb6b0ed": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel my entries?",
+            "text": "<p>You can cancel your membership at anytime.<br\/><br\/>If you are not entirely satisfied with your purchase, we’re here to help. please email us at <a href=\"mailto:info@motateam.com\">info@motateam.com<\/a> and we will come back to you with a solution<\/p>"
+          }
+        },
+        "c83ae324-f656-41b0-b58e-cbf8e9b74764": {
+          "type": "question",
+          "settings": {
+            "title": "What giveaways are open",
+            "text": "<p>View Current giveaways <a href=\"\/pages\/giveaway\" title=\"GIVEAWAY\">here <\/a><\/p>"
           }
         }
       },
       "block_order": [
         "16546521579e8b9caa-0",
-        "16546521579e8b9caa-1"
+        "16546521579e8b9caa-1",
+        "c9464c49-3208-4144-8894-678722c9dbd6",
+        "6532f930-ef53-48df-adf3-60b71e7761dc",
+        "4fa80453-3af4-4531-99c3-4b4b96a9e0df",
+        "ce3de092-e6e9-4e0d-9511-2c9f1b59ae80",
+        "724dab37-20fb-4c27-aef3-b8b0e27a5c98",
+        "da1c55e3-88c5-4f6b-91c2-a9ee59871a72",
+        "f4ee2d42-25d6-4f12-b694-04856fb6b0ed",
+        "c83ae324-f656-41b0-b58e-cbf8e9b74764"
       ],
       "settings": {
         "title": "FAQs"
