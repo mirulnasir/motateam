@@ -191,11 +191,24 @@
         "autoplay_speed": 7
       }
     },
+    "1655180449ae267329": {
+      "type": "featured-membership",
+      "settings": {
+        "title": "join our vip now",
+        "description": "",
+        "home_featured_products": "vip-memberships",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "display_button": false,
+        "alt": false
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "GET YOUR SINGLE ENTRIES NOW!",
-        "description": "One time Payment only - Join VIP for the best chance to WIN!",
+        "title": "or GET YOUR SINGLE ENTRIES NOW!",
+        "description": "",
         "home_featured_products": "ticket-entries",
         "rows": 2,
         "per_row_desktop": 3,
@@ -273,6 +286,7 @@
     "165465702668704949",
     "1653981611f18a881e",
     "slideshow",
+    "1655180449ae267329",
     "featured-collection",
     "29497505_1654137220",
     "165448555898d0b98d",
