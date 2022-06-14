@@ -59,7 +59,7 @@
         "showSubOptionBeforeOneTime": false,
         "showStaticTooltip": false,
         "showAppstleLink": false,
-        "sellingPlanTitleText" : "{{sellingPlanName}} ({{sellingPlanPrice}}\/delivery)",
+        "sellingPlanTitleText" : "{{sellingPlanName}} ({{sellingPlanPrice}}",
         "oneTimePriceText" : "{{price}}",
         "selectedPayAsYouGoSellingPlanPriceText" : "{{price}}",
         "selectedPrepaidSellingPlanPriceText" : "{{pricePerDelivery}}",
