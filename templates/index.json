@@ -204,6 +204,35 @@
         "alt": false
       }
     },
+    "16552551052229576d": {
+      "type": "slideshow",
+      "blocks": {
+        "1655255105a356e35e-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/MOTA_-_HOW_IT_WORKS_MOCK.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1655255105a356e35e-0"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -287,6 +316,7 @@
     "1653981611f18a881e",
     "slideshow",
     "1655180449ae267329",
+    "16552551052229576d",
     "featured-collection",
     "29497505_1654137220",
     "165448555898d0b98d",
