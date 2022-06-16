@@ -44,7 +44,7 @@
   }
 }
 .hero[data-arrows="true"] .flickity-next {
-  @apply right-1/2 -translate-x-1/2 -mr-16;
+  @apply right-1/2 -translate-x-1/2 -mr-20;
   &:hover {
     @apply -translate-x-1/2;
   }
