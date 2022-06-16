@@ -71,6 +71,8 @@
         "disableLoadingJquery": false,
         "enableMessagingForNonMembers": "false",
         "nonMemberMessaging": "Please login to avail the membership perks.",
+        "showMembershipBanner": "true",
+        "showDiscountWidget": "false",
         "css": {
             "appstle_membership_widget": {
                 "margin-top": "" ,
