@@ -37,3 +37,15 @@
     @apply bg-white bg-opacity-70;
   }
 }
+.hero[data-arrows="true"] .flickity-previous {
+  @apply right-1/2 -translate-x-1/2 mr-8;
+  &:hover {
+    @apply -translate-x-1/2;
+  }
+}
+.hero[data-arrows="true"] .flickity-next {
+  @apply right-1/2 -translate-x-1/2 -mr-8;
+  &:hover {
+    @apply -translate-x-1/2;
+  }
+}
