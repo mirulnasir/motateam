@@ -15,15 +15,15 @@
     "hero-video": {
       "type": "hero-video",
       "settings": {
-        "title": "WE ARE MOTA.",
+        "title": "",
         "title_size": 81,
-        "subheading": "JOIN OUR VIP CLUB & GET EXCLUSIVE DISCOUNTS",
+        "subheading": "",
         "link_text": "",
         "link": "shopify:\/\/pages\/giveaway",
         "color_accent": "#ffffff",
         "text_align": "vertical-bottom horizontal-center",
         "video_url": "https:\/\/youtu.be\/0TY0CIFH8pU",
-        "section_height": "100vh",
+        "section_height": "650px",
         "mobile_height": "100vh"
       }
     },
