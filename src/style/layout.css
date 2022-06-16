@@ -49,3 +49,6 @@
     @apply -translate-x-1/2;
   }
 }
+.newsletter-reminder__message.h3 {
+  @apply block;
+}
