@@ -83,7 +83,7 @@
           "settings": {
             "icon": "charity",
             "title": "HELP OTHERS. FEEL GOOD!",
-            "text": "<p>Help us suport & donate to our charity partners. This year Mota has partnered  with the CFA + local bushfire brigades. <\/p>"
+            "text": "<p>Help us suport & donate to our charity partners. This year Mota has partnered with the CFA + local bushfire brigades. <\/p>"
           }
         }
       },
@@ -195,7 +195,7 @@
       "type": "featured-membership",
       "settings": {
         "title": "join our vip now",
-        "description": "",
+        "description": "Becoming a VIP means that you are automatically entered into every draw, you won't miss out! VIP's receive accumualting entries each month, increasing your chance to win.",
         "home_featured_products": "vip-memberships",
         "rows": 2,
         "per_row_desktop": 3,
