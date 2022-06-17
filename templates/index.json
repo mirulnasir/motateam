@@ -67,7 +67,7 @@
           "settings": {
             "icon": "cart",
             "title": "BUY YOUR ENTRIES",
-            "text": "<p>Purchase a single entry OR a VIP Monthly Membership to Win the Car!<\/p>"
+            "text": "<p>Purchase a single entry OR a VIP Monthly Membership to win the car! <\/p>"
           }
         },
         "165398161197938c5e-1": {
@@ -75,7 +75,7 @@
           "settings": {
             "icon": "sales-tag",
             "title": "SHOP AND SAVE",
-            "text": "<p>Receive discounts and offers across our +4,500 retail partner network <\/p>"
+            "text": "<p>Receive discounts and offers across our 4,50+ retail partner network. <\/p>"
           }
         },
         "165398161197938c5e-2": {
@@ -83,7 +83,7 @@
           "settings": {
             "icon": "charity",
             "title": "HELP OTHERS. FEEL GOOD!",
-            "text": "<p>Help us suport & donate to our most important Chartieis to help them do more good!<\/p>"
+            "text": "<p>Help us suport & donate to our charity partners. This year Mota has partnered  with the CFA + local bushfire brigades. <\/p>"
           }
         }
       },
