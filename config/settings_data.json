@@ -43,7 +43,7 @@
     "product_image_scatter": false,
     "product_grid_image_size": "square",
     "enable_swatches": true,
-    "quick_shop_enable": false,
+    "quick_shop_enable": true,
     "quick_shop_style": "product",
     "product_image_size": "medium",
     "product_image_type": "stacked",
