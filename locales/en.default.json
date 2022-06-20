@@ -280,7 +280,7 @@
       "account": "Account",
       "log_out": "Log out",
       "log_in": "Log in",
-      "create_account": "Create account"
+      "create_account": "Create your MOTA TEAM Account"
     },
     "footer": {
       "social_platform": "{{ name }} on {{ platform }}"
