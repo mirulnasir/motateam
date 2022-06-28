@@ -24,7 +24,7 @@
       endunless
     -%}
      
-      {% if template.suffix == nil or template.suffix == 'vip-memberships' %}
+      {% if template.suffix == nil %}
         {%else%} 
         <button
           {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
@@ -37,7 +37,7 @@
           </span>
         </button>
       {% endif %}
-    {%- if enable_dynamic_buttons -%}
+    {%- if enable_dynamic_buttons and template.suffix != 'vip-memberships' -%}
       {{ form | payment_button }}
     {%- endif -%}
     <!--Convert the tags into a string by joining them with COMMA-->
