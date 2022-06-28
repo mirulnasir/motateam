@@ -3,7 +3,7 @@
     "1654580473ea92260b": {
       "type": "marquee",
       "settings": {
-        "text": "Our Current Giveaway, 1978 Porsche 930 Turbo",
+        "text": "NEW GIVEAWAY - COMING SOON!",
         "link": "shopify:\/\/pages\/vip-club",
         "text_size": 20,
         "text_spacing": true,
@@ -23,7 +23,7 @@
       "settings": {
         "subtitle": "",
         "title": "NEW GIVEAWAY",
-        "text": "",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
         "button_label": "",
         "button_link": "",
         "desktop_size": 10,
@@ -78,19 +78,6 @@
         "autoplay": false,
         "autoplay_speed": 7
       }
-    },
-    "165517044641c4c6b2": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "GET YOUR ENTRIES NOW!",
-        "description": "Giveaway Permit Number: TP\/01963O -                      Open to All Australian Residents, aged 18 & over, excluding South Australian residents.",
-        "home_featured_products": "ticket-entries",
-        "rows": 2,
-        "per_row_desktop": 3,
-        "per_row_mobile": "1",
-        "view_all": false,
-        "alt": false
-      }
     }
   },
   "order": [
@@ -98,7 +85,6 @@
     "main",
     "1654489882563f26ea",
     "1654491321c614394f",
-    "165576733918a2581c",
-    "165517044641c4c6b2"
+    "165576733918a2581c"
   ]
 }
