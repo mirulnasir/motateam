@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "1654580473ea92260b": {
+      "type": "marquee",
+      "settings": {
+        "text": "Our Current Giveaway, 1978 Porsche 930 Turbo",
+        "link": "shopify:\/\/pages\/vip-club",
+        "text_size": 20,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "slow"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1654489882563f26ea": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "1978 Porsche 930 Turbo GT2 Tribute",
+        "text": "<p>Porsche produced only 57 examples of the original 993 GT2, which were only available for sale in Europe from 1995 to 1998. Assuming you can even locate one for sale, today it would cost you somewhere in the region of $2,000,000 to put one in your garage.<\/p><p>The 993 GT2 was a stunner when it was unveiled. The already widened 993 Turbo bodywork was stretched thanks to the muscular looking fender flares that were fastened with exposed hardware, the wide rear end boasting a towering rear wing and the menacingly deep dish, plus the three-piece speedline wheels.<\/p><p>The GT2 tribute we are giving away is based on a 1978 930 Turbo, producing in the region of 400HP. It is finished in jet black which frankly is the only colour to have a GT2 in, it looks absolutely menacing and turns heads like no other.<\/p><p>This could be sitting in your garage soon! Grab a single entry or VIP membership package to be in the draw to WIN! <\/p><p>Winners will be announced via live facebook stream.  <\/p><p>Promotion is open to all Australian residents, aged 18+ and over,  excluding SA. <\/p><p>Valued at: $205,000.<\/p><p>Permit Number: TP\/01963<\/p><p>Giveaway promotion start date: 15\/07\/2022. <\/p><p>#Mota Pty Ltd own our giveaway cars and will not be 'extending' the giveaway period dependant on entry numbers. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/1_90aa6fb3-8dbc-4013-a678-7921d18b82c2.jpg",
+        "desktop_size": 10,
+        "image_alignment": "80% 10%",
+        "color_border": "#f4f4f4",
+        "layout": "right"
+      }
+    },
+    "1654491321c614394f": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_65aae227-16a6-4f66-85f6-53eacca99642.png",
+        "image2": "shopify:\/\/shop_images\/2_99590ee9-fcdc-43f4-a844-b5d4b2df4b69.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "cAR FEATURES",
+        "text": "<p>- 6 cylinder 3.3Ltr Turbo engine <\/p><p>- Leather racing bucket seats<\/p><p>- 4 speed manual gearbox <\/p><p>- Wide body GT2 body kit<\/p><p>- Racing bonnet and engine clips <\/p><p>- Producing in the region of 400HP <\/p><p><\/p><p>This car could be yours for only $25.<\/p><p>Get your VIP membership or single entries in today, tickets are extremely limited for this promotion, giving you the best chance to win! <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "alt": false
+      }
+    },
+    "165576733918a2581c": {
+      "type": "slideshow",
+      "blocks": {
+        "1655767339e18f8ed0-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Untitled_design_33.png",
+            "image_mobile": "shopify:\/\/shop_images\/MOTA_COLLAGE_-_MOBILE.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1655767339e18f8ed0-0"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "165517044641c4c6b2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "GET YOUR ENTRIES NOW!",
+        "description": "Giveaway Permit Number: TP\/01963O -                      Open to All Australian Residents, aged 18 & over, excluding South Australian residents.",
+        "home_featured_products": "ticket-entries",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "view_all": false,
+        "alt": false
+      }
+    }
+  },
+  "order": [
+    "1654580473ea92260b",
+    "main",
+    "1654489882563f26ea",
+    "1654491321c614394f",
+    "165576733918a2581c",
+    "165517044641c4c6b2"
+  ]
+}
