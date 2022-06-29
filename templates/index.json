@@ -269,6 +269,37 @@
         "alt": false
       }
     },
+    "1656498552371145ae": {
+      "type": "advanced-content",
+      "blocks": {
+        "1656498552557bb0d5-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ttt.png",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1656498552557bb0d5-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1656498552557bb0d5-0",
+        "1656498552557bb0d5-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "alt": false
+      }
+    },
     "1654498494af01ade5": {
       "type": "marquee",
       "settings": {
@@ -321,6 +352,7 @@
     "featured-collection",
     "29497505_1654137220",
     "165448555898d0b98d",
+    "1656498552371145ae",
     "1654498494af01ade5",
     "165448950900f21cf3",
     "165449668147bb6440"
