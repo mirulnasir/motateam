@@ -34,6 +34,23 @@
         "alt": false
       }
     },
+    "1656500031cf7b4064": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ttt.png",
+        "image2": "shopify:\/\/shop_images\/999.png",
+        "image_width": 700,
+        "subtitle": "VIP Membership",
+        "title": "automatic multiplying entires into single every giveaway",
+        "text": "<p>VIP members never miss a chance to win! You are automatically entered into every draw. Start your membership today to begin building entries.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": false
+      }
+    },
     "16551781929abf6bb7": {
       "type": "featured-collection",
       "settings": {
@@ -82,6 +99,7 @@
     "main",
     "16546472197b98ef67",
     "16546467580dd3c0e2",
+    "1656500031cf7b4064",
     "16551781929abf6bb7",
     "1655436917812ed360"
   ]
