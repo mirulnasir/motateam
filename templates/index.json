@@ -269,34 +269,20 @@
         "alt": false
       }
     },
-    "1656498552371145ae": {
-      "type": "advanced-content",
-      "blocks": {
-        "1656498552557bb0d5-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ttt.png",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "1656498552557bb0d5-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "What will members win after the Porsche Turbo?\nA 1976 Ford Mustang Fastback, GT500E Eleanor",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1656498552557bb0d5-0",
-        "1656498552557bb0d5-1"
-      ],
+    "16564991630da22a6d": {
+      "type": "text-and-image",
       "settings": {
-        "full_width": false,
-        "space_around": true,
+        "image": "shopify:\/\/shop_images\/ttt.png",
+        "image2": "shopify:\/\/shop_images\/Screen_Shot_2022-06-23_at_11.25.59_am_d96b585b-2ee3-448b-9ab0-63216810cd2d.png",
+        "image_width": 700,
+        "subtitle": "Our next Giveaway",
+        "title": "1967 FORD MUSTANG fastback gt500 Eleanor",
+        "text": "<p>Check out our 'Future Giveaways' page for information on our next giveaway. Entry for this giveaway will open at the conculsion of our Porsche Tubro giveaway. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
         "alt": false
       }
     },
@@ -352,7 +338,7 @@
     "featured-collection",
     "29497505_1654137220",
     "165448555898d0b98d",
-    "1656498552371145ae",
+    "16564991630da22a6d",
     "1654498494af01ade5",
     "165448950900f21cf3",
     "165449668147bb6440"
