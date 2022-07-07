@@ -108,6 +108,21 @@
         "autoplay_speed": 7
       }
     },
+    "165723460974cc8919": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/1.png_Porsche.png",
+        "desktop_size": 0,
+        "image_alignment": "center center",
+        "color_border": "#f4f4f4",
+        "layout": "left"
+      }
+    },
     "165517044641c4c6b2": {
       "type": "featured-collection",
       "settings": {
@@ -128,6 +143,7 @@
     "1654489882563f26ea",
     "1654491321c614394f",
     "165576733918a2581c",
+    "165723460974cc8919",
     "165517044641c4c6b2"
   ]
 }
