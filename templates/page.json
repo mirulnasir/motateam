@@ -80,6 +80,21 @@
         "autoplay_speed": 7
       }
     },
+    "16572357414c04d56c": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/1.jpg_mustang.jpg",
+        "desktop_size": 0,
+        "image_alignment": "center center",
+        "color_border": "#f4f4f4",
+        "layout": "left"
+      }
+    },
     "16564887844d5a943c": {
       "type": "background-image-text",
       "settings": {
@@ -102,6 +117,7 @@
     "1654489882563f26ea",
     "1654491321c614394f",
     "165576733918a2581c",
+    "16572357414c04d56c",
     "16564887844d5a943c"
   ]
 }
