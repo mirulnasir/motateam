@@ -34,6 +34,22 @@
         "alt": false
       }
     },
+    "16571589717132e89e": {
+      "type": "text-and-image",
+      "settings": {
+        "image2": "shopify:\/\/shop_images\/RCHF.png",
+        "image_width": 700,
+        "subtitle": "Charities we love",
+        "title": "Every Giveaway supports Charity",
+        "text": "<p>MOTA team couldn't be more proud to suppor the Royal Melbourne Children's Hospital. Mota Team are currently sponsoring a bed in the Kookaburra Ward for children battling cancer. Mota team has made a 3 year commitment to sponsor the Royal Melbourne Children's Hospital Kookaburra cancer treatment ward. Mota will be sponsoring an additional bed at the Children's Hospital for every new car member giveaway we run. <\/p><p>We are extremely happy to be able to help in this way to the amazing work the team at the Children's Hospital are doing. They are absolute angels! <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": false
+      }
+    },
     "1656500031cf7b4064": {
       "type": "text-and-image",
       "settings": {
@@ -99,6 +115,7 @@
     "main",
     "16546472197b98ef67",
     "16546467580dd3c0e2",
+    "16571589717132e89e",
     "1656500031cf7b4064",
     "16551781929abf6bb7",
     "1655436917812ed360"
