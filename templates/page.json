@@ -95,21 +95,6 @@
         "layout": "left"
       }
     },
-    "1657170120cccb7a0e": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/2_7c3b69e3-3835-4756-969e-ee00c65f04a8.png",
-        "desktop_size": 0,
-        "image_alignment": "center center",
-        "color_border": "#f4f4f4",
-        "layout": "left"
-      }
-    },
     "16564887844d5a943c": {
       "type": "background-image-text",
       "settings": {
@@ -133,7 +118,6 @@
     "1654491321c614394f",
     "165576733918a2581c",
     "1657170037a6f1b0b2",
-    "1657170120cccb7a0e",
     "16564887844d5a943c"
   ]
 }
