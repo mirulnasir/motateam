@@ -67,38 +67,10 @@
             "image_mobile": "shopify:\/\/shop_images\/MOTA_COLLAGE_-_MOBILE.png",
             "focal_point": "center center"
           }
-        },
-        "3a862bba-3fef-4b66-9504-c66e33763e10": {
-          "type": "image",
-          "settings": {
-            "title": "Two line\nslide title.",
-            "title_size": 80,
-            "subheading": "And an optional subheading",
-            "link": "",
-            "link_text": "Optional button",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center center"
-          }
-        },
-        "ceeb9aad-a3b8-4b5d-b775-c83b892a6f81": {
-          "type": "image",
-          "settings": {
-            "title": "Two line\nslide title.",
-            "title_size": 80,
-            "subheading": "And an optional subheading",
-            "link": "",
-            "link_text": "Optional button",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
-        "1655767339e18f8ed0-0",
-        "3a862bba-3fef-4b66-9504-c66e33763e10",
-        "ceeb9aad-a3b8-4b5d-b775-c83b892a6f81"
+        "1655767339e18f8ed0-0"
       ],
       "settings": {
         "style": "arrows",
