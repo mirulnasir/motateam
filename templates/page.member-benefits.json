@@ -20,75 +20,8 @@
         "layout": "left"
       }
     },
-    "16571589717132e89e": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Kookaburra.png",
-        "image2": "shopify:\/\/shop_images\/RCHF.png",
-        "image_width": 700,
-        "subtitle": "Charities we love",
-        "title": "Every Giveaway supports Charity",
-        "text": "<p>MOTA team couldn't be more proud to suppor the Royal Melbourne Children's Hospital. Mota Team are currently sponsoring a bed in the Kookaburra Ward for children battling cancer. Mota team has made a 3 year commitment to sponsor the Royal Melbourne Children's Hospital Kookaburra cancer treatment ward. Mota will be sponsoring an additional bed at the Children's Hospital for every new car member giveaway we run. <\/p><p>We are extremely happy to be able to help in this way to the amazing work the team at the Children's Hospital are doing. They are absolute angels! <\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "right",
-        "alt": false
-      }
-    },
-    "1656500031cf7b4064": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/ttt.png",
-        "image2": "shopify:\/\/shop_images\/999.png",
-        "image_width": 700,
-        "subtitle": "VIP Membership",
-        "title": "automatic multiplying entires into single every giveaway",
-        "text": "<p>VIP members never miss a chance to win! You are automatically entered into every draw. Start your membership today to begin building entries.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "right",
-        "alt": false
-      }
-    },
-    "16551781929abf6bb7": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "or GET YOUR SINGLE ENTRIES & limited membership NOW",
-        "description": "Single ticket entries are open for 1978 Porsche 930 Turbo draw only.",
-        "home_featured_products": "ticket-entries",
-        "rows": 2,
-        "per_row_desktop": 3,
-        "per_row_mobile": "1",
-        "view_all": false,
-        "alt": false
-      }
-    },
     "1655436917812ed360": {
       "type": "slideshow",
-      "blocks": {
-        "165543691719522b1d-0": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/MOTA_-_HOW_IT_WORKS_MOCK_1.png",
-            "image_mobile": "shopify:\/\/shop_images\/MOTA_-_HOW_IT_WORKS_MOCK_Instagram_Post_Instagram_Story_7c0420ac-73cc-4e1f-bc1b-00fe24a9600a.png",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "165543691719522b1d-0"
-      ],
       "settings": {
         "style": "arrows",
         "desktop_size": 0,
@@ -101,9 +34,6 @@
   "order": [
     "main",
     "16546472197b98ef67",
-    "16571589717132e89e",
-    "1656500031cf7b4064",
-    "16551781929abf6bb7",
     "1655436917812ed360"
   ]
 }
