@@ -14,24 +14,10 @@
         "text": "",
         "button_label": "",
         "button_link": "",
-        "image": "shopify:\/\/shop_images\/Untitled_1.5.1-Enhanced_0.5x.png",
         "desktop_size": -30,
         "image_alignment": "center center",
         "color_border": "#f4f4f4",
         "layout": "left"
-      }
-    },
-    "16546467580dd3c0e2": {
-      "type": "featured-membership",
-      "settings": {
-        "title": "BECOME A VIP MEMBER",
-        "description": "RECEIVE ENTRIES INTO EVERY GIVEAWAY! YOUR ENTRIES ACCUMULATE EVERY MONTH GIVING YOU MORE CHANCES TO WIN ! Mota gives you access to incredible savings with access to thousands of offers from Australia's most popular retailers and automative specialists, offers that are not available to the general public.",
-        "home_featured_products": "vip-memberships",
-        "rows": 1,
-        "per_row_desktop": 3,
-        "per_row_mobile": "1",
-        "display_button": false,
-        "alt": false
       }
     },
     "16571589717132e89e": {
@@ -115,7 +101,6 @@
   "order": [
     "main",
     "16546472197b98ef67",
-    "16546467580dd3c0e2",
     "16571589717132e89e",
     "1656500031cf7b4064",
     "16551781929abf6bb7",
