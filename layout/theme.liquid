@@ -81,6 +81,27 @@
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
+  <!-- Global site tag (gtag.js) - Google Ads: 10939621531 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10939621531"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10939621531');
+</script>
+<script>
+  window.addEventListener('load', function() {
+
+    if (window.location.href.indexOf('/pages/contact') != -1) {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-10939621531/LboqCNa64swDEJvBteAo'
+      });
+    }
+
+  });
+
+</script>
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}{% if settings.cart_type == 'sticky' and cart.item_count > 0 and template != 'cart' %} body--sticky-cart-open{% endif %}{% if cart.item_count > 0 %} cart-has-items{% endif %}" ontouchstart="return true;" data-transitions="{{settings.animate_page_transitions}}" data-animate_underlines="true" data-animate_images="{{settings.animate_images}}" data-button_style="{{settings.button_style}}" data-type_product_capitalize="{{settings.type_product_capitalize}}" data-type_header_capitalize="{{settings.type_header_capitalize}}" data-product_image_scatter="{{settings.product_image_scatter}}" data-button_type_style="{{settings.button_type_style}}">
