@@ -21,7 +21,7 @@
       AM.Config = {
         "selectors": {
             "payment_button_selectors": "form[action$='/cart/add'] .shopify-payment-button",
-            "subscriptionLinkSelector": "",
+            "subscriptionLinkSelector": "#MainContent > div > div > div.grid__item.medium-up--two-thirds > h2",
             "atcButtonPlacement": "BEFORE",
             "subscriptionLinkPlacement": "BEFORE"
         },
