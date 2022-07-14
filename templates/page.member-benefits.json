@@ -1,27 +1,87 @@
 {
   "sections": {
+    "16578006116e22936a": {
+      "type": "rich-text",
+      "blocks": {
+        "1657800611dea1e747-0": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "1657800611dea1e747-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><em>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1657800611dea1e747-0",
+        "1657800611dea1e747-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
       }
     },
-    "16546472197b98ef67": {
-      "type": "background-image-text",
+    "16578002762ee29cb9": {
+      "type": "slideshow",
+      "blocks": {
+        "1657800276cb2d405e-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 67,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/2_c1b3ed39-a24e-44ff-ae33-b05c3474ba69.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1657800276cb2d405e-0"
+      ],
       "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "desktop_size": -30,
-        "image_alignment": "center center",
-        "color_border": "#f4f4f4",
-        "layout": "left"
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
       }
     },
-    "1655436917812ed360": {
+    "1657800447c51f0b47": {
       "type": "slideshow",
+      "blocks": {
+        "16578004471158443b-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16578004471158443b-0"
+      ],
       "settings": {
         "style": "arrows",
         "desktop_size": 0,
@@ -32,8 +92,9 @@
     }
   },
   "order": [
+    "16578006116e22936a",
     "main",
-    "16546472197b98ef67",
-    "1655436917812ed360"
+    "16578002762ee29cb9",
+    "1657800447c51f0b47"
   ]
 }
