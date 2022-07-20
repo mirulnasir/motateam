@@ -105,16 +105,14 @@
   gtag('config', 'AW-10939621531');
 </script>
 <script>
-  window.addEventListener('load', function() {
-
-    if (window.location.href.indexOf('/pages/contact') != -1) {
-      gtag('event', 'conversion', {
-        'send_to': 'AW-10939621531/LboqCNa64swDEJvBteAo'
-      });
+window.addEventListener('load',function(){
+var str=setInterval(function(){
+    if(jQuery('.note--success:contains(Thanks)').is(':visible')){
+  gtag('event', 'conversion', {'send_to': 'AW-10939621531/J9a5CIit8soDEJvBteAo'});
+        clearInterval(str);
     }
-
-  });
-
+},1000);
+})
 </script>
 </head>
 
