@@ -53,7 +53,7 @@
         "button_label": "GET ENTRIES",
         "button_link": "shopify:\/\/pages\/giveaway",
         "image": "shopify:\/\/shop_images\/999.png",
-        "desktop_size": 0,
+        "desktop_size": 10,
         "image_alignment": "center center",
         "color_border": "#f4f4f4",
         "layout": "left"
