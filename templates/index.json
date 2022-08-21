@@ -148,8 +148,8 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "or GET YOUR SINGLE ENTRy Membership NOW!",
-        "description": "Giveaway Permit Number: TP\/01963",
+        "title": "or GET YOUR SINGLE ENTRY Membership NOW!",
+        "description": "One time payment only. Giveaway Permit Number: TP\/01963",
         "home_featured_products": "ticket-entries",
         "rows": 2,
         "per_row_desktop": 3,
