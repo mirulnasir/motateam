@@ -12,6 +12,22 @@
         "speed": "slow"
       }
     },
+    "16610464249904296d": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/hero_1.png",
+        "desktop_size": 0,
+        "image_alignment": "center center",
+        "color_border": "#f4f4f4",
+        "layout": "left"
+      }
+    },
     "hero-video": {
       "type": "hero-video",
       "settings": {
@@ -239,6 +255,7 @@
   },
   "order": [
     "marquee",
+    "16610464249904296d",
     "hero-video",
     "text-and-image",
     "165465702668704949",
