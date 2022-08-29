@@ -110,6 +110,39 @@
         "autoplay": false,
         "autoplay_speed": 7
       }
+    },
+    "1661817116160a9758": {
+      "type": "MBA",
+      "blocks": {
+        "16618171161ab180e4-0": {
+          "type": "image",
+          "settings": {
+            "focal_point": "center center"
+          }
+        },
+        "16618171161ab180e4-1": {
+          "type": "image",
+          "settings": {
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16618171161ab180e4-0",
+        "16618171161ab180e4-1"
+      ],
+      "settings": {
+        "style": "gif",
+        "title": "",
+        "title_size": 30,
+        "subheading": "Login to Members Portal",
+        "link": "",
+        "link_text": "Benefits Login",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": -30,
+        "mobile_size": 0
+      }
     }
   },
   "order": [
@@ -119,6 +152,7 @@
     "16571589717132e89e",
     "1656500031cf7b4064",
     "16551781929abf6bb7",
-    "1655436917812ed360"
+    "1655436917812ed360",
+    "1661817116160a9758"
   ]
 }
