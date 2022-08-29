@@ -27,6 +27,7 @@
         "1661754562af1cd826-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Member_Benefits_Site.png",
             "focal_point": "center center"
           }
         },
@@ -50,7 +51,7 @@
         "link_text": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "desktop_size": -40,
+        "desktop_size": -20,
         "mobile_size": -30
       }
     },
