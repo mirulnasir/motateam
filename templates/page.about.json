@@ -21,6 +21,39 @@
         "layout": "left"
       }
     },
+    "16617545627d423ada": {
+      "type": "MBA",
+      "blocks": {
+        "1661754562af1cd826-0": {
+          "type": "image",
+          "settings": {
+            "focal_point": "center center"
+          }
+        },
+        "1661754562af1cd826-1": {
+          "type": "image",
+          "settings": {
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1661754562af1cd826-0",
+        "1661754562af1cd826-1"
+      ],
+      "settings": {
+        "style": "gif",
+        "title": "Login to your Members Discount Portal",
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": -40,
+        "mobile_size": -30
+      }
+    },
     "16546467580dd3c0e2": {
       "type": "featured-membership",
       "settings": {
@@ -115,6 +148,7 @@
   "order": [
     "main",
     "16546472197b98ef67",
+    "16617545627d423ada",
     "16546467580dd3c0e2",
     "16571589717132e89e",
     "1656500031cf7b4064",
