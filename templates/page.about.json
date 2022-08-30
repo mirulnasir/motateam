@@ -117,6 +117,7 @@
         "16618171161ab180e4-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/VIP1.png",
             "focal_point": "center center"
           }
         },
