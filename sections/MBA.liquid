@@ -189,7 +189,7 @@
         {%- if address == customer.default_address -%}
            
                     <div class="hero__link appear-delay{% cycle '','-2','-4','-6','-8' %}">
-                      <a href="https://rewards-plus.com.au/MOTA-Shopify/SSO_implementation.php?first_name={{ customer.first_name }}&last_name={{ customer.last_name }}&email={{ customer.email }}&membershipNumber={{ customer.id }}&phone={{ address.phone }}&line1={{ address.address1 }}&line2={{ address.address2 }}&city={{ address.city }}&state={{ address.province_code }}&country={{ address.country }}&post_code={{ address.zip }}&membership_expiry={{ new_membership_expiry }}" target="_blank" class="btn{% unless accent_exists %} btn--inverse{% endunless %}">
+                      <a href="https://test.rewards-plus.com.au/shopify/PROD/SSO_implementation.php?first_name={{ customer.first_name }}&last_name={{ customer.last_name }}&email={{ customer.email }}&membershipNumber={{ customer.id }}&phone={{ address.phone }}&line1={{ address.address1 }}&line2={{ address.address2 }}&city={{ address.city }}&state={{ address.province_code }}&country={{ address.country }}&post_code={{ address.zip }}&membership_expiry={{ new_membership_expiry }}" target="_blank" class="btn{% unless accent_exists %} btn--inverse{% endunless %}">
                         {{ section.settings.link_text }}
                       </a>
                     </div>
