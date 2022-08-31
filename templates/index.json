@@ -106,7 +106,7 @@
       "type": "featured-membership",
       "settings": {
         "title": "join our vip now",
-        "description": "Becoming a VIP means that you are automatically entered into every giveaway, you won't miss out! VIP's receive accumualting entries each month into our car giveaways, increasing your chance to win. VIP's also receive all the benefits and offers from our retail partners through our member portal + free access to all live events.",
+        "description": "Becoming a VIP means that you are automatically entered into every giveaway, you won't miss out! VIP's receive accumulating entries each month into our car giveaways, increasing your chance to win. VIP's also receive all the benefits and offers from our retail partners through our member portal + free access to all live events.",
         "home_featured_products": "vip-memberships",
         "rows": 2,
         "per_row_desktop": 3,
