@@ -215,7 +215,7 @@
       "order_number": "Ticket",
       "date": "Date",
       "payment_status": "Payment status",
-      "fulfillment_status": "Fulfillment status",
+      "fulfillment_status": "Ticket status",
       "total": "Total",
       "none": "You haven't placed any orders yet."
     },
