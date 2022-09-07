@@ -353,6 +353,13 @@
       "thank_you": {
         "return_to_store_link_label": "Back to Website"
       }
+    },
+    "notices": {
+      "order": {
+        "fulfillment_status": {
+          "fulfilled": "Entered"
+        }
+      }
     }
   }
 }
