@@ -211,8 +211,8 @@
       "guest_continue": "Continue"
     },
     "orders": {
-      "title": "Order History",
-      "order_number": "Order",
+      "title": "Ticket History",
+      "order_number": "Ticket",
       "date": "Date",
       "payment_status": "Payment status",
       "fulfillment_status": "Fulfillment status",
