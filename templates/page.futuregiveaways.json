@@ -107,6 +107,19 @@
         "view_all": false,
         "alt": false
       }
+    },
+    "16625213704adeb659": {
+      "type": "featured-membership",
+      "settings": {
+        "title": "Featured collection grid",
+        "description": "",
+        "home_featured_products": "vip-memberships",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "display_button": true,
+        "alt": false
+      }
     }
   },
   "order": [
@@ -116,6 +129,7 @@
     "1654491321c614394f",
     "165576733918a2581c",
     "165723460974cc8919",
-    "165517044641c4c6b2"
+    "165517044641c4c6b2",
+    "16625213704adeb659"
   ]
 }
