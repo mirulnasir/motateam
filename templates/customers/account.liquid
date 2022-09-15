@@ -1,55 +1,135 @@
-{% layout settings.customer_layout %}
+{% paginate customer.orders by 20 %}
+{% assign draw_name = 'Porsche 1978 Draw' %}
+{% assign draw_date = '15/12/2022' %}
+{% style %}
+  .accum-total{
+    margin-top:1em;
+  }
+  .accum-total tr td:nth-child(1){
+    background:#000;
+    color:white;
+  }
+  .accum-total tr td:nth-child(2){
+    display:grid;
+    place-items:center;
+  }
+  .contact-info{
+    display: grid;
+    padding: 2em 0;
+    font-size: 1.2em;
+  }
+  #no-underline>a,#no-underline>a:after{
+    border: none!important;
+  }
+{% endstyle %}
+<div class="page-width page-content customers">
+  <header class="section-header">
+    <h1 class="section-header__title">
+      {{ 'customer.account.title' | t }}
+    </h1>
+    <div class="section-header__description">
+      {{ 'layout.customer.log_out'| t | customer_logout_link }}
+    </div>
+  </header>
 
-<div id="admin_header">
-  <div class="action_link action_return note" id='return_to_store'><a href="{{ shop.url }}">Return to Store</a></div>
-  <h2 class="title">Account Details and Order History</h2>
-</div>
+  <div class="grid">
 
-<div id="customer_sidebar">
-  <div id="customer_detail" class="group">
-    <h5 class="name">{{ customer.name }}</h5>
-    <p class="email note">{{ customer.email }}</p>
-    <div class="address note">
-      {% if customer.default_address != nil %}
-        <p>{{ customer.default_address.address1 }}</p>
-        {% if customer.default_address.address2 != "" %}
-          <p>{{ customer.default_address.address2 }}</p>
-        {% endif %}
-        <p>{{ customer.default_address.city}}, {% if address.province_code %}{{customer.default_address.province_code}}, {% endif %}{{customer.default_address.country}}</p>
-        <p>{{ customer.default_address.zip}}</p>
-        <p>{{ customer.default_address.phone }}</p>
-      {% endif %}
-      <a id="view_address" href="/account/addresses">View Addresses ({{ customer.addresses_count }})</a>
+    <div id="no-underline" class="grid__item medium-up--two-thirds">
+        <a href="https://www.motateam.com/pages/member-benefits" class="no-underline">
+          <button class="btn" style="padding: 2px 20px">Shop Benefits</button>
+        </a>
+  
+      <h2 class="h3">Ticket History</h2>
+      {%- if customer.orders.size != 0 -%}
+
+        <table class="full table--responsive">
+          <thead>
+            <tr>
+              <th>{{ 'customer.orders.order_number' | t }}</th>
+              <th>{{ 'customer.orders.date' | t }}</th>
+              <th>{{ 'customer.orders.payment_status' | t }}</th>
+              {% comment %}<th>{{ 'customer.orders.fulfillment_status' | t }}</th>{% endcomment %}
+              <th>Product</th>
+              <th>Entries Purchased</th>
+              <th>{{ 'customer.orders.total' | t }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% assign total_entries = 0 %}
+            {%- for order in customer.orders -%}
+              {% assign part_entries = 0 %}
+              <tr class="table__section">
+                <td data-label="{{ 'customer.orders.order_number' | t }}">{{ order.name | link_to: order.customer_url }}</td>
+                <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | time_tag: format: 'date' }}</td>
+                <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
+                {% comment %}<td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>{% endcomment %}
+                <td data-label="Product">
+                    {% for line_item in order.line_items%}
+                       {{ line_item.product.title }}
+                       {% case line_item.product.price %}
+                        {% when 1995 %}
+                            {% assign part_entries = part_entries | plus: 1 %}
+                        {% when 2500 %}
+                            {% assign part_entries = part_entries | plus: 1 %}
+                        {% when 3900 %}
+                            {% assign part_entries = part_entries | plus: 3 %}
+                        {% when 5000 %}
+                            {% assign part_entries = part_entries | plus: 3  %}
+                        {% when 8995 %}
+                            {% assign part_entries = part_entries | plus: 10  %}
+                        {% when 10000 %}
+                            {% assign part_entries = part_entries | plus: 10  %}
+                        {% when 25000 %}
+                            {% assign part_entries = part_entries | plus: 30  %}
+                        {% when 50000 %}
+                            {% assign part_entries = part_entries | plus: 80  %}
+                        {% when 100000 %}
+                            {% assign part_entries = part_entries | plus: 200  %}
+                        {% else %}
+                      {% endcase %}
+                    {% endfor %}
+                </td>
+                <td data-label="Entries Purchased">{{ part_entries }}</td>
+                <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
+              </tr>
+              {% assign total_entries = total_entries | plus: part_entries  %}
+            {%- endfor -%}
+          </tbody>
+        </table>
+        <table class="full table--responsive accum-total">
+            <tr class="table__section">
+              <td colspan="5">Your current total Accumulated Entries for the {{ draw_name }} - {{ draw_date }} </td>
+              <td><b>{{ total_entries }}</b></td>
+            </tr>
+        </table>
+        <div class="contact-info">
+          <p>If you have any questions about your account, membership or the draw, you can chat with the Mota Team at: </p>
+          <span>PHONE: <a href="tel:0383190984">(03) 8319 0984</a></span>
+          <span>EMAIL: <a href="mailto:info@motateam.com">info@motateam.com</a></span>
+        </div>
+        <hr class="hr--clear">
+
+      {%- else -%}
+
+        <p>{{ 'customer.orders.none' | t }}</p>
+
+      {%- endif -%}
+    </div>
+
+    <div class="grid__item medium-up--one-third">
+      <h3>{{ 'customer.account.details' | t }}</h3>
+
+      <p class="h5">{{ customer.name }}</p>
+
+      {{ customer.default_address | format_address }}
+
+      <p><a href="{{ routes.account_addresses_url }}" class="text-link">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a></p>
     </div>
 
   </div>
-</div>
 
-<div id="customer_orders">
-  {% if customer.orders.size != 0 %}
-  <table>
-    <thead>
-      <tr>
-        <th class="order_number">Order</th>
-        <th class="date">Date</th>
-        <th class="payment_status">Payment Status</th>
-        <th class="fulfillment_status">Fulfillment Status</th>
-        <th class="total">Total</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for order in customer.orders %}
-      <tr class="{% cycle 'odd', 'even' %} {% if order.cancelled %}cancelled_order{% endif %}">
-        <td>{{ order.name | link_to: order.customer_url }}</td>
-        <td><span class="note">{{ order.created_at | date: "%b %d, %Y" }}</span></td>
-        <td><span class="status_{{ order.financial_status }}">{{ order.financial_status }}</span></td>
-        <td><span class="status_{{ order.fulfillment_status }}">{{ order.fulfillment_status }}</span></td>
-        <td><span class="total money">{{ order.total_price | money }}</span></td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-  {% else %}
-    <p>You haven't placed any orders yet.</p>
-  {% endif %}
+  {%- if paginate.pages > 1 -%}
+    {%- render 'pagination', paginate: paginate -%}
+  {%- endif -%}
 </div>
+{% endpaginate %}
