@@ -43,8 +43,9 @@
           <p>
             <input type="submit" class="btn btn--full" value="{{ 'customer.login.sign_in' | t }}">
           </p>
+        {% comment %}
           <p>{{ 'layout.customer.create_account' | t | customer_register_link }}</p>
-
+        {% endcomment %}
         {%- endform -%}
       </div>
 
