@@ -30,11 +30,11 @@
           <input type="email" name="customer[email]" id="CustomerEmail" class="input-full{% if form.errors contains 'email' %} error{% endif %}" autocapitalize="off" autofocus>
 
           {%- if form.password_needed -%}
-          <div>
-            <div class="grid__item one-half">
+          <div style="display:grid;grid-template-columns: 1fr 1fr;">
+            <div class="">
               <label for="CustomerPassword">{{ 'customer.login.password' | t }}</label>
             </div>
-            <div class="grid__item one-half text-right">
+            <div class="" style="justify-self:right;">
               <small class="label-info">
                 <a href="#recover" id="RecoverPassword" class="js-no-transition">
                   {{ 'customer.login.forgot_password' | t }}
