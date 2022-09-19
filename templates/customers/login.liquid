@@ -12,11 +12,8 @@
      return params;
  }
 let paramStr = getParams();
- if(typeof paramStr.dudee !='undefined') {
-   console.log(paramStr.checkout_url)
- // $.each(parameters, function(key, value) {
- // console.log(key, value);
- // });
+ if(typeof paramStr.checkout_url !='undefined') {
+    document.querySelector('.from-checkout').style.display = 'block';
  }
 </script>
 <div class="page-width page-content">
