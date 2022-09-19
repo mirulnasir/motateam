@@ -30,7 +30,7 @@
           <input type="email" name="customer[email]" id="CustomerEmail" class="input-full{% if form.errors contains 'email' %} error{% endif %}" autocapitalize="off" autofocus>
 
           {%- if form.password_needed -%}
-          <div class="grid">
+          <div>
             <div class="grid__item one-half">
               <label for="CustomerPassword">{{ 'customer.login.password' | t }}</label>
             </div>
