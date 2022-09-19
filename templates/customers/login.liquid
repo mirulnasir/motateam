@@ -1,21 +1,3 @@
-<script>
-  function getParams() {
-     var params = {}, hash;
-     var q = document.URL.split('?')[1];
-     if(q != undefined) {
-         q = q.split('&');
-         for(var i = 0; i < q.length; i++) {
-             hash = q[i].split('=');
-             params[hash[0]] = hash[1];
-         }
-     }
-     return params;
- }
-let paramStr = getParams();
- if(typeof paramStr.checkout_url !='undefined') {
-    document.querySelector('.from-checkout').style.display = 'block';
- }
-</script>
 <div class="page-width page-content">
   <div style="display:grid;place-items:center;">
 
@@ -111,3 +93,21 @@ let paramStr = getParams();
     </div>
   </div>
 </div>
+<script>
+  function getParams() {
+     var params = {}, hash;
+     var q = document.URL.split('?')[1];
+     if(q != undefined) {
+         q = q.split('&');
+         for(var i = 0; i < q.length; i++) {
+             hash = q[i].split('=');
+             params[hash[0]] = hash[1];
+         }
+     }
+     return params;
+ }
+let paramStr = getParams();
+ if(typeof paramStr.checkout_url !='undefined') {
+    document.querySelector('.from-checkout').style.display = 'block';
+ }
+</script>
