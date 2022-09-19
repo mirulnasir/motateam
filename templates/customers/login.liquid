@@ -12,9 +12,8 @@
      return params;
  }
 let paramStr = getParams();
-  console.log(paramStr.checkout_url)
- if(paramStr.length>0) {
-   console.log(paramStr)
+ if(typeof paramStr.checkout_url !='undefined') {
+   console.log(paramStr.checkout_url)
  // $.each(parameters, function(key, value) {
  // console.log(key, value);
  // });
