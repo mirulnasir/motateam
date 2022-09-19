@@ -1,12 +1,31 @@
+<script>
+  function getParams() {
+     var params = {}, hash;
+     var q = document.URL.split('?')[1];
+     if(q != undefined) {
+         q = q.split('&');
+         for(var i = 0; i < q.length; i++) {
+             hash = q[i].split('=');
+             parameters[hash[0]] = hash[1];
+         }
+     }
+     return parameters;
+ }
+let parameters = getParams();
+ if(parameters.length>0) {
+   console.log(parameters)
+ // $.each(parameters, function(key, value) {
+ // console.log(key, value);
+ // });
+ }
+</script>
 <div class="page-width page-content">
   <div style="display:grid;place-items:center;">
 
     <div style="display:grid;max-width:50em;">
-      {%- if shop.checkout.guest_login -%}
-        <h2 class="section-header__title">
+        <h2 style="display:none" class="from-checkout section-header__title">
           CREATE YOUR MOTA ACCOUNT<br> & COMPLETE YOUR PURCHASE
         </h2>
-        {% endif %}
       <p>
         <a href="/account/register" class="btn btn--full">CREATE YOUR ACCOUNT</a>
       </p>
