@@ -2,14 +2,19 @@
   <div class="grid">
 
     <div class="grid__item medium-up--one-third medium-up--push-one-third">
+      {%- if shop.checkout.guest_login -%}
+        <h2 class="section-header__title">
+          CREATE YOUR MOTA ACCOUNT<br> & COMPLETE YOUR PURCHASE
+        </h2>
+        {% endif %}
       <p>
-        <a href="/account/register" class="btn btn--full">CREATE YOUR MOTATEAM ACCOUNT</a>
+        <a href="/account/register" class="btn btn--full">CREATE YOUR ACCOUNT</a>
       </p>
       <p style="text-align:center;">or</p>
       <header class="section-header">
-        <h1 class="section-header__title">
-          {{ 'customer.login.title' | t }}
-        </h1>
+        <h2 class="section-header__title">
+          ALREADY A MEMBER?<br>LOGIN HERE
+        </h2>
       </header>
 
       <div class="note note--success hide" id="ResetSuccess">
