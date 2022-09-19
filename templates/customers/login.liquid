@@ -6,10 +6,10 @@
          q = q.split('&');
          for(var i = 0; i < q.length; i++) {
              hash = q[i].split('=');
-             parameters[hash[0]] = hash[1];
+             params[hash[0]] = hash[1];
          }
      }
-     return parameters;
+     return params;
  }
 let paramStr = getParams();
  if(paramStr.length>0) {
