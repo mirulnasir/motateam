@@ -127,9 +127,18 @@ gtag('event', 'conversion', {'send_to': 'AW-10939621531/LboqCNa64swDEJvBteAo'});
 }
 })
 </script>
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K6ZCZ5J');</script>
+<!-- End Google Tag Manager -->
 </head>
 
 <body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}{% if settings.cart_type == 'sticky' and cart.item_count > 0 and template != 'cart' %} body--sticky-cart-open{% endif %}{% if cart.item_count > 0 %} cart-has-items{% endif %}" ontouchstart="return true;" data-transitions="{{settings.animate_page_transitions}}" data-animate_underlines="true" data-animate_images="{{settings.animate_images}}" data-button_style="{{settings.button_style}}" data-type_product_capitalize="{{settings.type_product_capitalize}}" data-type_header_capitalize="{{settings.type_header_capitalize}}" data-product_image_scatter="{{settings.product_image_scatter}}" data-button_type_style="{{settings.button_type_style}}">
+  
   <div id="OverscrollLoader" class="overscroll-loader" aria-hidden="true">
     <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--full-color icon-loader--full-color"><path class="icon-loader__close" d="M19 17.61l27.12 27.13m0-27.12L19 44.74"/><path class="icon-loader__path" d="M40 90a40 40 0 1 1 20 0"/></svg>
   </div>
@@ -203,6 +212,10 @@ gtag('event', 'conversion', {'send_to': 'AW-10939621531/LboqCNa64swDEJvBteAo'});
   -%}
 {% render 'spurit_sct_theme_snippet' %}
 {% include 'smile-initializer' %}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6ZCZ5J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <script>
   (function() {
     var REDIRECT_PATH = '/checkout';
