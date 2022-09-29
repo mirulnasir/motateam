@@ -124,6 +124,14 @@
         "autoplay": false,
         "autoplay_speed": 7
       }
+    },
+    "166449291046a5b3a1": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/jA39351UY8w",
+        "alt": false
+      }
     }
   },
   "order": [
@@ -131,6 +139,7 @@
     "16578006116e22936a",
     "main",
     "16578002762ee29cb9",
-    "1657800447c51f0b47"
+    "1657800447c51f0b47",
+    "166449291046a5b3a1"
   ]
 }
