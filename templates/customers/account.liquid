@@ -115,7 +115,7 @@
                 </td>
                 <td data-label="Entries Purchased">
                   {{ part_entries }}<br>
-                  <button onclick="console.log('this is happening')" class="view-these-entries">View Entries</button>
+                  <button class="view-these-entries">View Entries</button>
                   <div class="entry-modal">
                     <div class="inner">
                       {% for counter in (1..entryCount) %}
@@ -161,20 +161,6 @@
     </div>
 
   </div>
-<script>
-  const viewBtns = document.querySelectorAll('.view-these-entries');
-  document.addEventListener("click",e=>{
-    console.log(e.target)
-  })
-    viewBtns.forEach(elem=>{
-      elem.addEventListener('click', doSomething)
-    })  
-function doSomething(){
-  console.log('do something')
-}
-
-
-</script>
   {%- if paginate.pages > 1 -%}
     {%- render 'pagination', paginate: paginate -%}
   {%- endif -%}
