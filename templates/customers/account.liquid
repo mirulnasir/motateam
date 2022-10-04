@@ -161,7 +161,16 @@
     </div>
 
   </div>
+<script>
+  const viewBtn = document.querySelector('.view-entries');
+  if(viewBtn){
+    const toggleView = elem=>{
+      console.log(elem)
+    }
+    viewBtn.addEventListener("click", elem => toggleView(elem))
+  }
 
+</script>
   {%- if paginate.pages > 1 -%}
     {%- render 'pagination', paginate: paginate -%}
   {%- endif -%}
