@@ -102,10 +102,15 @@
                       {% endcase %}
                     {% endfor %}
                 </td>
-                {% for counter in (1..entryCount) %}
-                  {{ order.name | append: "-" | append: counter }}
-                {% endfor %}
-                <td data-label="Entries Purchased">{{ part_entries }}<br><span class="view-entries">View Entries</span><div class="entry-modal"></div></td>
+                <td data-label="Entries Purchased">
+                  {{ part_entries }}<br>
+                  <span class="view-entries">View Entries</span>
+                  <div class="entry-modal">
+                    {% for counter in (1..entryCount) %}
+                      {{ order.name | append: "-" | append: counter }}
+                    {% endfor %}
+                  </div>
+                </td>
                 <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
               </tr>
               {% assign total_entries = total_entries | plus: part_entries  %}
