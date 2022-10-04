@@ -168,8 +168,8 @@
       console.log(elem)
     }
     viewBtns.forEach(elem=>{
-      elem.addEventListener("click", (btn)=>{
-        console.log("this far")
+      elem.addEventListener("click", function(){
+        console.log(this)
       })
     })
     
