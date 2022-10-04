@@ -165,11 +165,12 @@
   const viewBtns = document.querySelectorAll('.view-entries');
   console.log(viewBtns)
   if(viewBtns.length>0){
-    console.log("this far")
     const toggleView = elem=>{
       console.log(elem)
     }
     viewBtns.forEach(elem=>{
+      console.log("this far")
+      console.log(elem)
       elem.addEventListener("click", btn => console.log(btn))
     })
     
