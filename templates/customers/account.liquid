@@ -168,9 +168,9 @@
       console.log(elem)
     }
     viewBtns.forEach(elem=>{
-      console.log("this far")
-      console.log(elem)
-      elem.addEventListener("click", btn => console.log(btn))
+      elem.addEventListener("click", (btn)=>{
+        console.log("this far")
+      })
     })
     
   }  
