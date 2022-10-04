@@ -164,12 +164,11 @@
 <script>
   const viewBtns = document.querySelectorAll('.view-these-entries');
     viewBtns.forEach(elem=>{
-      console.log(elem)
-      elem.addEventListener('mouseover', function(){
-        console.log(this)
-      })
+      elem.addEventListener('click', doSomething)
     })  
-
+function doSomething(){
+  console.log('do something')
+}
 
 
 </script>
