@@ -163,6 +163,9 @@
   </div>
 <script>
   const viewBtns = document.querySelectorAll('.view-these-entries');
+  document.addEventListener("click",e=>{
+    console.log(e.target)
+  })
     viewBtns.forEach(elem=>{
       elem.addEventListener('click', doSomething)
     })  
