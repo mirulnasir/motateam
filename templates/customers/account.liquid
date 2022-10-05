@@ -127,7 +127,7 @@
                       </button>
                       <h3>Tickets for {{ order.created_at | time_tag: format: 'date' }}</h3>
                       {% for counter in (1..entryCount) %}
-                        {{ order.name | append: "-" | append: counter }},
+                        <span>{{ order.name | append: "-" | append: counter }}</span>
                       {% endfor %}
                     </div>
                   </dialog>
