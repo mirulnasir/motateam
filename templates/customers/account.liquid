@@ -168,9 +168,9 @@
 <script>
   const viewBtns = docment.querySelectorAll('.view-entries')
   viewBtns.forEach(elem=>{
-    elem.addEventListerner('click',showDialog)
+    elem.addEventListerner('click',function(){showDialog(this)})
   })
-  function showDialog(){
-    
+  function showDialog(elem){
+    elem.showModal();
   }
 </script>
