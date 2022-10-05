@@ -168,7 +168,7 @@
 <script>
   const viewBtns = document.querySelectorAll('.view-entries')
   viewBtns.forEach(elem=>{
-    elem.addEventListerner('click',function(){showDialog(this);alert(this)})
+    elem.addEventListener('click',function(){showDialog(this);alert(this)})
   })
   function showDialog(elem){
     alert(elem);
