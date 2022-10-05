@@ -240,8 +240,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 </html>
 <script>
-  document.addEventListener("click", function(){
-    if(this.classList.contains('view-entries')){
+  document.addEventListener("click", function(elem){
+    if(elem.classList.contains('view-entries')){
       this.style.background = "blue";
     }
   })
