@@ -168,10 +168,9 @@
 <script>
   const viewBtns = document.querySelectorAll('.view-entries')
   viewBtns.forEach(elem=>{
-    elem.addEventListener('click',function(){showDialog(this);alert(this)})
+    elem.addEventListener('click',function(){showDialog(this)})
   })
   function showDialog(elem){
-    alert(elem);
     elem.nextElementSibling.style.border="1px solid red";
   }
 </script>
