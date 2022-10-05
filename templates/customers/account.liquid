@@ -180,4 +180,9 @@
   function showDialog(elem){
     elem.nextElementSibling.showModal();
   }
+  const closeBtns = document.querySelectorAll('.closeDialog')
+  closeBtns.addEventListener('click',e=>{closeDialog(e)})
+  function closeDialog(e){
+    e.closest('dialog').close();
+  }
 </script>
