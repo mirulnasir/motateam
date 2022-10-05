@@ -182,7 +182,7 @@
   }
   const closeBtns = document.querySelectorAll('.closeDialog')
   closeBtns.forEach(e=>{
-    e.addEventListener('click',el=>{closeDialog(el)})
+    e.addEventListener('click',el=>{closeDialog(e)})
   })
   function closeDialog(e){
     e.closest('dialog').close();
