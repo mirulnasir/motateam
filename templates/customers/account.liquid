@@ -166,7 +166,7 @@
 </div>
 {% endpaginate %}
 <script>
-  const viewBtns = docment.querySelectorAll('.view-entries')
+  const viewBtns = document.querySelectorAll('.view-entries')
   viewBtns.forEach(elem=>{
     elem.addEventListerner('click',function(){showDialog(this);alert(this)})
   })
