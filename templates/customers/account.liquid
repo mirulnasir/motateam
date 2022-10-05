@@ -114,8 +114,9 @@
                   <button type="button" class="view-entries">View Entries</button>
                   <dialog class="entry-modal">
                     <div class="inner">
+                      <h3>Entries for {{ order.created_at | time_tag: format: 'date' }}</h3>
                       {% for counter in (1..entryCount) %}
-                        {{ order.name | append: "-" | append: counter }}
+                        {{ order.name | append: "-" | append: counter }},
                       {% endfor %}
                     </div>
                   </dialog>
