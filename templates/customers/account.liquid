@@ -181,7 +181,9 @@
     elem.nextElementSibling.showModal();
   }
   const closeBtns = document.querySelectorAll('.closeDialog')
-  closeBtns.addEventListener('click',e=>{closeDialog(e)})
+  closeBtnsforEach(e=>{
+    e.addEventListener('click',el=>{closeDialog(el)})
+  })
   function closeDialog(e){
     e.closest('dialog').close();
   }
