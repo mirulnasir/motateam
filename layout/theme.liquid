@@ -241,6 +241,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </html>
 <script>
   document.addEventListener("click", function(){
-    console.log("this far");
+    if(this.classList.contains('view-entries')){
+      this.style.background = "blue";
+    }
   })
 </script>
