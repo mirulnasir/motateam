@@ -241,6 +241,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </html>
 <script>
   document.addEventListener("click", function(elem){
+    console.log(elem)
     if(elem.classList.contains('view-entries')){
       this.style.background = "blue";
     }
