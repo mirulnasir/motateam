@@ -61,7 +61,8 @@
         <table class="full table--responsive">
           <thead>
             <tr>
-              <th>{{ 'customer.orders.order_number' | t }}</th>
+              {% comment %}<th>{{ 'customer.orders.order_number' | t }}</th>{% endcomment %}
+              <th>Order #</th>
               <th>{{ 'customer.orders.date' | t }}</th>
               <th>{{ 'customer.orders.payment_status' | t }}</th>
               {% comment %}<th>{{ 'customer.orders.fulfillment_status' | t }}</th>{% endcomment %}
