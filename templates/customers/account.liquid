@@ -116,13 +116,13 @@
                 <td data-label="Entries Purchased">
                   {{ part_entries }}<br>
                   <button type="button" class="view-entries">View Entries</button>
-                  <dialog class="entry-modal">
+                  <div class="entry-modal">
                     <div class="inner">
                       {% for counter in (1..entryCount) %}
                         {{ order.name | append: "-" | append: counter }}
                       {% endfor %}
                     </div>
-                  </dialog>
+                  </div>
                 </td>
                 <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
               </tr>
@@ -171,6 +171,6 @@
     elem.addEventListener('click',function(){showDialog(this)})
   })
   function showDialog(elem){
-    elem.nextElementSibling.showModal();
+    elem.nextElementSibling.style.display = "grid";
   }
 </script>
