@@ -14,10 +14,10 @@
         "text": "",
         "button_label": "",
         "button_link": "",
-        "image": "shopify:\/\/shop_images\/VIP1.png",
-        "desktop_size": -30,
+        "image": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_1.png",
+        "desktop_size": 0,
         "image_alignment": "center center",
-        "color_border": "#f4f4f4",
+        "color_border": "#ffffff",
         "layout": "left"
       }
     },
