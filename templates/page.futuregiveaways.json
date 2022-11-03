@@ -95,29 +95,29 @@
         "layout": "left"
       }
     },
-    "165517044641c4c6b2": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "GET YOUR ENTRIES NOW!",
-        "description": "Giveaway Permit Number: TP\/01963O - Entry is only open to all Australian redidents, 18+ excluding South Australia. Single ticket entries are open for 1978 Porsche 930 Turbo draw only. Become a VIP member to be entered into the Porsche draw and all future draws, including our 1967 Ford Mustang Fastback Eleanor giveaway. VIP members receive accumulating entires and have the best chance to win!  Porsche Turbo draw date: 15\/12\/2022",
-        "home_featured_products": "ticket-entries",
-        "rows": 2,
-        "per_row_desktop": 3,
-        "per_row_mobile": "1",
-        "view_all": false,
-        "alt": false
-      }
-    },
     "16625213704adeb659": {
       "type": "featured-membership",
       "settings": {
-        "title": "or BECOME A VIP MEMBER",
+        "title": "BECOME A VIP MEMBER",
         "description": "The best part about becoming a VIP member is that is pays for itself, plus some... Mota gives you access to incredible savings and offers from over 4,000 Australian brands + retailers, offers and discounts that are not available to the general public. Once a VIP package is purchased, simply login as a member to access. VIP members receive entries into every single giveaway, your entires accumulate each month giving you the best chance to win!",
         "home_featured_products": "vip-memberships",
         "rows": 2,
         "per_row_desktop": 3,
         "per_row_mobile": "1",
         "display_button": true,
+        "alt": false
+      }
+    },
+    "165517044641c4c6b2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "or GET YOUR ENTRIES NOW!",
+        "description": "Giveaway Permit Number: TP\/01963O - Entry is only open to all Australian redidents, 18+ excluding South Australia. Single ticket entries are open for 1978 Porsche 930 Turbo draw only. Become a VIP member to be entered into the Porsche draw and all future draws, including our 1967 Ford Mustang Fastback Eleanor giveaway. VIP members receive accumulating entires and have the best chance to win!  Porsche Turbo draw date: 15\/12\/2022",
+        "home_featured_products": "ticket-entries",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "view_all": false,
         "alt": false
       }
     }
@@ -129,7 +129,7 @@
     "1654491321c614394f",
     "165576733918a2581c",
     "165723460974cc8919",
-    "165517044641c4c6b2",
-    "16625213704adeb659"
+    "16625213704adeb659",
+    "165517044641c4c6b2"
   ]
 }
