@@ -63,8 +63,8 @@
       "type": "background-image-text",
       "settings": {
         "subtitle": "",
-        "title": "Large image with text box",
-        "text": "",
+        "title": "",
+        "text": "<p>Promotion capped at 8,000 total entrants. Draw takes place on 15\/12\/2022 or earlier if cap is reached. The draw is guaranteed. <\/p>",
         "button_label": "",
         "button_link": "",
         "image": "shopify:\/\/shop_images\/resize.png",
