@@ -18,6 +18,21 @@
       "settings": {
       }
     },
+    "a978aa8c-ba48-4991-a72d-2e47016c92ac": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/resize.png",
+        "desktop_size": 0,
+        "image_alignment": "center center",
+        "color_border": "#f4f4f4",
+        "layout": "left"
+      }
+    },
     "1654489882563f26ea": {
       "type": "background-image-text",
       "settings": {
@@ -140,6 +155,7 @@
   "order": [
     "1654580473ea92260b",
     "main",
+    "a978aa8c-ba48-4991-a72d-2e47016c92ac",
     "1654489882563f26ea",
     "1654491321c614394f",
     "165576733918a2581c",
