@@ -147,26 +147,6 @@
     },
     "16552551052229576d": {
       "type": "slideshow",
-      "blocks": {
-        "1655255105a356e35e-0": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/3_WEEKS_TO_GO_V1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/MOTA_-_HOW_IT_WORKS_MOCK_Instagram_Post_Instagram_Story_7c0420ac-73cc-4e1f-bc1b-00fe24a9600a.png",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "1655255105a356e35e-0"
-      ],
       "settings": {
         "style": "arrows",
         "desktop_size": 0,
