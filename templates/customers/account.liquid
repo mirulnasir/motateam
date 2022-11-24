@@ -163,8 +163,8 @@
           {% unless highest_membership == blank %}
             <tr class="table__section">
               <td colspan="4" style="background:{{ bonus_color }}">Bonus Entries for your {{ highest_membership }} membership </td>
-              <td>
-                  <button type="button" class="view-entries">View Tickets</button>
+              <td style="background:{{ bonus_color }}">
+                  <button type="button" class="view-entries" style="color:white;">View Tickets</button>
                   <dialog class="entry-modal">
                     <div class="inner">
                       <button type="button" class="btn btn--tertiary btn--circle modal__close closeDialog text-link">
