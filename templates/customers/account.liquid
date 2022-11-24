@@ -183,6 +183,7 @@
                 </td>
               <td><div class="number"><b>{{ bonus_count }}</b></div></td>
             </tr>
+            {% assign total_entries = total_entries | plus: bonus_count  %}
           {% endunless %}
             <tr class="table__section">
               <td colspan="5">Your current total Accumulated Entries for the {{ draw_name }} - {{ draw_date }} </td>
