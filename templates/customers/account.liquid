@@ -94,11 +94,11 @@
                       {% when 1995 %}
                         {% assign part_entries = part_entries | plus: 1 %}
                         {% assign entryCount = 1 %}
-                        {% unless highest_membership=='Premium' or highest_membership=='Elite' %}
+                        {% if highest_membership!='Premium' and highest_membership!='Elite' %}
                           {% assign highest_membership = "Entry" %}
                           {% assign bonus_count = 5 %}
                           {% assign bonus_color = '#D4AD40' %}
-                        {% endunless %}
+                        {% endif %}
                       {% when 2500 %}
                         {% assign part_entries = part_entries | plus: 1 %}
                         {% assign entryCount = 1 %}
@@ -108,11 +108,11 @@
                       {% when 3995 %}
                         {% assign part_entries = part_entries | plus: 3 %}
                         {% assign entryCount = 3 %}
-                        {% unless highest_membership=='Elite' %}
+                        {% if highest_membership!='Elite' %}
                           {% assign highest_membership = "Premium" %}
                           {% assign bonus_count = 10 %}
                           {% assign bonus_color = '#C5CED4' %}
-                        {% endunless %}
+                        {% endif %}
                       {% when 5000 %}
                           {% assign part_entries = part_entries | plus: 3  %}
                           {% assign entryCount = 3 %}
