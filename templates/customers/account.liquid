@@ -158,7 +158,22 @@
         <table class="full table--responsive accum-total">
           {% unless highest_membership == blank %}
             <tr class="table__section">
-              <td colspan="5">Bonys Entries for your {{ highest_membership }} membership </td>
+              <td colspan="4">Bonys Entries for your {{ highest_membership }} membership </td>
+              <td>
+                  <button type="button" class="view-entries">View Tickets</button>
+                  <dialog class="entry-modal">
+                    <div class="inner">
+                      <button type="button" class="btn btn--tertiary btn--circle modal__close closeDialog text-link">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"></path></svg>
+                        <span class="icon__fallback-text">Close (esc)</span>
+                      </button>
+                      <h3>Bonus Entry Tickets</h3>
+                      {% for Bcounter in (1..bonus_count) %}
+                        <span>{{ customer.id | append: "-B" | append: Bcounter }}</span>
+                      {% endfor %}
+                    </div>
+                  </dialog>
+                </td>
               <td><b>{{ total_entries }}</b></td>
             </tr>
           {% endunless %}
