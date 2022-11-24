@@ -78,6 +78,7 @@
           </thead>
           <tbody>
             {% assign total_entries = 0 %}
+            {% assign highest_membership = blank %}
             {%- for order in customer.orders -%}
               {% assign part_entries = 0 %}
               <tr class="table__section">
@@ -91,8 +92,11 @@
                        {{ line_item.product.title }}
                        {% case line_item.product.price %}
                         {% when 1995 %}
-                            {% assign part_entries = part_entries | plus: 1 %}
-                            {% assign entryCount = 1 %}
+                          {% assign part_entries = part_entries | plus: 1 %}
+                          {% assign entryCount = 1 %}
+                          {% assign highest_membership = "Entry" %}
+                           {% assign bonus_count = 5 %}
+                           {% assign bonus_color = '#D4AD40' %}
                         {% when 2500 %}
                             {% assign part_entries = part_entries | plus: 1 %}
                             {% assign entryCount = 1 %}
@@ -102,12 +106,18 @@
                         {% when 3995 %}
                             {% assign part_entries = part_entries | plus: 3 %}
                             {% assign entryCount = 3 %}
+                         {% assign highest_membership = "Premium" %}
+                         {% assign bonus_count = 10 %}
+                         {% assign bonus_color = '#C5CED4' %}
                         {% when 5000 %}
                             {% assign part_entries = part_entries | plus: 3  %}
                             {% assign entryCount = 3 %}
                         {% when 8995 %}
                             {% assign part_entries = part_entries | plus: 10  %}
                             {% assign entryCount = 10 %}
+                         {% assign highest_membership = "Elite" %}
+                         {% assign bonus_count = 25 %}
+                         {% assign bonus_color = '#CCB700' %}
                         {% when 10000 %}
                             {% assign part_entries = part_entries | plus: 10  %}
                             {% assign entryCount = 10 %}
@@ -146,6 +156,12 @@
           </tbody>
         </table>
         <table class="full table--responsive accum-total">
+          {% unless highest_membership == blank %}
+            <tr class="table__section">
+              <td colspan="5">Bonys Entries for your {{ highest_membership }} membership </td>
+              <td><b>{{ total_entries }}</b></td>
+            </tr>
+          {% endunless %}
             <tr class="table__section">
               <td colspan="5">Your current total Accumulated Entries for the {{ draw_name }} - {{ draw_date }} </td>
               <td><b>{{ total_entries }}</b></td>
