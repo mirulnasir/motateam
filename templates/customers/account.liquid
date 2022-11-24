@@ -87,52 +87,56 @@
                 <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
                 {% comment %}<td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>{% endcomment %}
                 <td data-label="Product">
-                    {% assign entryCount = 0 %}
-                    {% for line_item in order.line_items%}
-                       {{ line_item.product.title }}
-                       {% case line_item.product.price %}
-                        {% when 1995 %}
-                          {% assign part_entries = part_entries | plus: 1 %}
-                          {% assign entryCount = 1 %}
+                  {% assign entryCount = 0 %}
+                  {% for line_item in order.line_items%}
+                     {{ line_item.product.title }}
+                     {% case line_item.product.price %}
+                      {% when 1995 %}
+                        {% assign part_entries = part_entries | plus: 1 %}
+                        {% assign entryCount = 1 %}
+                        {% unless highest_membership=='Premium' or highest_membership=='Elite' %}
                           {% assign highest_membership = "Entry" %}
-                           {% assign bonus_count = 5 %}
-                           {% assign bonus_color = '#D4AD40' %}
-                        {% when 2500 %}
-                            {% assign part_entries = part_entries | plus: 1 %}
-                            {% assign entryCount = 1 %}
-                        {% when 3900 %}
-                            {% assign part_entries = part_entries | plus: 3 %}
-                            {% assign entryCount = 3 %}
-                        {% when 3995 %}
-                            {% assign part_entries = part_entries | plus: 3 %}
-                            {% assign entryCount = 3 %}
-                         {% assign highest_membership = "Premium" %}
-                         {% assign bonus_count = 10 %}
-                         {% assign bonus_color = '#C5CED4' %}
-                        {% when 5000 %}
-                            {% assign part_entries = part_entries | plus: 3  %}
-                            {% assign entryCount = 3 %}
-                        {% when 8995 %}
-                            {% assign part_entries = part_entries | plus: 10  %}
-                            {% assign entryCount = 10 %}
-                         {% assign highest_membership = "Elite" %}
-                         {% assign bonus_count = 25 %}
-                         {% assign bonus_color = '#CCB700' %}
-                        {% when 10000 %}
-                            {% assign part_entries = part_entries | plus: 10  %}
-                            {% assign entryCount = 10 %}
-                        {% when 25000 %}
-                            {% assign part_entries = part_entries | plus: 30  %}
-                            {% assign entryCount = 30 %}
-                        {% when 50000 %}
-                            {% assign part_entries = part_entries | plus: 80  %}
-                            {% assign entryCount = 80 %}
-                        {% when 100000 %}
-                            {% assign part_entries = part_entries | plus: 200  %}
-                            {% assign entryCount = 200 %}
-                        {% else %}
-                      {% endcase %}
-                    {% endfor %}
+                          {% assign bonus_count = 5 %}
+                          {% assign bonus_color = '#D4AD40' %}
+                        {% endunless %}
+                      {% when 2500 %}
+                        {% assign part_entries = part_entries | plus: 1 %}
+                        {% assign entryCount = 1 %}
+                      {% when 3900 %}
+                        {% assign part_entries = part_entries | plus: 3 %}
+                        {% assign entryCount = 3 %}
+                      {% when 3995 %}
+                        {% assign part_entries = part_entries | plus: 3 %}
+                        {% assign entryCount = 3 %}
+                        {% unless highest_membership=='Elite' %}
+                          {% assign highest_membership = "Premium" %}
+                          {% assign bonus_count = 10 %}
+                          {% assign bonus_color = '#C5CED4' %}
+                        {% endunless %}
+                      {% when 5000 %}
+                          {% assign part_entries = part_entries | plus: 3  %}
+                          {% assign entryCount = 3 %}
+                      {% when 8995 %}
+                        {% assign part_entries = part_entries | plus: 10  %}
+                        {% assign entryCount = 10 %}
+                        {% assign highest_membership = "Elite" %}
+                        {% assign bonus_count = 25 %}
+                        {% assign bonus_color = '#CCB700' %}
+                      {% when 10000 %}
+                          {% assign part_entries = part_entries | plus: 10  %}
+                          {% assign entryCount = 10 %}
+                      {% when 25000 %}
+                          {% assign part_entries = part_entries | plus: 30  %}
+                          {% assign entryCount = 30 %}
+                      {% when 50000 %}
+                          {% assign part_entries = part_entries | plus: 80  %}
+                          {% assign entryCount = 80 %}
+                      {% when 100000 %}
+                          {% assign part_entries = part_entries | plus: 200  %}
+                          {% assign entryCount = 200 %}
+                      {% else %}
+                    {% endcase %}
+                  {% endfor %}
                 </td>
                 <td data-label="Entries Purchased">
                   <button type="button" class="view-entries">{{ part_entries }} - View Tickets</button>
