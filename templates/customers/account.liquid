@@ -98,6 +98,7 @@
                           {% assign highest_membership = "Entry" %}
                           {% assign bonus_count = 5 %}
                           {% assign bonus_color = '#D4AD40' %}
+                          {% assign bonus_order = order.name %}
                         {% endif %}
                       {% when 2500 %}
                         {% assign part_entries = part_entries | plus: 1 %}
@@ -112,6 +113,7 @@
                           {% assign highest_membership = "Premium" %}
                           {% assign bonus_count = 10 %}
                           {% assign bonus_color = '#C5CED4' %}
+                          {% assign bonus_order = order.name %}
                         {% endif %}
                       {% when 5000 %}
                           {% assign part_entries = part_entries | plus: 3  %}
@@ -122,6 +124,7 @@
                         {% assign highest_membership = "Elite" %}
                         {% assign bonus_count = 25 %}
                         {% assign bonus_color = '#CCB700' %}
+                       {% assign bonus_order = order.name %}
                       {% when 10000 %}
                           {% assign part_entries = part_entries | plus: 10  %}
                           {% assign entryCount = 10 %}
@@ -173,7 +176,7 @@
                       </button>
                       <h3>Bonus Entry Tickets</h3>
                       {% for Bcounter in (1..bonus_count) %}
-                        <span>{{ customer.id | append: "-B" | append: Bcounter }}</span>
+                        <span>{{ bonus_order | append: "-B" | append: Bcounter }}</span>
                       {% endfor %}
                     </div>
                   </dialog>
