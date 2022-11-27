@@ -60,19 +60,32 @@
         "layout": "left"
       }
     },
-    "69713277-220d-475d-91ae-376300850f0e": {
-      "type": "background-image-text",
+    "0cce90cc-b19b-48df-979a-543cf061d842": {
+      "type": "hero-animated",
+      "blocks": {
+        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/nnn.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1"
+      ],
       "settings": {
-        "subtitle": "",
+        "style": "gif",
         "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/resize_2.png",
-        "desktop_size": 0,
-        "image_alignment": "center center",
-        "color_border": "#f4f4f4",
-        "layout": "left"
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": -20,
+        "mobile_size": 0
       }
     },
     "1653981611f18a881e": {
@@ -212,7 +225,7 @@
       "type": "marquee",
       "settings": {
         "text": "FOLLOW US ON INSTAGRAM @Motateamaustralia",
-        "link": "https:\/\/www.instagram.com\/motateamaustralia\/",
+        "link": "",
         "text_size": 30,
         "text_spacing": true,
         "color_scheme": "button",
@@ -292,7 +305,7 @@
     "16610464249904296d",
     "text-and-image",
     "165465702668704949",
-    "69713277-220d-475d-91ae-376300850f0e",
+    "0cce90cc-b19b-48df-979a-543cf061d842",
     "1653981611f18a881e",
     "52c8ed82-4238-4789-8b9f-88d1e87e3471",
     "1655180449ae267329",
