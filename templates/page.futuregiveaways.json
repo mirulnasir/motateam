@@ -50,19 +50,32 @@
         "alt": false
       }
     },
-    "a14482b7-20c8-4e37-af55-de1d751f039b": {
-      "type": "background-image-text",
+    "4a5e93ee-cc03-471c-a767-335434e494e3": {
+      "type": "hero-animated",
+      "blocks": {
+        "template--14944486883421__4a5e93ee-cc03-471c-a767-335434e494e3-1669589363dca00b55-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/nnn.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14944486883421__4a5e93ee-cc03-471c-a767-335434e494e3-1669589363dca00b55-0"
+      ],
       "settings": {
-        "subtitle": "",
+        "style": "gif",
         "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/resize.png",
-        "desktop_size": 0,
-        "image_alignment": "center center",
-        "color_border": "#f4f4f4",
-        "layout": "left"
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": -20,
+        "mobile_size": 0
       }
     },
     "165576733918a2581c": {
@@ -157,7 +170,7 @@
     "main",
     "1654489882563f26ea",
     "1654491321c614394f",
-    "a14482b7-20c8-4e37-af55-de1d751f039b",
+    "4a5e93ee-cc03-471c-a767-335434e494e3",
     "165576733918a2581c",
     "165723460974cc8919",
     "3040dde1-f63d-479d-8584-0fd09349ab4b",
