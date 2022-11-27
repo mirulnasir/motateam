@@ -212,7 +212,7 @@
       "type": "marquee",
       "settings": {
         "text": "FOLLOW US ON INSTAGRAM @Motateamaustralia",
-        "link": "",
+        "link": "https:\/\/www.instagram.com\/motateamaustralia\/",
         "text_size": 30,
         "text_spacing": true,
         "color_scheme": "button",
