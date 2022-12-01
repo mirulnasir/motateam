@@ -298,6 +298,21 @@
         "desktop_size": -30,
         "mobile_size": 0
       }
+    },
+    "57880680-74a8-4fd6-be2b-6dfac540dab9": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/89363cff6d9f49fa9049e57cce5d54fe.mp4",
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
     }
   },
   "order": [
@@ -317,6 +332,7 @@
     "2c0c229b_1663023414",
     "165448950900f21cf3",
     "165449668147bb6440",
-    "1661816998a3fed132"
+    "1661816998a3fed132",
+    "57880680-74a8-4fd6-be2b-6dfac540dab9"
   ]
 }
