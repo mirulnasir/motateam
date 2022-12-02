@@ -1,5 +1,20 @@
 {
   "sections": {
+    "8bcb72a6-a9a0-4ffe-83c3-adea50266c35": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "Click for sound",
+        "link": "https:\/\/youtu.be\/7hJAys-Ar3U",
+        "color_accent": "#000000",
+        "text_align": "vertical-bottom horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/89363cff6d9f49fa9049e57cce5d54fe.mp4",
+        "section_height": "750px",
+        "mobile_height": "auto"
+      }
+    },
     "marquee": {
       "type": "marquee",
       "disabled": true,
@@ -11,21 +26,6 @@
         "color_scheme": "button",
         "direction": "left",
         "speed": "slow"
-      }
-    },
-    "16610464249904296d": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/hero_1.png",
-        "desktop_size": 0,
-        "image_alignment": "center center",
-        "color_border": "#f4f4f4",
-        "layout": "left"
       }
     },
     "text-and-image": {
@@ -301,8 +301,8 @@
     }
   },
   "order": [
+    "8bcb72a6-a9a0-4ffe-83c3-adea50266c35",
     "marquee",
-    "16610464249904296d",
     "text-and-image",
     "165465702668704949",
     "0cce90cc-b19b-48df-979a-543cf061d842",
