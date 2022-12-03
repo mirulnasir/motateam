@@ -52,11 +52,11 @@
     },
     "4a5e93ee-cc03-471c-a767-335434e494e3": {
       "type": "hero-animated",
+      "disabled": true,
       "blocks": {
         "template--14944486883421__4a5e93ee-cc03-471c-a767-335434e494e3-1669589363dca00b55-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
             "image_mobile": "shopify:\/\/shop_images\/nnn.png",
             "focal_point": "center center"
           }
