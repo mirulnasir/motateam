@@ -135,8 +135,11 @@
     playSoundLink.addEventListener("click", ()=>{
       const parent = playSoundLink.closest('.video-parent-section');
       const video = parent.querySelector('video');
-      video.muted = false;
-      console.log(video)
+      if(video.muted){
+        video.muted = false;
+      }else{
+        video.muted = true;
+      }
     })
   }
 </script>
