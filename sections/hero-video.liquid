@@ -113,7 +113,7 @@
                 -%}
                 <div class="hero__link appear-delay{% cycle '','-2','-4','-6','-8' %}">
                   <a href="{{ link_href }}" class="btn{% unless accent_exists %} btn--inverse{% endunless %}">
-                    {%- if link_href contains 'youtube.com/watch' or link_href contains 'youtu.be/' -%}
+                    {%- if link_href contains 'youtube.com/watch' or link_href contains 'youtu.be/' or link_href contains 'play-sound' -%}
                       <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-play" viewBox="18.24 17.35 24.52 28.3"><path fill="#323232" d="M22.1 19.151v25.5l20.4-13.489-20.4-12.011z"/></svg>
                     {%- endif -%}
                     {{ section.settings.link_text }}
@@ -132,7 +132,10 @@
 <script>
   const playSoundLink = document.querySelector('a[href="#play-sound"]');
   if(playSoundLink){
-    console.log("this far");
+    playSoundLink.addEventListener("click", ()=>{
+      const parent = playSoundLink.closest('.video-parent-section');
+      const video = parent.querySelector()
+    })
   }
 </script>
 {% schema %}
