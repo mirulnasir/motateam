@@ -134,7 +134,9 @@
   if(playSoundLink){
     playSoundLink.addEventListener("click", ()=>{
       const parent = playSoundLink.closest('.video-parent-section');
-      const video = parent.querySelector()
+      const video = parent.querySelector('video');
+      video.muted = false;
+      console.log(video)
     })
   }
 </script>
