@@ -139,10 +139,10 @@
       const video = parent.querySelector('video');
       if(video.muted){
         video.muted = false;
-        video.innerHTML = `${pauseBtn} Mute`;
+        playSoundLink.innerHTML = `${pauseBtn} Mute`;
       }else{
         video.muted = true;
-        video.innerHTML = `${playBtn} Click for Sound`;
+        playSoundLink.innerHTML = `${playBtn} Click for Sound`;
       }
     })
   }
