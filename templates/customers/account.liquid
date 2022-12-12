@@ -146,6 +146,9 @@
                     {% endcase %}
                   {% endfor %}
                 </td>
+              {% if order.discount_applications.title == "DOUBLE" %}
+                {% assign entryCount = entryCount | times: 2 %}
+              {% endif %}
                 <td data-label="Entries Purchased">
                   <button type="button" class="view-entries">{{ part_entries }} - View Tickets</button>
                   <dialog class="entry-modal">
