@@ -97,8 +97,8 @@
                      {{ line_item.product.title }}
                      {% case line_item.product.title %}
                       {% when "ENTRY" %}
-                        {% assign part_entries = part_entries | plus: 1 %}
-                        {% assign entryCount = 1 %}
+                        {% assign part_entries = part_entries | plus: 1 | times: line_item.quantity %}
+                        {% assign entryCount = 1 | times: line_item.quantity %}
                         {% if highest_membership != 'Premium' and highest_membership != 'Elite' %}
                           
                           {% assign highest_membership = "Entry" %}
@@ -110,8 +110,8 @@
                         {% assign part_entries = part_entries | plus: 1 | times: line_item.quantity %}
                         {% assign entryCount = 1 | times: line_item.quantity %}
                       {% when "PREMIUM" %}
-                        {% assign part_entries = part_entries | plus: 3 %}
-                        {% assign entryCount = 3 %}
+                        {% assign part_entries = part_entries | plus: 3 | times: line_item.quantity %}
+                        {% assign entryCount = 3 | times: line_item.quantity %}
                         {% if highest_membership != 'Elite' %}
                           {% assign highest_membership = "Premium" %}
                           {% assign bonus_count = 10 %}
@@ -119,11 +119,11 @@
                           {% assign bonus_order = order.name %}
                         {% endif %}
                       {% when "SILVER PACKAGE" %}
-                          {% assign part_entries = part_entries | plus: 3  %}
-                          {% assign entryCount = 3 %}
+                          {% assign part_entries = part_entries | plus: 3 | times: line_item.quantity %}
+                          {% assign entryCount = 3 | times: line_item.quantity %}
                       {% when "ELITE" %}
-                        {% assign part_entries = part_entries | plus: 10  %}
-                        {% assign entryCount = 10 %}
+                        {% assign part_entries = part_entries | plus: 10 | times: line_item.quantity %}
+                        {% assign entryCount = 10 | times: line_item.quantity %}
                         {% assign highest_membership = "Elite" %}
                         {% assign bonus_count = 25 %}
                         {% assign bonus_color = '#CCB700' %}
