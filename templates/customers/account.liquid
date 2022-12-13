@@ -129,17 +129,17 @@
                         {% assign bonus_color = '#CCB700' %}
                        {% assign bonus_order = order.name %}
                       {% when "GOLD PACKAGE" %}
-                          {% assign part_entries = part_entries | plus: 10  %}
-                          {% assign entryCount = 10 %}
+                          {% assign part_entries = part_entries | plus: 10 | times: line_item.quantity %}
+                          {% assign entryCount = 10 | times: line_item.quantity %}
                       {% when "PLATINUM PACKAGE" %}
-                          {% assign part_entries = part_entries | plus: 30  %}
-                          {% assign entryCount = 30 %}
+                          {% assign part_entries = part_entries | plus: 30 | times: line_item.quantity %}
+                          {% assign entryCount = 30 | times: line_item.quantity %}
                       {% when "DIAMOND PACKAGE" %}
-                          {% assign part_entries = part_entries | plus: 80  %}
-                          {% assign entryCount = 80 %}
+                          {% assign part_entries = part_entries | plus: 80 | times: line_item.quantity %}
+                          {% assign entryCount = 80 | times: line_item.quantity %}
                       {% when "ULTIMATE PACKAGE" %}
-                          {% assign part_entries = part_entries | plus: 200  %}
-                          {% assign entryCount = 200 %}
+                          {% assign part_entries = part_entries | plus: 200 | times: line_item.quantity %}
+                          {% assign entryCount = 200 | times: line_item.quantity %}
                       {% else %}
                     {% endcase %}
                     {% assign lineLoop = forloop.index %}
