@@ -85,6 +85,7 @@
             {% assign highest_membership = blank %}
             {%- for order in customer.orders -%}
               {% assign part_entries = 0 %}
+              {% assign spans = '' %}
               <tr class="table__section{% if order.discount_applications.title == "DOUBLE" %} discount-row{% endif %}">
                 <td data-label="{{ 'customer.orders.order_number' | t }}">{{ order.name | link_to: order.customer_url }}</td>
                 <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | time_tag: format: 'date' }}</td>
