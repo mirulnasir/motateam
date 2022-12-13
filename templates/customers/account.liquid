@@ -142,6 +142,13 @@
                           {% assign entryCount = 200 %}
                       {% else %}
                     {% endcase %}
+                    
+                    {% for counter in (1..entryCount) %}
+                      {% assign spans = spans |append: '<span>' | append: order.name | append: "-" | append: counter | append: '</span>'  %}
+                      {% comment %}
+                      <span>{{ order.name | append: "-" | append: counter }}</span>
+                      {% endcomment %}
+                    {% endfor %}
                   {% endfor %}
                 </td>
               {% if order.discount_applications.title == "DOUBLE" %}
@@ -156,9 +163,7 @@
                         <span class="icon__fallback-text">Close (esc)</span>
                       </button>
                       <h3>Tickets for {{ order.created_at | time_tag: format: 'date' }}</h3>
-                      {% for counter in (1..entryCount) %}
-                        <span>{{ order.name | append: "-" | append: counter }}</span>
-                      {% endfor %}
+                      {{ spans }}
                     </div>
                   </dialog>
                 </td>
