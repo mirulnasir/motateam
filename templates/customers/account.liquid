@@ -142,9 +142,9 @@
                           {% assign entryCount = 200 %}
                       {% else %}
                     {% endcase %}
-                    
+                    {% assign lineLoop = forloop.index %}
                     {% for counter in (1..entryCount) %}
-                      {% assign spans = spans |append: '<span>' | append: order.name | append: "-" | append: forloop.index | append: "-" | append: counter | append: '</span>'  %}
+                      {% assign spans = spans |append: '<span>' | append: order.name | append: "-" | append: lineLoop | append: "-" | append: counter | append: '</span>'  %}
                       {% comment %}
                       <span>{{ order.name | append: "-" | append: counter }}</span>
                       {% endcomment %}
