@@ -62,13 +62,12 @@
     },
     "0cce90cc-b19b-48df-979a-543cf061d842": {
       "type": "hero-animated",
-      "disabled": true,
       "blocks": {
         "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image_mobile": "shopify:\/\/shop_images\/nnn.png",
+            "image": "shopify:\/\/shop_images\/FINAL.png",
+            "image_mobile": "shopify:\/\/shop_images\/Untitled_design_14.png",
             "focal_point": "center center"
           }
         }
@@ -85,7 +84,7 @@
         "link_text": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "desktop_size": -20,
+        "desktop_size": 0,
         "mobile_size": 0
       }
     },
