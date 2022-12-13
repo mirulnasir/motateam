@@ -130,10 +130,10 @@
                         {% assign bonus_count = 25 %}
                         {% assign bonus_color = '#CCB700' %}
                        {% assign bonus_order = order.name %}
-                      {% when 10000 %}
+                      {% when "GOLD PACKAGE" %}
                           {% assign part_entries = part_entries | plus: 10  %}
                           {% assign entryCount = 10 %}
-                      {% when 25000 %}
+                      {% when "PLATINUM PACKAGE" %}
                           {% assign part_entries = part_entries | plus: 30  %}
                           {% assign entryCount = 30 %}
                       {% when "DIAMOND PACKAGE" %}
