@@ -106,6 +106,7 @@
                           {% assign bonus_order = order.name %}
                         {% endif %}
                       {% when "BRONZE PACKAGE" %}
+                         {{ line_item.quantity }}
                         {% assign part_entries = part_entries | plus: 1 %}
                         {% assign entryCount = 1 | times: line_item.quantity %}
                       {% when "PREMIUM" %}
