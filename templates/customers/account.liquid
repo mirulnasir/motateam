@@ -92,7 +92,7 @@
                 {% comment %}<td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>{% endcomment %}
                 <td data-label="Product">
                   {% assign entryCount = 0 %}
-                  {% for line_item in order.line_items%}
+                  {% for line_item in order.line_items %}
                      {{ line_item.product.title }}
                      {% case line_item.product.title %}
                       {% when "ENTRY" %}
@@ -107,7 +107,7 @@
                         {% endif %}
                       {% when "BRONZE PACKAGE" %}
                         {% assign part_entries = part_entries | plus: 1 %}
-                        {% assign entryCount = 1 %}
+                        {% assign entryCount = 1 | times: line_item.quantity %}
                       {% when "PREMIUM" %}
                         {% assign part_entries = part_entries | plus: 3 %}
                         {% assign entryCount = 3 %}
