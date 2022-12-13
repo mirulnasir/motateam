@@ -108,10 +108,7 @@
                       {% when "BRONZE PACKAGE" %}
                         {% assign part_entries = part_entries | plus: 1 %}
                         {% assign entryCount = 1 %}
-                      {% when 3900 %}
-                        {% assign part_entries = part_entries | plus: 3 %}
-                        {% assign entryCount = 3 %}
-                      {% when "BRONZE PACKAGE" %}
+                      {% when "PREMIUM" %}
                         {% assign part_entries = part_entries | plus: 3 %}
                         {% assign entryCount = 3 %}
                         {% if highest_membership != 'Elite' %}
