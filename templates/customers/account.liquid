@@ -94,8 +94,8 @@
                   {% assign entryCount = 0 %}
                   {% for line_item in order.line_items%}
                      {{ line_item.product.title }}
-                     {% case line_item.product.price %}
-                      {% when 1995 %}
+                     {% case line_item.product.title %}
+                      {% when "ENTRY" %}
                         {% assign part_entries = part_entries | plus: 1 %}
                         {% assign entryCount = 1 %}
                         {% if highest_membership != 'Premium' and highest_membership != 'Elite' %}
@@ -105,13 +105,13 @@
                           {% assign bonus_color = '#D4AD40' %}
                           {% assign bonus_order = order.name %}
                         {% endif %}
-                      {% when 2500 %}
+                      {% when "BRONZE PACKAGE" %}
                         {% assign part_entries = part_entries | plus: 1 %}
                         {% assign entryCount = 1 %}
                       {% when 3900 %}
                         {% assign part_entries = part_entries | plus: 3 %}
                         {% assign entryCount = 3 %}
-                      {% when 3995 %}
+                      {% when "BRONZE PACKAGE" %}
                         {% assign part_entries = part_entries | plus: 3 %}
                         {% assign entryCount = 3 %}
                         {% if highest_membership != 'Elite' %}
@@ -136,7 +136,7 @@
                       {% when 25000 %}
                           {% assign part_entries = part_entries | plus: 30  %}
                           {% assign entryCount = 30 %}
-                      {% when 50000 %}
+                      {% when "DIAMOND PACKAGE" %}
                           {% assign part_entries = part_entries | plus: 80  %}
                           {% assign entryCount = 80 %}
                       {% when 100000 %}
