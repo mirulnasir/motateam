@@ -37,7 +37,7 @@
     "166449291046a5b3a1": {
       "type": "featured-video",
       "settings": {
-        "title": "Check out our VIP BENEFITS here",
+        "title": "Check out our VIP BENEFITS program here",
         "video_url": "https:\/\/youtu.be\/jA39351UY8w",
         "alt": false
       }
@@ -75,56 +75,8 @@
       "settings": {
       }
     },
-    "16578002762ee29cb9": {
-      "type": "slideshow",
-      "blocks": {
-        "1657800276cb2d405e-0": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "title_size": 67,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/ticket-entries",
-            "link_text": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/2_c1b3ed39-a24e-44ff-ae33-b05c3474ba69.png",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "1657800276cb2d405e-0"
-      ],
-      "settings": {
-        "style": "arrows",
-        "desktop_size": 0,
-        "mobile_size": 0,
-        "autoplay": false,
-        "autoplay_speed": 7
-      }
-    },
     "1657800447c51f0b47": {
       "type": "slideshow",
-      "blocks": {
-        "16578004471158443b-0": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/pages\/vip-club",
-            "link_text": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Members_Perk_Images.png",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "16578004471158443b-0"
-      ],
       "settings": {
         "style": "arrows",
         "desktop_size": 0,
@@ -139,7 +91,6 @@
     "166449291046a5b3a1",
     "16578006116e22936a",
     "main",
-    "16578002762ee29cb9",
     "1657800447c51f0b47"
   ]
 }
