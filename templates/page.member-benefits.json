@@ -74,23 +74,12 @@
       "disabled": true,
       "settings": {
       }
-    },
-    "1657800447c51f0b47": {
-      "type": "slideshow",
-      "settings": {
-        "style": "arrows",
-        "desktop_size": 0,
-        "mobile_size": 0,
-        "autoplay": false,
-        "autoplay_speed": 7
-      }
     }
   },
   "order": [
     "166175381195cb57d8",
     "166449291046a5b3a1",
     "16578006116e22936a",
-    "main",
-    "1657800447c51f0b47"
+    "main"
   ]
 }
