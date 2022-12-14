@@ -131,21 +131,6 @@
         "alt": false
       }
     },
-    "52c8ed82-4238-4789-8b9f-88d1e87e3471": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_49abb784-712c-4959-be78-ea118a3404be.png",
-        "desktop_size": 0,
-        "image_alignment": "center center",
-        "color_border": "#f4f4f4",
-        "layout": "left"
-      }
-    },
     "1655180449ae267329": {
       "type": "featured-membership",
       "disabled": true,
@@ -309,7 +294,6 @@
     "165465702668704949",
     "0cce90cc-b19b-48df-979a-543cf061d842",
     "1653981611f18a881e",
-    "52c8ed82-4238-4789-8b9f-88d1e87e3471",
     "1655180449ae267329",
     "featured-collection",
     "165448555898d0b98d",
