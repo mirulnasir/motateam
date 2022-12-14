@@ -46,6 +46,7 @@
     },
     "main-collection": {
       "type": "main-collection",
+      "disabled": true,
       "blocks": {
         "34a84e25-3c2a-481b-87bd-9eb2da5d5acc": {
           "type": "collection_description",
