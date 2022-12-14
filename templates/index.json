@@ -75,6 +75,7 @@
     },
     "165465702668704949": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "Our current giveaway",
         "title": "1978 Porsche 930 Turbo",
