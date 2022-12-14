@@ -3,13 +3,13 @@
     "8bcb72a6-a9a0-4ffe-83c3-adea50266c35": {
       "type": "hero-video",
       "settings": {
-        "title": "",
+        "title": "WATCH THE LIVE STREAM OF OUR DRAW HERE AT 5PM EST TODAY!",
         "title_size": 80,
-        "subheading": "",
+        "subheading": "GOOD LUCK FROM ALL OF MOTA TEAM!",
         "link_text": "Click for sound",
         "link": "#play-sound",
         "color_accent": "#000000",
-        "text_align": "vertical-bottom horizontal-center",
+        "text_align": "vertical-center horizontal-center",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/89363cff6d9f49fa9049e57cce5d54fe.mp4",
         "section_height": "100vh",
         "mobile_height": "300px"
