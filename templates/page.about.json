@@ -6,23 +6,9 @@
       "settings": {
       }
     },
-    "16546472197b98ef67": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_49abb784-712c-4959-be78-ea118a3404be.png",
-        "desktop_size": 0,
-        "image_alignment": "center center",
-        "color_border": "#ffffff",
-        "layout": "left"
-      }
-    },
     "16546467580dd3c0e2": {
       "type": "featured-membership",
+      "disabled": true,
       "settings": {
         "title": "BECOME A VIP MEMBER",
         "description": "The best part about becoming a VIP member is that is pays for itself, plus some... Mota gives you access to incredible savings and offers from over 4,000 Australian brands + retailers, offers and discounts that are not available to the general public. Once a VIP package is purchased, simply login as a member to access. VIP members receive entries into every single giveaway, your entries accumulate each month giving you the best chance to win!",
@@ -70,6 +56,7 @@
     },
     "16551781929abf6bb7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "or GET YOUR SINGLE ENTRIES & limited membership NOW",
         "description": "Single ticket entries are open for 1978 Porsche 930 Turbo draw only.",
@@ -148,7 +135,6 @@
   },
   "order": [
     "main",
-    "16546472197b98ef67",
     "16546467580dd3c0e2",
     "16571589717132e89e",
     "1656500031cf7b4064",
