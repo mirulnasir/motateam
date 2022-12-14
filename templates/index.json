@@ -4,7 +4,7 @@
       "type": "hero-video",
       "settings": {
         "title": "WATCH THE LIVE STREAM OF OUR DRAW HERE AT 5PM EST TODAY!",
-        "title_size": 80,
+        "title_size": 70,
         "subheading": "GOOD LUCK FROM ALL OF MOTA TEAM!",
         "link_text": "Click for sound",
         "link": "#play-sound",
@@ -12,7 +12,7 @@
         "text_align": "vertical-center horizontal-center",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/89363cff6d9f49fa9049e57cce5d54fe.mp4",
         "section_height": "100vh",
-        "mobile_height": "300px"
+        "mobile_height": "500px"
       }
     },
     "marquee": {
