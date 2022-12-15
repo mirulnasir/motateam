@@ -1,7 +1,36 @@
 {
   "sections": {
+    "0cce90cc-b19b-48df-979a-543cf061d842": {
+      "type": "hero-animated",
+      "blocks": {
+        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WINNER.png",
+            "image_mobile": "shopify:\/\/shop_images\/OUR_PORSCHE_DRAW_IS_NOW_CLOSED._Instagram_Story_2.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1"
+      ],
+      "settings": {
+        "style": "gif",
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": 0,
+        "mobile_size": 0
+      }
+    },
     "f13008e5-d855-4482-86c2-be3ebe30cb3e": {
       "type": "advanced-content",
+      "disabled": true,
       "blocks": {
         "template--14857727705181__f13008e5-d855-4482-86c2-be3ebe30cb3e-1671081591e5d3300a-1": {
           "type": "liquid",
@@ -65,34 +94,6 @@
         "align_text": "left",
         "layout": "right",
         "alt": false
-      }
-    },
-    "0cce90cc-b19b-48df-979a-543cf061d842": {
-      "type": "hero-animated",
-      "blocks": {
-        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/OUR_PORSCHE_DRAW_IS_NOW_CLOSED._10129d0c-7558-4af9-9240-7b06b47c076b.png",
-            "image_mobile": "shopify:\/\/shop_images\/OUR_PORSCHE_DRAW_IS_NOW_CLOSED._Instagram_Story_0cefa803-fdce-4256-91c3-5cde30f20a8f.png",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1"
-      ],
-      "settings": {
-        "style": "gif",
-        "title": "",
-        "title_size": 80,
-        "subheading": "",
-        "link": "",
-        "link_text": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "desktop_size": 0,
-        "mobile_size": 0
       }
     },
     "165465702668704949": {
@@ -311,11 +312,11 @@
     }
   },
   "order": [
+    "0cce90cc-b19b-48df-979a-543cf061d842",
     "f13008e5-d855-4482-86c2-be3ebe30cb3e",
     "8bcb72a6-a9a0-4ffe-83c3-adea50266c35",
     "marquee",
     "text-and-image",
-    "0cce90cc-b19b-48df-979a-543cf061d842",
     "165465702668704949",
     "1653981611f18a881e",
     "1655180449ae267329",
