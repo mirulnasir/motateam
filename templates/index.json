@@ -1,7 +1,29 @@
 {
   "sections": {
+    "f13008e5-d855-4482-86c2-be3ebe30cb3e": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14857727705181__f13008e5-d855-4482-86c2-be3ebe30cb3e-1671081591e5d3300a-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https:\/\/vimeo.com\/event\/2712139\/embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen style=\"position:absolute;top:0;left:0;width:100%;height:100%;\"><\/iframe><\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14857727705181__f13008e5-d855-4482-86c2-be3ebe30cb3e-1671081591e5d3300a-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "alt": false
+      }
+    },
     "8bcb72a6-a9a0-4ffe-83c3-adea50266c35": {
       "type": "hero-video",
+      "disabled": true,
       "settings": {
         "title": "WATCH THE LIVE STREAM OF OUR DRAW HERE AT 5PM AEST TODAY! (Syd\/Melb time)",
         "title_size": 70,
@@ -21,7 +43,7 @@
       "settings": {
         "text": "Our Current Giveaway, 1978 Porsche 930 Turbo",
         "link": "shopify:\/\/pages\/vip-club",
-        "text_size": 20,
+        "text_size": 78,
         "text_spacing": true,
         "color_scheme": "button",
         "direction": "left",
@@ -289,6 +311,7 @@
     }
   },
   "order": [
+    "f13008e5-d855-4482-86c2-be3ebe30cb3e",
     "8bcb72a6-a9a0-4ffe-83c3-adea50266c35",
     "marquee",
     "text-and-image",
