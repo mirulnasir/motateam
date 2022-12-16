@@ -35,7 +35,7 @@
         "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WINNER.png",
+            "image": "shopify:\/\/shop_images\/WINNER_1.png",
             "image_mobile": "shopify:\/\/shop_images\/OUR_PORSCHE_DRAW_IS_NOW_CLOSED._Instagram_Story_2.png",
             "focal_point": "center center"
           }
@@ -53,7 +53,7 @@
         "link_text": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "desktop_size": 0,
+        "desktop_size": -10,
         "mobile_size": 0
       }
     },
