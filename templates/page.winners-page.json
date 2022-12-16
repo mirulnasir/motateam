@@ -54,7 +54,7 @@
         "image": "shopify:\/\/shop_images\/Car_Giveaway.jpg",
         "image_width": 550,
         "subtitle": "",
-        "title": "stay tuned for our epic porsche handover video!",
+        "title": "Our epic porsche handover video will be here soon!",
         "text": "",
         "button_label": "",
         "button_link": "",
@@ -73,7 +73,7 @@
         "button_label": "",
         "button_link": "",
         "image": "shopify:\/\/shop_images\/888.png",
-        "desktop_size": -10,
+        "desktop_size": -20,
         "image_alignment": "center center",
         "color_border": "#f4f4f4",
         "layout": "left"
