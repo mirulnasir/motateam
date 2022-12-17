@@ -111,7 +111,7 @@
     "text-and-image": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.png",
+        "image": "shopify:\/\/shop_images\/bbb.png",
         "image2": "shopify:\/\/shop_images\/latest_staff.png",
         "image_width": 700,
         "subtitle": "",
