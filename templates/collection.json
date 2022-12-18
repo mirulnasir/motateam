@@ -46,7 +46,6 @@
     },
     "main-collection": {
       "type": "main-collection",
-      "disabled": true,
       "blocks": {
         "34a84e25-3c2a-481b-87bd-9eb2da5d5acc": {
           "type": "collection_description",
@@ -70,7 +69,6 @@
     },
     "1654652233fa2becc6": {
       "type": "featured-membership",
-      "disabled": true,
       "settings": {
         "title": "GET YOUR VIP MEMBERSHIP NOW!",
         "description": "",
@@ -84,7 +82,6 @@
     },
     "1655180886e366f611": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "or get your single entries now",
         "description": "Giveaway Permit Number: TP\/01963O - Entry is only open to all Australian redidents, 18+ excluding South Australia. Single ticket entries are open for 1978 Porsche 930 Turbo draw only. Become a VIP member to be entered into the Porsche draw and all future draws, including our 1967 Ford Mustang Fastback Eleanor giveaway. VIP members receive accumulating entires and have the best chance to win!",
