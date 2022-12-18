@@ -186,7 +186,6 @@
     },
     "1655180449ae267329": {
       "type": "featured-membership",
-      "disabled": true,
       "settings": {
         "title": "join our vip now",
         "description": "The best part about becoming a VIP member is that is pays for itself, plus some... Mota gives you access to incredible savings and offers from over 4,000 Australian brands + retailers, offers and discounts that are not available to the general public. Once a VIP package is purchased, simply login as a member to access. VIP members receive entries into every single giveaway, your entries accumulate each month giving you the best chance to win!",
@@ -200,7 +199,6 @@
     },
     "featured-collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "or GET YOUR SINGLE ENTRY Membership NOW!",
         "description": "One time payment only. Giveaway Permit Number: TP\/01963",
