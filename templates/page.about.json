@@ -6,19 +6,6 @@
       "settings": {
       }
     },
-    "16546467580dd3c0e2": {
-      "type": "featured-membership",
-      "settings": {
-        "title": "BECOME A VIP MEMBER",
-        "description": "The best part about becoming a VIP member is that is pays for itself, plus some... Mota gives you access to incredible savings and offers from over 4,000 Australian brands + retailers, offers and discounts that are not available to the general public. Once a VIP package is purchased, simply login as a member to access. VIP members receive entries into every single giveaway, your entries accumulate each month giving you the best chance to win!",
-        "home_featured_products": "vip-memberships",
-        "rows": 1,
-        "per_row_desktop": 3,
-        "per_row_mobile": "1",
-        "display_button": false,
-        "alt": false
-      }
-    },
     "1656500031cf7b4064": {
       "type": "text-and-image",
       "settings": {
@@ -33,6 +20,19 @@
         "button_style": "primary",
         "align_text": "center",
         "layout": "right",
+        "alt": false
+      }
+    },
+    "16546467580dd3c0e2": {
+      "type": "featured-membership",
+      "settings": {
+        "title": "BECOME A VIP MEMBER",
+        "description": "The best part about becoming a VIP member is that is pays for itself, plus some... Mota gives you access to incredible savings and offers from over 4,000 Australian brands + retailers, offers and discounts that are not available to the general public. Once a VIP package is purchased, simply login as a member to access. VIP members receive entries into every single giveaway, your entries accumulate each month giving you the best chance to win!",
+        "home_featured_products": "vip-memberships",
+        "rows": 1,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "display_button": false,
         "alt": false
       }
     },
@@ -57,7 +57,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "or GET YOUR SINGLE ENTRIES & limited membership NOW",
-        "description": "Single ticket entries are open for 1978 Porsche 930 Turbo draw only.",
+        "description": "Single ticket entries are open for 1967 Ford Mustang Fastback draw only.",
         "home_featured_products": "ticket-entries",
         "rows": 2,
         "per_row_desktop": 3,
@@ -133,8 +133,8 @@
   },
   "order": [
     "main",
-    "16546467580dd3c0e2",
     "1656500031cf7b4064",
+    "16546467580dd3c0e2",
     "16571589717132e89e",
     "16551781929abf6bb7",
     "1655436917812ed360",
