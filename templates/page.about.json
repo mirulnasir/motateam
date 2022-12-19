@@ -23,6 +23,34 @@
         "alt": false
       }
     },
+    "6a916cf5-f927-4519-9aff-171a4244d704": {
+      "type": "hero-animated",
+      "blocks": {
+        "template--14857728196701__6a916cf5-f927-4519-9aff-171a4244d704-1671488468994d2afd-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_-_MUSTANG.png",
+            "image_mobile": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_-_MUSTANG_Instagram_Story.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14857728196701__6a916cf5-f927-4519-9aff-171a4244d704-1671488468994d2afd-1"
+      ],
+      "settings": {
+        "style": "gif",
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": 0,
+        "mobile_size": 0
+      }
+    },
     "16546467580dd3c0e2": {
       "type": "featured-membership",
       "settings": {
@@ -134,6 +162,7 @@
   "order": [
     "main",
     "1656500031cf7b4064",
+    "6a916cf5-f927-4519-9aff-171a4244d704",
     "16546467580dd3c0e2",
     "16571589717132e89e",
     "16551781929abf6bb7",
