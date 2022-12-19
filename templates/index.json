@@ -24,7 +24,7 @@
       "settings": {
         "style": "arrows",
         "desktop_size": 0,
-        "mobile_size": 0,
+        "mobile_size": 40,
         "autoplay": false,
         "autoplay_speed": 7
       }
