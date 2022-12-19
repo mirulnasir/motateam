@@ -50,6 +50,19 @@
         "alt": false
       }
     },
+    "fb62b22f-f4be-4404-be7a-fba596b899c0": {
+      "type": "featured-membership",
+      "settings": {
+        "title": "Featured collection grid",
+        "description": "",
+        "home_featured_products": "vip-memberships",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "display_button": false,
+        "alt": false
+      }
+    },
     "165576733918a2581c": {
       "type": "slideshow",
       "blocks": {
@@ -116,6 +129,7 @@
     "main",
     "1654489882563f26ea",
     "1654491321c614394f",
+    "fb62b22f-f4be-4404-be7a-fba596b899c0",
     "165576733918a2581c",
     "16572357414c04d56c",
     "16564887844d5a943c"
