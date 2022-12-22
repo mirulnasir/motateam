@@ -2,6 +2,7 @@
   "sections": {
     "165517148239dca6b3": {
       "type": "marquee",
+      "disabled": true,
       "settings": {
         "text": "Our Current Giveaway, 1967 Ford Mustang Fastback",
         "link": "shopify:\/\/pages\/vip-club",
