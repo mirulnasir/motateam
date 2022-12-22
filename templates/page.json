@@ -110,6 +110,7 @@
     },
     "fb62b22f-f4be-4404-be7a-fba596b899c0": {
       "type": "featured-membership",
+      "disabled": true,
       "settings": {
         "title": "get your vip now!",
         "description": "The best part about becoming a VIP member is that is pays for itself, plus some... Mota gives you access to incredible savings and offers from over 4,000 Australian brands + retailers, offers and discounts that are not available to the general public. Once a VIP package is purchased, simply login as a member to access. VIP members receive entries into every single giveaway, your entries accumulate each month giving you the best chance to win!",
