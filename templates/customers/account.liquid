@@ -203,6 +203,120 @@
               <td><div class="number"><b>{{ total_entries }}</b></div></td>
             </tr>
         </table>
+
+       <h2 class="h3">Previous Tickets</h2>
+      {%- if customer.orders.size != 0 -%}
+
+        <table class="full table--responsive">
+          <thead>
+            <tr>
+              {% comment %}<th>{{ 'customer.orders.order_number' | t }}</th>{% endcomment %}
+              <th>Order #</th>
+              <th>{{ 'customer.orders.date' | t }}</th>
+              <th>{{ 'customer.orders.payment_status' | t }}</th>
+              {% comment %}<th>{{ 'customer.orders.fulfillment_status' | t }}</th>{% endcomment %}
+              <th>Product</th>
+              <th>Entries Purchased</th>
+              <th>{{ 'customer.orders.total' | t }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% assign total_entries = 0 %}
+            {% assign highest_membership = blank %}
+            {%- for order in customer.orders -%}
+              {% if order.created_at < '2022-12-15 00:00:00' %}
+              {% assign part_entries = 0 %}
+              {% assign spans = '' %}
+              <tr class="table__section{% if order.discount_applications.title == "DOUBLE" %} discount-row{% endif %}">
+                <td data-label="{{ 'customer.orders.order_number' | t }}">{{ order.name | link_to: order.customer_url }}</td>
+                <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | time_tag: format: 'date' }}</td>
+                <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
+                {% comment %}<td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>{% endcomment %}
+                <td data-label="Product">
+                  {% assign entryCount = 0 %}
+                  {% for line_item in order.line_items %}
+                     {{ line_item.product.title }}
+                     {% case line_item.product.title %}
+                      {% when "ENTRY" %}
+                        {% assign part_entries = part_entries | plus: 1 | times: line_item.quantity %}
+                        {% assign entryCount = 1 | times: line_item.quantity %}
+                        {% if highest_membership != 'Premium' and highest_membership != 'Elite' %}
+                          
+                          {% assign highest_membership = "Entry" %}
+                          {% assign bonus_count = 5 %}
+                          {% assign bonus_color = '#D4AD40' %}
+                          {% assign bonus_order = order.name %}
+                        {% endif %}
+                      {% when "BRONZE PACKAGE" %}
+                        {% assign part_entries = part_entries | plus: 1 | times: line_item.quantity %}
+                        {% assign entryCount = 1 | times: line_item.quantity %}
+                      {% when "PREMIUM" %}
+                        {% assign part_entries = part_entries | plus: 3 | times: line_item.quantity %}
+                        {% assign entryCount = 3 | times: line_item.quantity %}
+                        {% if highest_membership != 'Elite' %}
+                          {% assign highest_membership = "Premium" %}
+                          {% assign bonus_count = 10 %}
+                          {% assign bonus_color = '#C5CED4' %}
+                          {% assign bonus_order = order.name %}
+                        {% endif %}
+                      {% when "SILVER PACKAGE" %}
+                          {% assign part_entries = part_entries | plus: 3 | times: line_item.quantity %}
+                          {% assign entryCount = 3 | times: line_item.quantity %}
+                      {% when "ELITE" %}
+                        {% assign part_entries = part_entries | plus: 10 | times: line_item.quantity %}
+                        {% assign entryCount = 10 | times: line_item.quantity %}
+                        {% assign highest_membership = "Elite" %}
+                        {% assign bonus_count = 25 %}
+                        {% assign bonus_color = '#CCB700' %}
+                       {% assign bonus_order = order.name %}
+                      {% when "GOLD PACKAGE" %}
+                          {% assign part_entries = part_entries | plus: 10 | times: line_item.quantity %}
+                          {% assign entryCount = 10 | times: line_item.quantity %}
+                      {% when "PLATINUM PACKAGE" %}
+                          {% assign part_entries = part_entries | plus: 30 | times: line_item.quantity %}
+                          {% assign entryCount = 30 | times: line_item.quantity %}
+                      {% when "DIAMOND PACKAGE" %}
+                          {% assign part_entries = part_entries | plus: 80 | times: line_item.quantity %}
+                          {% assign entryCount = 80 | times: line_item.quantity %}
+                      {% when "ULTIMATE PACKAGE" %}
+                          {% assign part_entries = part_entries | plus: 200 | times: line_item.quantity %}
+                          {% assign entryCount = 200 | times: line_item.quantity %}
+                      {% else %}
+                    {% endcase %}
+                    {% assign lineLoop = forloop.index %}
+                    {% for counter in (1..entryCount) %}
+                      {% assign spans = spans |append: '<span>' | append: order.name | append: "-" | append: lineLoop | append: "-" | append: counter | append: '</span>'  %}
+                      {% comment %}
+                      <span>{{ order.name | append: "-" | append: counter }}</span>
+                      {% endcomment %}
+                    {% endfor %}
+                  {% endfor %}
+                </td>
+              {% if order.discount_applications.title == "DOUBLE" %}
+                {% assign entryCount = entryCount | times: 2 %}
+              {% endif %}
+                <td data-label="Entries Purchased">
+                  <button type="button" class="view-entries">{{ part_entries }} - View Tickets</button>
+                  <dialog class="entry-modal">
+                    <div class="inner">
+                      <button type="button" class="btn btn--tertiary btn--circle modal__close closeDialog text-link">
+                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><path d="M19 17.61l27.12 27.13m0-27.12L19 44.74"></path></svg>
+                        <span class="icon__fallback-text">Close (esc)</span>
+                      </button>
+                      <h3>Tickets for {{ order.created_at | time_tag: format: 'date' }}</h3>
+                      {{ spans }}
+                    </div>
+                  </dialog>
+                </td>
+                <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
+              </tr>
+              {% assign total_entries = total_entries | plus: part_entries  %}
+                {% endif %}
+            {%- endfor -%}
+          </tbody>
+        </table>
+{% endif %}
+      
         <div class="contact-info">
           <p>If you have any questions about your account, membership or the draw, you can chat with the Mota Team at: </p>
           <span>PHONE: <a href="tel:0383190984">(03) 8319 0984</a></span>
