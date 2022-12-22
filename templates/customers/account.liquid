@@ -84,6 +84,7 @@
             {% assign total_entries = 0 %}
             {% assign highest_membership = blank %}
             {%- for order in customer.orders -%}
+              {% if order.created_at > '2022-12-15 00:00:00' %}
               {% assign part_entries = 0 %}
               {% assign spans = '' %}
               <tr class="table__section{% if order.discount_applications.title == "DOUBLE" %} discount-row{% endif %}">
@@ -170,6 +171,7 @@
                 <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
               </tr>
               {% assign total_entries = total_entries | plus: part_entries  %}
+                {% endif %}
             {%- endfor -%}
           </tbody>
         </table>
