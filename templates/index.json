@@ -251,6 +251,18 @@
         "mobile_size": 0
       }
     },
+    "1654498494af01ade5": {
+      "type": "marquee",
+      "settings": {
+        "text": "FOLLOW US ON INSTAGRAM @Motateamaustralia",
+        "link": "",
+        "text_size": 30,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "slow"
+      }
+    },
     "71e63ad1-e6b0-495c-a409-080e406ef502": {
       "type": "background-image-text",
       "settings": {
@@ -264,18 +276,6 @@
         "image_alignment": "center center",
         "color_border": "#f4f4f4",
         "layout": "left"
-      }
-    },
-    "1654498494af01ade5": {
-      "type": "marquee",
-      "settings": {
-        "text": "FOLLOW US ON INSTAGRAM @Motateamaustralia",
-        "link": "",
-        "text_size": 30,
-        "text_spacing": true,
-        "color_scheme": "button",
-        "direction": "left",
-        "speed": "slow"
       }
     },
     "2c0c229b_1663023414": {
@@ -358,8 +358,8 @@
     "featured-collection",
     "165448555898d0b98d",
     "0cce90cc-b19b-48df-979a-543cf061d842",
-    "71e63ad1-e6b0-495c-a409-080e406ef502",
     "1654498494af01ade5",
+    "71e63ad1-e6b0-495c-a409-080e406ef502",
     "2c0c229b_1663023414",
     "165448950900f21cf3",
     "165449668147bb6440",
