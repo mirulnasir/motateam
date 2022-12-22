@@ -218,48 +218,6 @@
         "alt": false
       }
     },
-    "84d86d62-a7fa-4f9d-a47f-9902fd8fc201": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14857727705181__84d86d62-a7fa-4f9d-a47f-9902fd8fc201-16717071334e5fac0e-0": {
-          "type": "heading",
-          "settings": {
-            "title": "MEMBER BENEFITS"
-          }
-        },
-        "template--14857727705181__84d86d62-a7fa-4f9d-a47f-9902fd8fc201-16717071334e5fac0e-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>As a Mota member, you’ll have access to discounts, special deals, gift cards and cashback offers from over 4,000 popular brands across the categories of Automotive, Health, Travel, Dining, Entertainment, Sports + Fitness, Beauty, Home, Camping + Outdoors, Wine + Spirits, Groceries and more...<\/p><p>These offers are not avaiable to the public. Members can save up to $7,000 a year on the discounts provided on everyday items, products and services.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14857727705181__84d86d62-a7fa-4f9d-a47f-9902fd8fc201-16717071334e5fac0e-0",
-        "template--14857727705181__84d86d62-a7fa-4f9d-a47f-9902fd8fc201-16717071334e5fac0e-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "alt": false
-      }
-    },
-    "c79f3ce5-e591-4e7b-963f-ec2e827e4d90": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/Member_Benefits.png",
-        "desktop_size": 0,
-        "image_alignment": "center center",
-        "color_border": "#f4f4f4",
-        "layout": "left"
-      }
-    },
     "0cce90cc-b19b-48df-979a-543cf061d842": {
       "type": "hero-animated",
       "blocks": {
@@ -387,6 +345,22 @@
         "desktop_size": -30,
         "mobile_size": 0
       }
+    },
+    "7605f082-be1d-4e3c-b5e0-e94abac28c5a": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Member_Benefits_1.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "MEMBER BENEFITS",
+        "text": "<p>As a Mota member, you’ll have access to discounts, special deals, gift cards and cashback offers from over 4,000 popular brands across the categories of Automotive, Health, Travel, Dining, Entertainment, Sports + Fitness, Beauty, Home, Camping + Outdoors, Wine + Spirits, Groceries and more...<\/p><p>These offers are not avaiable to the public. Members can save up to $7,000 a year on the discounts provided on everyday items, products and services.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": false
+      }
     }
   },
   "order": [
@@ -401,14 +375,13 @@
     "1655180449ae267329",
     "featured-collection",
     "165448555898d0b98d",
-    "84d86d62-a7fa-4f9d-a47f-9902fd8fc201",
-    "c79f3ce5-e591-4e7b-963f-ec2e827e4d90",
     "0cce90cc-b19b-48df-979a-543cf061d842",
     "1654498494af01ade5",
     "71e63ad1-e6b0-495c-a409-080e406ef502",
     "2c0c229b_1663023414",
     "165448950900f21cf3",
     "165449668147bb6440",
-    "1661816998a3fed132"
+    "1661816998a3fed132",
+    "7605f082-be1d-4e3c-b5e0-e94abac28c5a"
   ]
 }
