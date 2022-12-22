@@ -113,23 +113,6 @@
         "layout": "left"
       }
     },
-    "16564991630da22a6d": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-29_at_4.40.53_pm.png",
-        "image2": "shopify:\/\/shop_images\/Shelby_1.png",
-        "image_width": 700,
-        "subtitle": "Our current Giveaway",
-        "title": "1967 FORD MUSTANG fastback",
-        "text": "<p>All draws are streamed live on facebook and socials. Become a VIP member today to be automatically entered into every giveaway, including this Mustang Fastback, you won't miss out!<\/p><p><strong>PERMIT NUMBER: NTP\/05558<br\/><\/strong><\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "right",
-        "alt": false
-      }
-    },
     "1653981611f18a881e": {
       "type": "text-with-icons",
       "blocks": {
@@ -218,8 +201,42 @@
         "alt": false
       }
     },
+    "7605f082-be1d-4e3c-b5e0-e94abac28c5a": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Member_Benefits_1.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "MEMBER BENEFITS",
+        "text": "<p>As a Mota member, you’ll have access to discounts, special deals, gift cards and cashback offers from over 4,000 popular brands across the categories of Automotive, Health, Travel, Dining, Entertainment, Sports + Fitness, Beauty, Home, Camping + Outdoors, Wine + Spirits, Groceries and more...<\/p><p>These offers are not avaiable to the public. Members can save up to $7,000 a year on the discounts provided on everyday items, products and services.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "16564991630da22a6d": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-29_at_4.40.53_pm.png",
+        "image2": "shopify:\/\/shop_images\/Shelby_1.png",
+        "image_width": 700,
+        "subtitle": "Our current Giveaway",
+        "title": "1967 FORD MUSTANG fastback",
+        "text": "<p>All draws are streamed live on facebook and socials. Become a VIP member today to be automatically entered into every giveaway, including this Mustang Fastback, you won't miss out!<\/p><p><strong>PERMIT NUMBER: NTP\/05558<br\/><\/strong><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": false
+      }
+    },
     "0cce90cc-b19b-48df-979a-543cf061d842": {
       "type": "hero-animated",
+      "disabled": true,
       "blocks": {
         "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1": {
           "type": "image",
@@ -345,22 +362,6 @@
         "desktop_size": -30,
         "mobile_size": 0
       }
-    },
-    "7605f082-be1d-4e3c-b5e0-e94abac28c5a": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Member_Benefits_1.png",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "MEMBER BENEFITS",
-        "text": "<p>As a Mota member, you’ll have access to discounts, special deals, gift cards and cashback offers from over 4,000 popular brands across the categories of Automotive, Health, Travel, Dining, Entertainment, Sports + Fitness, Beauty, Home, Camping + Outdoors, Wine + Spirits, Groceries and more...<\/p><p>These offers are not avaiable to the public. Members can save up to $7,000 a year on the discounts provided on everyday items, products and services.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "right",
-        "alt": false
-      }
     }
   },
   "order": [
@@ -370,18 +371,18 @@
     "marquee",
     "text-and-image",
     "165465702668704949",
-    "16564991630da22a6d",
     "1653981611f18a881e",
     "1655180449ae267329",
     "featured-collection",
     "165448555898d0b98d",
+    "7605f082-be1d-4e3c-b5e0-e94abac28c5a",
+    "16564991630da22a6d",
     "0cce90cc-b19b-48df-979a-543cf061d842",
     "1654498494af01ade5",
     "71e63ad1-e6b0-495c-a409-080e406ef502",
     "2c0c229b_1663023414",
     "165448950900f21cf3",
     "165449668147bb6440",
-    "1661816998a3fed132",
-    "7605f082-be1d-4e3c-b5e0-e94abac28c5a"
+    "1661816998a3fed132"
   ]
 }
