@@ -81,9 +81,13 @@
             </tr>
           </thead>
           <tbody>
+            {% assign showPrevious = false %}
             {% assign total_entries = 0 %}
             {% assign highest_membership = blank %}
             {%- for order in customer.orders -%}
+              {% if order.created_at < '2022-12-15 00:00:00' %}
+                {% assign showPrevious = true %}
+              {% endif %}
               {% if order.created_at > '2022-12-15 00:00:00' %}
               {% assign part_entries = 0 %}
               {% assign spans = '' %}
@@ -204,9 +208,9 @@
             </tr>
         </table>
 
-       <h2 class="h3" style="margin-top:40px;">Previous Draw Tickets</h2>
-      {%- if customer.orders.size != 0 -%}
-
+       
+      {%- if showPrevious -%}
+        <h2 class="h3" style="margin-top:40px;">Previous Draw Tickets</h2>
         <table class="full table--responsive">
           <thead>
             <tr>
