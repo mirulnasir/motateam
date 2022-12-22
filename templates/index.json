@@ -29,34 +29,6 @@
         "autoplay_speed": 7
       }
     },
-    "0cce90cc-b19b-48df-979a-543cf061d842": {
-      "type": "hero-animated",
-      "blocks": {
-        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/WINNER_1.png",
-            "image_mobile": "shopify:\/\/shop_images\/OUR_PORSCHE_DRAW_IS_NOW_CLOSED._Instagram_Story_3.png",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1"
-      ],
-      "settings": {
-        "style": "gif",
-        "title": "",
-        "title_size": 80,
-        "subheading": "",
-        "link": "",
-        "link_text": "",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "desktop_size": -10,
-        "mobile_size": 0
-      }
-    },
     "f13008e5-d855-4482-86c2-be3ebe30cb3e": {
       "type": "advanced-content",
       "disabled": true,
@@ -139,6 +111,23 @@
         "image_alignment": "center center",
         "color_border": "#f4f4f4",
         "layout": "left"
+      }
+    },
+    "16564991630da22a6d": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bbb.png",
+        "image2": "shopify:\/\/shop_images\/Shelby_1.png",
+        "image_width": 700,
+        "subtitle": "Our current Giveaway",
+        "title": "1967 FORD MUSTANG fastback",
+        "text": "<p>All draws are streamed live on facebook and socials. Become a VIP member today to be automatically entered into every giveaway, including this Mustang Fastback, you won't miss out!<\/p><p><strong>PERMIT NUMBER: NTP\/05558<br\/><\/strong><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": false
       }
     },
     "1653981611f18a881e": {
@@ -227,21 +216,39 @@
         "alt": false
       }
     },
-    "16564991630da22a6d": {
-      "type": "text-and-image",
+    "0cce90cc-b19b-48df-979a-543cf061d842": {
+      "type": "hero-animated",
+      "blocks": {
+        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WINNER_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/OUR_PORSCHE_DRAW_IS_NOW_CLOSED._Instagram_Story_3.png",
+            "focal_point": "center center"
+          }
+        },
+        "56d88b8c-33c8-4740-89f6-4d57f275562e": {
+          "type": "image",
+          "settings": {
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14857727705181__0cce90cc-b19b-48df-979a-543cf061d842-1669588561906fb567-1",
+        "56d88b8c-33c8-4740-89f6-4d57f275562e"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/bbb.png",
-        "image2": "shopify:\/\/shop_images\/Shelby_1.png",
-        "image_width": 700,
-        "subtitle": "Our current Giveaway",
-        "title": "1967 FORD MUSTANG fastback",
-        "text": "<p>Entry for the Mustang will open on Monday 18th December. All draws are streamed live on facebook and socials. Become a VIP member today to be automatically entered into every giveaway, including this Mustang Fastback, you won't miss out!<\/p><p><strong>PERMIT NUMBER: NTP\/05558<br\/><\/strong><\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "right",
-        "alt": false
+        "style": "gif",
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": -10,
+        "mobile_size": 0
       }
     },
     "71e63ad1-e6b0-495c-a409-080e406ef502": {
@@ -340,17 +347,17 @@
   },
   "order": [
     "9850155b-b004-40ad-90a3-767d3036d167",
-    "0cce90cc-b19b-48df-979a-543cf061d842",
     "f13008e5-d855-4482-86c2-be3ebe30cb3e",
     "8bcb72a6-a9a0-4ffe-83c3-adea50266c35",
     "marquee",
     "text-and-image",
     "165465702668704949",
+    "16564991630da22a6d",
     "1653981611f18a881e",
     "1655180449ae267329",
     "featured-collection",
     "165448555898d0b98d",
-    "16564991630da22a6d",
+    "0cce90cc-b19b-48df-979a-543cf061d842",
     "71e63ad1-e6b0-495c-a409-080e406ef502",
     "1654498494af01ade5",
     "2c0c229b_1663023414",
