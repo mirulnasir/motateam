@@ -52,6 +52,7 @@
     },
     "521a10df-80b5-40b3-9853-9c1f972c705e": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "WIN a 1967 ford mustang fastback",
         "description": "Permit Number: NTP\/05558",
