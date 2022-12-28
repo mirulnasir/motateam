@@ -41,9 +41,11 @@
     },
     "6a916cf5-f927-4519-9aff-171a4244d704": {
       "type": "hero-animated",
+      "disabled": true,
       "blocks": {
         "template--14857728196701__6a916cf5-f927-4519-9aff-171a4244d704-1671488468994d2afd-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_-_MUSTANG.png",
             "image_mobile": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_-_MUSTANG_Instagram_Story.png",
@@ -99,6 +101,7 @@
     },
     "16551781929abf6bb7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "or GET YOUR SINGLE ENTRIES & limited membership NOW",
         "description": "Single ticket entries are open for 1967 Ford Mustang Fastback draw only.",
@@ -115,6 +118,7 @@
       "blocks": {
         "165543691719522b1d-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_size": 80,
