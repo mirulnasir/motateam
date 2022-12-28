@@ -1,5 +1,21 @@
 {
   "sections": {
+    "badd024a-70c3-4b1f-bd56-35ae8af1f8b0": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Member_Benefits_1.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Become a VIP member",
+        "text": "<p><strong>Mota VIP members receive exclusive discounts and offers from thousands of Australia's leading brands.<\/strong><\/p><p>As a Mota member, you’ll have access to discounts, special deals, gift cards and cashback offers from over 4,000 popular brands across the categories of Automotive, Health, Travel, Dining, Entertainment, Sports + Fitness, Beauty, Home, Camping + Outdoors, Wine + Spirits, Groceries and more...<\/p><p>These offers are not avaiable to the public. Members can save up to $7,000 a year on the discounts provided on everyday items, products and services.<\/p><p>Members can access the full suite of offers once logged in as a member.<\/p><p>We hope you enjoy all the benefits and perks of becoming a member.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "alt": false
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -160,6 +176,7 @@
     }
   },
   "order": [
+    "badd024a-70c3-4b1f-bd56-35ae8af1f8b0",
     "main",
     "1656500031cf7b4064",
     "6a916cf5-f927-4519-9aff-171a4244d704",
