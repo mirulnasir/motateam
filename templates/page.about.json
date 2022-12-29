@@ -41,14 +41,12 @@
     },
     "6a916cf5-f927-4519-9aff-171a4244d704": {
       "type": "hero-animated",
-      "disabled": true,
       "blocks": {
         "template--14857728196701__6a916cf5-f927-4519-9aff-171a4244d704-1671488468994d2afd-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_-_MUSTANG.png",
-            "image_mobile": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_-_MUSTANG_Instagram_Story.png",
+            "image": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_-_MUSTANG_20462661-a931-4980-9dd9-62daededa574.png",
+            "image_mobile": "shopify:\/\/shop_images\/GET_BONUS_ENTRIES_-_MUSTANG_Instagram_Story_27cbda86-0f34-409a-b673-43ba8029e197.png",
             "focal_point": "center center"
           }
         }
