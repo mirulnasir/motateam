@@ -111,37 +111,6 @@
         "alt": false
       }
     },
-    "1655436917812ed360": {
-      "type": "slideshow",
-      "blocks": {
-        "165543691719522b1d-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/MOTA_-_HOW_IT_WORKS_MOCK_1.png",
-            "image_mobile": "shopify:\/\/shop_images\/MOTA_-_HOW_IT_WORKS_MOCK_Instagram_Post_Instagram_Story_7c0420ac-73cc-4e1f-bc1b-00fe24a9600a.png",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "165543691719522b1d-0"
-      ],
-      "settings": {
-        "style": "arrows",
-        "desktop_size": 0,
-        "mobile_size": 0,
-        "autoplay": false,
-        "autoplay_speed": 7
-      }
-    },
     "1661817116160a9758": {
       "type": "MBA",
       "blocks": {
@@ -185,7 +154,6 @@
     "16546467580dd3c0e2",
     "16571589717132e89e",
     "16551781929abf6bb7",
-    "1655436917812ed360",
     "1661817116160a9758"
   ]
 }
