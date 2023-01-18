@@ -364,7 +364,7 @@
   },
   "customer_accounts": {
     "shop_policies": {
-      "subscription_policy": "REFUNDS & RETURNS POLICY"
+      "subscription_policy": "RETURNS & REFUNDS POLICY"
     }
   }
 }
