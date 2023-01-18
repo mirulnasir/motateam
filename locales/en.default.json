@@ -361,5 +361,10 @@
         }
       }
     }
+  },
+  "customer_accounts": {
+    "shop_policies": {
+      "subscription_policy": "REFUNDS & RETURNS POLICY"
+    }
   }
 }
