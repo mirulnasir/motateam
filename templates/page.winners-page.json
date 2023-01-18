@@ -52,13 +52,13 @@
     "8394dcbc-3791-4d72-ac8a-6aea9951e030": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Car_Giveaway.jpg",
+        "image": "shopify:\/\/shop_images\/LIAM_VIDEOSA.jpg",
         "image_width": 550,
         "subtitle": "",
-        "title": "Our epic porsche handover video will be here soon!",
+        "title": "WATCH LIAM TAKE DELIVERY OF HIS NEW 1978 PORSCHE TURBO!",
         "text": "",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "WATCH THE VID NOW",
+        "button_link": "https:\/\/www.youtube.com\/shorts\/m6RcnaCoB3A",
         "button_style": "primary",
         "align_text": "center",
         "layout": "right",
