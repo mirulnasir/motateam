@@ -24,6 +24,7 @@
     },
     "1656500031cf7b4064": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/ttt.png",
         "image2": "shopify:\/\/shop_images\/999.png",
@@ -41,6 +42,7 @@
     },
     "6a916cf5-f927-4519-9aff-171a4244d704": {
       "type": "hero-animated",
+      "disabled": true,
       "blocks": {
         "template--14857728196701__6a916cf5-f927-4519-9aff-171a4244d704-1671488468994d2afd-1": {
           "type": "image",
