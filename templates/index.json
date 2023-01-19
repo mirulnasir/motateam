@@ -217,6 +217,14 @@
         "alt": false
       }
     },
+    "a1f20948-31de-4082-a9f5-2151d6527829": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/jA39351UY8w",
+        "alt": false
+      }
+    },
     "16564991630da22a6d": {
       "type": "text-and-image",
       "disabled": true,
@@ -377,6 +385,7 @@
     "featured-collection",
     "165448555898d0b98d",
     "7605f082-be1d-4e3c-b5e0-e94abac28c5a",
+    "a1f20948-31de-4082-a9f5-2151d6527829",
     "16564991630da22a6d",
     "0cce90cc-b19b-48df-979a-543cf061d842",
     "1654498494af01ade5",
