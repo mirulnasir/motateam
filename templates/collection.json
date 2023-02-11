@@ -70,6 +70,7 @@
     },
     "1654652233fa2becc6": {
       "type": "featured-membership",
+      "disabled": true,
       "settings": {
         "title": "GET YOUR VIP MEMBERSHIP NOW!",
         "description": "",
