@@ -1,7 +1,24 @@
 {
   "sections": {
+    "96246c10-9c6c-4308-9351-ab23b745f963": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hero_1.png",
+        "image_width": 550,
+        "subtitle": "February 16TH 2023",
+        "title": "MOTA UPDATE",
+        "text": "<p><em>Dear valued Mota Members,<\/em><\/p><p><em>We regret to inform you that our website has been experiencing technical issues for a prolonged period, which now requires re-platforming. We have not been accepting new customers since Jan 1st 2023 and as a result must postpone our giveaway schedule from February to March 2023, when the works will be completed and giveaways will resume.<\/em><\/p><p><em>During this time, all member benefits are still available for members to use and enjoy through the membership portal on this current platform. However, please note that all VIP memberships have been paused during this transitional period and members will be invited to resubscribe to the new platform once the works are complete. <\/em><\/p><p><em>We sincerely apologise for any inconvenience this ongoing situation may have caused, we appreciate your patience and understanding.<\/em><\/p><p><em>Members will be updated via email once our promotions resume in March. <\/em><\/p><p><em>We are committed to providing you with the best possible experience once our website is fully operational again. All entries<br\/>into our February Mustang giveaway will be transferred over to March. <\/em><\/p><p><em>If you have any questions or concerns, please do not hesitate to contact us via email (<\/em><a href=\"mailto:info@motateam.com\"><em>info@motateam.com<\/em><\/a><em>) or through our website's customer support. <\/em><\/p><p><em>Sincerely, Mota Team. <\/em><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "alt": false
+      }
+    },
     "9850155b-b004-40ad-90a3-767d3036d167": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--14857727705181__9850155b-b004-40ad-90a3-767d3036d167-1671161250d4a8d234-0": {
           "type": "image",
@@ -374,6 +391,7 @@
     }
   },
   "order": [
+    "96246c10-9c6c-4308-9351-ab23b745f963",
     "9850155b-b004-40ad-90a3-767d3036d167",
     "f13008e5-d855-4482-86c2-be3ebe30cb3e",
     "8bcb72a6-a9a0-4ffe-83c3-adea50266c35",
